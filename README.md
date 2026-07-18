@@ -11,7 +11,7 @@ La web presenta la comunidad, sus cuatro pilares, el directorio de miembros, Bew
 ## Desarrollo local
 
 ```bash
-npm install
+npm ci
 npm run dev
 ```
 
