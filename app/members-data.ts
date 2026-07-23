@@ -113,13 +113,14 @@ export const members: Member[] = [
     "linkedIn": "https://www.linkedin.com/in/daniela-olmedo-13a029318/"
   },
   {
-    "name": "Renata Berho",
+    "name": "Renata Ana Emilia Berho",
     "country": "Argentina",
-    "university": "Nacional de la Plata",
+    "university": "Universidad Nacional de la Plata",
     "area": "Ingeniería Aeroespacial",
     "slug": "renata-berho",
-    "image": null,
-    "linkedIn": "https://www.linkedin.com/in/renata-berho-02264230a/"
+    "image": "/images/members/renata-berho.jpg",
+    "linkedIn": "https://www.linkedin.com/in/renata-berho-02264230a/",
+    "video": "/videos/renata-berho.mp4"
   },
   {
     "name": "Karen Jimena Fonseca",
@@ -136,7 +137,7 @@ export const members: Member[] = [
     "university": "USMA",
     "area": "Ingenieria Industrial",
     "slug": "fabian-rivera",
-    "image": null,
+    "image": "/images/members/fabian-rivera.jpg",
     "linkedIn": "https://www.linkedin.com/in/fabian-rivera-342ab8366/"
   },
   {
@@ -172,8 +173,9 @@ export const members: Member[] = [
     "university": "ESEN",
     "area": "Ingeniería de Software",
     "slug": "fernando-fuentes",
-    "image": null,
-    "linkedIn": "https://www.linkedin.com/in/fernando-fuentes-aba154259/?locale=es"
+    "image": "/images/members/fernando-fuentes.jpg",
+    "linkedIn": "https://www.linkedin.com/in/fernando-fuentes-aba154259/?locale=es",
+    "video": "/videos/fernando-fuentes.mp4"
   },
   {
     "name": "Josue Roberto Polanco",
@@ -208,7 +210,7 @@ export const members: Member[] = [
     "university": "Anahuac Mayab",
     "area": "Negocios",
     "slug": "mauricio-rodriguez-limon",
-    "image": null,
+    "image": "/images/members/mauricio-rodriguez-limon.jpg",
     "linkedIn": "https://www.linkedin.com/in/mauricio-rodr%C3%ADguez-lim%C3%B3n-8651a9306/"
   },
   {
@@ -230,19 +232,19 @@ export const members: Member[] = [
     "linkedIn": "https://www.linkedin.com/in/ivogomezdeseguragomez/?locale=es"
   },
   {
-    "name": "Jorge Calderón",
+    "name": "Jorge Andrés Calderón",
     "country": "Ecuador",
-    "university": "Universidad u organización pendiente",
-    "area": "Área pendiente",
+    "university": "Universidad San Francisco de Quito",
+    "area": "Economía",
     "slug": "jorge-calderon",
     "image": null,
-    "linkedIn": null
+    "linkedIn": "http://www.linkedin.com/in/jorgeandrscalderon"
   },
   {
     "name": "Michelle Rogel",
     "country": "México",
     "university": "Anahuac Mayab",
-    "area": "Mercadotecnia",
+    "area": "Ingeniería Mecatrónica",
     "slug": "michelle-rogel",
     "image": null,
     "linkedIn": "https://www.linkedin.com/in/michelle-rogel-garc%C3%ADa-a37820219/"
@@ -259,10 +261,10 @@ export const members: Member[] = [
   {
     "name": "Maria Lucia Massé Porras",
     "country": "Colombia",
-    "university": "Externado",
+    "university": "Universidad Externado de Colombia",
     "area": "Finanzas",
     "slug": "maria-lucia-masse-porras",
-    "image": null,
+    "image": "/images/members/maria-lucia-masse-porras.jpg",
     "linkedIn": "https://www.linkedin.com/in/mariamasse/"
   },
   {
@@ -307,8 +309,9 @@ export const members: Member[] = [
     "university": "Universidad Politecnica de Madrid",
     "area": "Ingenieria Aeroespacial",
     "slug": "manuel-losa",
-    "image": null,
-    "linkedIn": "https://www.linkedin.com/in/manuel-losa-l%C3%B3pez-7560913aa/"
+    "image": "/images/members/manuel-losa.jpg",
+    "linkedIn": "https://www.linkedin.com/in/manuel-losa-l%C3%B3pez-7560913aa/",
+    "video": "/videos/manuel-losa.mp4"
   },
   {
     "name": "María Amo",
@@ -347,12 +350,12 @@ export const members: Member[] = [
     "linkedIn": "https://www.linkedin.com/in/raphael-sanchez-pinto/"
   },
   {
-    "name": "Sebastián Rotter Rochín",
+    "name": "Sebastián Eduardo Rotter Rochin",
     "country": "México",
     "university": "Anahuac Mayab",
     "area": "Negocios Internacionales",
     "slug": "sebastian-rotter-rochin",
-    "image": null,
+    "image": "/images/members/sebastian-rotter-rochin.jpg",
     "linkedIn": "https://www.linkedin.com/in/sebasti%C3%A1n-rotter-rochin-7ba892256/"
   },
   {
@@ -361,8 +364,9 @@ export const members: Member[] = [
     "university": "Anahuac Mayab",
     "area": "Mercadotecnia",
     "slug": "valeria-riojas-davila",
-    "image": null,
-    "linkedIn": "https://www.linkedin.com/in/valeria-riojas-d/"
+    "image": "/images/members/valeria-riojas-davila.jpg",
+    "linkedIn": "https://www.linkedin.com/in/valeria-riojas-d/",
+    "video": "/videos/valeria-riojas-davila.mp4"
   },
   {
     "name": "Miguel Ángel",
@@ -403,10 +407,10 @@ export const members: Member[] = [
   {
     "name": "Claudio Federico Buffardi Witzke",
     "country": "México",
-    "university": "Anahuac Puebla",
-    "area": "Ingenieria Logística",
+    "university": "Anáhuac México Norte",
+    "area": "Ingeniería Industrial",
     "slug": "claudio-federico-buffardi-witzke",
-    "image": null,
+    "image": "/images/members/claudio-federico-buffardi-witzke.jpg",
     "linkedIn": "https://www.linkedin.com/in/claudio-buffardi/"
   },
   {
@@ -487,8 +491,9 @@ export const members: Member[] = [
     "university": "Universidad del Rosario",
     "area": "Derecho",
     "slug": "simon-ospina-lizcano",
-    "image": null,
-    "linkedIn": "https://www.linkedin.com/in/sim%C3%B3n-ospina-lizcano-200910233/"
+    "image": "/images/members/simon-ospina-lizcano.jpg",
+    "linkedIn": "https://www.linkedin.com/in/sim%C3%B3n-ospina-lizcano-200910233/",
+    "video": "/videos/simon-ospina-lizcano.mp4"
   },
   {
     "name": "Alexa Ramirez Garcia",
@@ -503,16 +508,17 @@ export const members: Member[] = [
     "name": "Sebastián Vigueras Araya",
     "country": "Chile",
     "university": "Pontificia Universidad Católica de Chile",
-    "area": "Ingeniería Civil Major y Minor Biomédic",
+    "area": "Biomedicina",
     "slug": "sebastian-vigueras-araya",
-    "image": null,
-    "linkedIn": "https://www.linkedin.com/in/sebasti%C3%A1n-vigueras-araya-6680b9295/"
+    "image": "/images/members/sebastian-vigueras-araya.jpg",
+    "linkedIn": "https://www.linkedin.com/in/sebasti%C3%A1n-vigueras-araya-6680b9295/",
+    "video": "/videos/sebastian-vigueras-araya.mp4"
   },
   {
     "name": "Juan Sebastián Gomez Vera",
     "country": "Colombia",
     "university": "Universidad Pontificia Bolivariana",
-    "area": "Tecnología",
+    "area": "Teconología",
     "slug": "juan-sebastian-gomez-vera",
     "image": null,
     "linkedIn": "https://www.linkedin.com/in/juansgomezv/"
@@ -532,8 +538,9 @@ export const members: Member[] = [
     "university": "ADEN",
     "area": "Marketing",
     "slug": "sthefan-borace",
-    "image": null,
-    "linkedIn": "https://www.linkedin.com/in/sthefanborace/"
+    "image": "/images/members/sthefan-borace.jpg",
+    "linkedIn": "https://www.linkedin.com/in/sthefanborace/",
+    "video": "/videos/sthefan-borace.mp4"
   },
   {
     "name": "Valeria Espinoza León",
@@ -629,9 +636,9 @@ export const members: Member[] = [
     "name": "Leonardo Lozano",
     "country": "Ecuador",
     "university": "Universidad San Francisco de Quito",
-    "area": "Economia",
+    "area": "Economía",
     "slug": "leonardo-lozano",
-    "image": null,
+    "image": "/images/members/leonardo-lozano.jpg",
     "linkedIn": "https://www.linkedin.com/in/leonardo-lozano-8a8710371/?locale=en"
   },
   {

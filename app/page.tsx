@@ -95,8 +95,7 @@ const memberInitials = (name: string) => {
 };
 
 const assetBase = import.meta.env.BASE_URL.replace(/\/$/, "");
-const assetOrigin = assetBase === "/webclh" ? "https://clh-prototipo-web.lush-plum-4141.chatgpt.site" : assetBase;
-const assetPath = (path: string) => path.startsWith("http") ? path : `${assetOrigin}${path.startsWith("/") ? path : `/${path}`}`;
+const assetPath = (path: string) => path.startsWith("http") ? path : `${assetBase}${path.startsWith("/") ? path : `/${path}`}`;
 
 const memberPilotProfiles: Record<string, {
   status: string;
@@ -111,25 +110,614 @@ const memberPilotProfiles: Record<string, {
   video?: string;
   links?: { label: string; href: string }[];
 }> = {
-  "jorge-gregorio-garcia-heras": {
-    status: "Perfil completo · ejemplo publicado",
-    headline: "Fundador de CLH | Estrategia, comunidad e innovación | España",
-    bio: "Jorge Gregorio García-Heras es cofundador de la Comunidad de Líderes Hispanoamericanos (CLH), una red internacional que conecta talento joven, universidades, profesionales y organizaciones. Impulsa iniciativas orientadas a transformar relaciones en oportunidades y proyectos reales entre España y Latinoamérica. Es cofundador de Beway, un ecosistema creado para acercar empresas y universitarios mediante retos, investigación, innovación y evidencias de ejecución. Su trabajo se centra en la visión estratégica, la creación de comunidad y la conexión de personas con capacidad, iniciativa y voluntad de construir juntas.",
-    motivation: "Un ecosistema internacional en el que el talento joven acceda a oportunidades reales, las empresas descubran nuevas perspectivas y las universidades colaboren en proyectos, investigación e innovación entre países.",
-    contribution: [
-      "Visión estratégica, creación de comunidades internacionales y capacidad para conectar talento, universidades y empresas. Experiencia impulsando alianzas, coordinando equipos y convirtiendo ideas en proyectos concretos.",
+  "renata-berho": {
+    "status": "Perfil completo",
+    "headline": "Ingeniería aeroespacial, innovación tecnológica y liderazgo juvenil",
+    "bio": "Renata es estudiante de Ingeniería Aeroespacial en la Universidad Nacional de La Plata, apasionada por la ciencia, la tecnología y el desarrollo de soluciones innovadoras con impacto social. En 2026 fue seleccionada como delegada argentina para representar a su país en el Space Generation Congress en Turquía, uno de los principales encuentros internacionales de la comunidad espacial. También fue seleccionada para formar parte del Aspire Leaders Program, una iniciativa internacional de liderazgo impulsada por miembros de la comunidad de Harvard, y se destacó entre los 100 mejores postulantes del South American Business Forum. Es ganadora del Samsung Innovation Campus Capstone Project por AIDA, un asistente basado en inteligencia artificial orientado a la alfabetización digital de adultos mayores, y fue delegada argentina del National Youth Science Camp 2024. Actualmente impulsa proyectos vinculados a educación STEM, innovación y liderazgo juvenil, mientras complementa su formación con hockey sobre césped de alto rendimiento, desarrollando disciplina, trabajo en equipo y resiliencia.",
+    "motivation": "Quiero impulsar proyectos que conecten jóvenes, tecnología e innovación, creando espacios de colaboración interdisciplinaria donde estudiantes puedan desarrollar soluciones de impacto en ciencia, educación y sostenibilidad mediante hackatones, comunidades y alianzas estratégicas.",
+    "contribution": [
+      "Experiencia en liderazgo juvenil, gestión de comunidades, organización de hackatones y proyectos STEM. Puedo aportar conocimientos en innovación tecnológica, inteligencia artificial, comunicación científica, desarrollo de iniciativas educativas y creación de alianzas internacionales."
     ],
-    collaboration: "Disponible para alianzas estratégicas, proyectos internacionales, desarrollo de comunidad y colaboraciones puntuales con empresas, universidades y miembros de CLH y Beway.",
-    evidence: [
-      { title: "Intereses", detail: "Emprendimiento, innovación, liderazgo, talento joven, educación, tecnología, inteligencia artificial, desarrollo de comunidades y colaboración internacional." },
-      { title: "Habilidades", detail: "Visión estratégica, creación de comunidades, desarrollo de alianzas, liderazgo de equipos, comunicación, coordinación de proyectos, networking y desarrollo de negocio." },
-      { title: "Idiomas", detail: "Español e inglés." },
+    "collaboration": "5-6 horas/semana, disponible para proyectos, mentorías, eventos y colaboraciones estratégicas",
+    "evidence": [
+      {
+        "title": "Intereses",
+        "detail": "Innovación tecnológica, inteligencia artificial, ingeniería aeroespacial, ciencia y tecnología, educación STEM, liderazgo juvenil, exploración espacial, sostenibilidad, energía nuclear, comunidades globales"
+      },
+      {
+        "title": "Habilidades",
+        "detail": "Liderazgo de equipos, gestión de proyectos, organización de eventos, comunicación científica, programación, adaptabilidad, inteligencia artificial, análisis de datos, trabajo interdisciplinario, relaciones institucionales"
+      },
+      {
+        "title": "Idiomas",
+        "detail": "Español, inglés"
+      }
     ],
-    evidenceKicker: "INTERESES, HABILIDADES E IDIOMAS",
-    evidenceTitle: "Un perfil completo reúne motivaciones, capacidades y ámbitos de colaboración.",
-    video: "/videos/jorge-gregorio-garcia-heras.mp4",
-    links: [{ label: "LinkedIn", href: "https://www.linkedin.com/in/jgreego/" }],
+    "video": "/videos/renata-berho.mp4",
+    "links": [
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/in/renata-berho-02264230a/"
+      }
+    ]
   },
+  "sebastian-rotter-rochin": {
+    "status": "Perfil completo",
+    "headline": "Estudiante de Negocios Internacionales | Liderazgo Estratégico | Desarrollo Organizacional",
+    "bio": "Sebastián Rotter es estudiante de Negocios Internacionales en la Universidad Anáhuac Mayab y cuenta con experiencia en liderazgo estudiantil, gestión de equipos y desarrollo organizacional. Actualmente se desempeña como Coordinador de Desarrollo Académico de la Sociedad de Alumnos de la Facultad de Economía y Negocios y es responsable del área de Espiritualidad y Trascendencia en el Programa de Liderazgo y Excelencia Vértice. Destaca por su capacidad para coordinar proyectos, organizar equipos multidisciplinarios y generar iniciativas que impulsen el crecimiento de las personas y las organizaciones. Su perfil bicultural, junto con su interés por la innovación, el marketing y la estrategia, le permiten desenvolverse en entornos colaborativos con una visión global y orientada a resultados.",
+    "motivation": "Quiero ver la forma en que mi universidad trabaje de la mano con CLH para impulsar proyectos e iniciativas para el acercamiento a empresas.",
+    "contribution": [
+      "Liderazgo de equipos, organización de proyectos, desarrollo organizacional, planeación estratégica, coordinación de eventos, mejora de procesos, marketing, comunicación efectiva y creación de iniciativas que generen impacto en comunidades y organizaciones."
+    ],
+    "collaboration": "5 horas por semana",
+    "evidence": [
+      {
+        "title": "Intereses",
+        "detail": "Logística, IA, proyectos de desarrollo, investigación de mercado, consultoría, etc."
+      },
+      {
+        "title": "Habilidades",
+        "detail": "Liderazgo de equipos, diseño, desarrollo organizacional, trabajo en equipo, coordinación de proyectos ."
+      },
+      {
+        "title": "Idiomas",
+        "detail": "Español, Inglés y Chino Básico"
+      }
+    ],
+    "links": [
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/in/sebasti%C3%A1n-rotter-rochin-7ba892256/"
+      }
+    ]
+  },
+  "sebastian-vigueras-araya": {
+    "status": "Perfil completo",
+    "headline": "Ingeniero en Industrias Eléctricas | Liderazgo Social Transformador | Chile",
+    "bio": "Estudiante de Ingeniería UC con experiencia en investigación aplicada, prototipado e innovación tecnológica, ha sido reconocido en concursos de investigación e innovación y se ha desempeñado como profesor auxiliar en labores de docencia. Combina esta formación técnica con liderazgo estudiantil y una conciencia intercultural forjada en programas internacionales como Transforma e Impacta, además de un compromiso social que ha canalizado a través de la dirección de iniciativas de voluntariado y educación. Se destaca por un pensamiento crítico e innovador, orientado a optimizar procesos y desarrollar soluciones creativas frente a problemáticas técnicas y sociales.",
+    "motivation": "Quiero construir una red con sentido: personas que prioricen entender la realidad y el problema antes que apurar una solución. Un espacio donde la empatía, la escucha activa y el pensamiento crítico guíen el trabajo, para crear soluciones que realmente respondan a las necesidades de quienes las viven.",
+    "contribution": [
+      "Ingeniero en formación con experiencia en investigación aplicada, prototipado e innovación tecnológica, reconocida en concursos UC. Perfil interdisciplinario (Eléctrica y Biomédica), con habilidades en docencia, liderazgo estudiantil y gestión de equipos, orientado a soluciones técnicas creativas y de alto impacto."
+    ],
+    "collaboration": "4hrs. semanales",
+    "evidence": [
+      {
+        "title": "Intereses",
+        "detail": "Gestión/Optimización de Operaciones, Administración de Proyectos, liderazgo Social"
+      },
+      {
+        "title": "Habilidades",
+        "detail": "Comunicación Efectiva, Liderazgo, Gestión de Equipos, Proactividad"
+      },
+      {
+        "title": "Idiomas",
+        "detail": "Español, Inglés"
+      }
+    ],
+    "video": "/videos/sebastian-vigueras-araya.mp4",
+    "links": [
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/in/sebasti%C3%A1n-vigueras-araya-6680b9295/"
+      }
+    ]
+  },
+  "simon-ospina-lizcano": {
+    "status": "Perfil completo",
+    "headline": "Apasionado, Optimista y de Buen Humor",
+    "bio": "Simón Ospina es un joven colombiano, estudiante de último año de Derecho (Jurisprudencia), con enorme interés en derecho público y ambiental. Es un hombre que cree en la interdisciplinariedad y la integralidad del ser humano para alcanzar resultados con propósitos, y que cree en las personas más allá de su carrera o contexto.",
+    "motivation": "Quiero impulsar proyectos de networking y redes internacionales, donde se presenten oportunidades y eventos para jóvenes de LATAM.",
+    "contribution": [
+      "Simón aporta conocimiento técnico desde el Derecho, así como ganas de liderar, de aportar y de colaborar en distintas ramas de CLH como medios y proyectos de la comunidad."
+    ],
+    "collaboration": "Miembro de Equipo Jurídico y Equipo de Comunicaciones",
+    "evidence": [
+      {
+        "title": "Intereses",
+        "detail": "Sostenibilidad, Inteligencia Artificial, Datos, Bioética"
+      },
+      {
+        "title": "Habilidades",
+        "detail": "Liderazgo, Adaptabilidad, Resolución de Problemas, Oratoria"
+      },
+      {
+        "title": "Idiomas",
+        "detail": "Español e Inglés"
+      }
+    ],
+    "video": "/videos/simon-ospina-lizcano.mp4",
+    "links": [
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/in/sim%C3%B3n-ospina-lizcano-200910233/"
+      }
+    ]
+  },
+  "sthefan-borace": {
+    "status": "Perfil completo",
+    "headline": "Marketing Digital | Growth & Business Strategy | Emprendimiento | Panamá",
+    "bio": "Sthefan Borace es estudiante de Ingeniería Comercial y profesional en formación con experiencia en marketing digital, comunicación corporativa, emprendimiento y desarrollo de negocios. Actualmente trabaja en Philips apoyando iniciativas regionales para Latinoamérica y participa en proyectos de innovación, contenido educativo y transformación digital. También es cofundador de GatoCode, donde impulsa estrategias de crecimiento para empresas. Le apasiona construir soluciones que combinen tecnología, creatividad y estrategia para generar impacto en organizaciones y comunidades.",
+    "motivation": "Una red de jóvenes, emprendedores y profesionales que colaboren en proyectos de innovación, tecnología, educación y desarrollo empresarial para generar oportunidades e impacto en Hispanoamérica.",
+    "contribution": [
+      "Experiencia en marketing digital, comunicación estratégica, creación de contenido, branding, emprendimiento, crecimiento de negocios, automatización con IA, gestión de proyectos y mentoría. Me gusta conectar personas, compartir conocimiento y desarrollar soluciones con impacto real."
+    ],
+    "collaboration": "Disponible para mentorías, proyectos de innovación, emprendimiento, marketing, comunicación estratégica y colaboración con comunidades de liderazgo.",
+    "evidence": [
+      {
+        "title": "Intereses",
+        "detail": "emprendimiento, inteligencia artificial, marketing digital, innovación, startups, liderazgo, educación, estrategia de negocios, crecimiento empresarial, tecnología, transformación digital"
+      },
+      {
+        "title": "Habilidades",
+        "detail": "Marketing digital, Comunicación estratégica, Growth Marketing, Creación de contenido, Branding, Business Strategy, Gestión de proyectos, Storytelling, Diseño de procesos, Inteligencia Artificial, Automatización, Liderazgo"
+      },
+      {
+        "title": "Idiomas",
+        "detail": "Español (nativo), Inglés (C1)"
+      }
+    ],
+    "video": "/videos/sthefan-borace.mp4",
+    "links": [
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/in/sthefanborace/"
+      }
+    ]
+  },
+  "valeria-riojas-davila": {
+    "status": "Perfil completo",
+    "headline": "Estudiante de Mercadotecnia estratégica | Negocios internacionales | Liderazgo | Gestión de Proyectos e Impacto Social",
+    "bio": "Valeria Riojas es estudiante de Mercadotecnia Estratégica en la Universidad Anáhuac Mayab, con interés en los negocios internacionales, la comunidad, la estrategia y el liderazgo. Ha coordinado equipos multidisciplinarios y proyectos estudiantiles enfocados en el desarrollo organizacional, la formación de líderes y la organización de eventos de alto impacto. Se distingue por su capacidad para planificar, resolver problemas y generar entornos de colaboración. Disfruta desarrollar estrategias de comunicación, crear contenido y gestionar iniciativas que conecten personas con un propósito. Su objetivo profesional es contribuir al crecimiento de organizaciones mediante la innovación, el trabajo en equipo y una visión estratégica con impacto social.",
+    "motivation": "Una red de colaboración entre jóvenes líderes, emprendedores y organizaciones para desarrollar proyectos de impacto social, innovación y emprendimiento. Busco impulsar iniciativas que generen crecimiento profesional, formación de líderes y oportunidades para transformar positivamente nuestras comunidades.",
+    "contribution": [
+      "Experiencia en liderazgo estudiantil, organización de eventos, gestión de proyectos, marketing estratégico, creación de contenido, coordinación de equipos, planeación, mejora de procesos, comunicación efectiva y desarrollo organizacional. Siempre dispuesto a colaborar, compartir aprendizajes y construir soluciones en equipo."
+    ],
+    "collaboration": "2 horas por semana en proyectos puntuales que busquen alcanzar objetivos específicos a corto y largo plazo.",
+    "evidence": [
+      {
+        "title": "Intereses",
+        "detail": "Marketing estratégico, negocios internacionales, liderazgo, emprendimiento, innovación, inteligencia artificial, desarrollo organizacional, creación de contenido, gestión de proyectos, comercio internacional, sostenibilidad, impacto social, branding, transformación digital, animación digital y storytelling con propósito"
+      },
+      {
+        "title": "Habilidades",
+        "detail": "Liderazgo de equipos, gestión de proyectos, marketing digital, marketing estratégico, planeación estratégica, comunicación efectiva, organización, resolución de problemas, negociación, análisis de mercado, creación de contenido, trabajo en equipo, gestión de eventos, pensamiento analítico, adaptabilidad"
+      },
+      {
+        "title": "Idiomas",
+        "detail": "Español (nativo), inglés (avanzado), Francés (básico)"
+      }
+    ],
+    "video": "/videos/valeria-riojas-davila.mp4",
+    "links": [
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/in/valeria-riojas-d/"
+      }
+    ]
+  },
+  "michelle-rogel": {
+    "status": "Perfil completo",
+    "headline": "Estudiante de Ingeniería Mecatrónica | Gestión de proyectos de ingeniería e impacto social | Voluntariado Corporativo",
+    "bio": "Ingeniera en formación apasionada por liderar proyectos que generan impacto social, conectar personas y construir alianzas entre tecnología, empresas y comunidad.",
+    "motivation": "Quiero formar parte de una comunidad donde podamos compartir conocimiento, colaborar en proyectos con impacto y desarrollar iniciativas que unan la innovación, la tecnología y el compromiso social. También busco seguir creciendo como líder y aprender de personas con diferentes experiencias.",
+    "contribution": [
+      "• Gestión y coordinación de proyectos.• Organización de voluntariados corporativos.• Planeación de eventos y experiencias.• Vinculación con organizaciones de la sociedad civil.• Automatización y mejora de procesos.• Trabajo en equipo y liderazgo.• Desarrollo de estrategias de impacto social."
+    ],
+    "collaboration": "Disponible para alianzas estratégicas, proyectos internacionales, desarrollo de comunidad y colaboraciones puntuales con empresas, universidades y miembros de CLH y Beway.",
+    "evidence": [
+      {
+        "title": "Intereses",
+        "detail": "Innovación social, Ingeniería, Automatización, Inteligencia Artificial, Gestión de proyectos, Emprendimiento social, Liderazgo, Networking, Tecnología, Educación, Sustentabilidad, Voluntariado Corporativo, Desarrollo Comunitario."
+      },
+      {
+        "title": "Habilidades",
+        "detail": "* Project Management* Organización de eventos* Planeación estratégica* Liderazgo* Comunicación* Trabajo en equipo* Resolución de problemas* Manejo de IA (Claude, Codex)* Python* MATLAB* AutoCAD* Fusion 360* PLCs* Arduino* Análisis de datos* Microsoft Excel* Google Workspace"
+      },
+      {
+        "title": "Idiomas",
+        "detail": "🇲🇽 Español — Nativo🇺🇸 Inglés — Avanzado (C1)"
+      }
+    ],
+    "links": [
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/in/michelle-rogel-garc%C3%ADa-a37820219/"
+      }
+    ]
+  },
+  "mauricio-rodriguez-limon": {
+    "status": "Perfil completo",
+    "headline": "Emprendedor | E-commerce | Construyendo negocios digitales | Estudiante de Negocios Deportivos",
+    "bio": "Mauricio es un emprendedor mexicano que inició su camino en los negocios a los 16 años. Es autodidacta y apasionado por construir empresas digitales, especialmente en e-commerce. Actualmente estudia Negocios Deportivos, combina su formación con el emprendimiento y busca crear proyectos con impacto a largo plazo.",
+    "motivation": "Quiero construir empresas digitales de alcance global, desarrollar marcas con impacto y aprovechar la inteligencia artificial para transformar industrias. También busco crear una red de emprendedores, inversionistas y creadores que impulsen proyectos de alto crecimiento.",
+    "contribution": [
+      "Puedo compartir experiencia construyendo negocios desde cero, e-commerce, validación de ideas, marketing digital, ventas, creación de marca y el aprendizaje que he obtenido emprendiendo desde joven, incluyendo aciertos, errores y cómo ejecutar con recursos limitados."
+    ],
+    "collaboration": "Flexible, Disponible 2-6 Horas a la semana",
+    "evidence": [
+      {
+        "title": "Intereses",
+        "detail": "Emprendimiento, e-commerce, inteligencia artificial, startups, tecnología, marca personal, marketing digital, inversión, innovación, negocios digitales, productividad"
+      },
+      {
+        "title": "Habilidades",
+        "detail": "Emprendimiento, e-commerce, ventas, marketing digital, negociación, liderazgo, creación de contenido, resolución de problemas, networking, estrategia de negocios"
+      },
+      {
+        "title": "Idiomas",
+        "detail": "Español e Inglés"
+      }
+    ],
+    "links": [
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/in/mauricio-rodr%C3%ADguez-lim%C3%B3n-8651a9306/"
+      }
+    ]
+  },
+  "maria-lucia-masse-porras": {
+    "status": "Perfil completo",
+    "headline": "Banca de Inversión y Valoración de Empresas | Modelación Financiera | Finanzas Corporativas | Estudiante de Finanzas y Relaciones Internacionales",
+    "bio": "María Lucía es estudiante de Finanzas y Relaciones Internacionales en la Universidad Externado de Colombia, con un marcado interés en Banca de Inversión, Finanzas Corporativas y Valoración de Empresas.Se caracteriza por ser una persona disciplinada, analítica y curiosa, motivada por comprender cómo las empresas crean valor y toman decisiones financieras estratégicas. Disfruta trabajar con datos, desarrollar análisis estructurados y abordar los problemas con un pensamiento crítico y una gran atención al detalle.Su objetivo es continuar desarrollándose como Analista de Banca de Inversión o Analista Financiera, aportando rigor analítico, sólidos fundamentos financieros y una visión orientada a la creación de valor a largo plazo.",
+    "motivation": "Quiero impulsar proyectos que conecten las finanzas con el impacto empresarial y social, construir una red de personas con alto potencial y participar en iniciativas internacionales donde el conocimiento, la colaboración y la innovación generen valor.",
+    "contribution": [
+      "Análisis financiero, valoración de empresas y modelación financiera, además de una visión estratégica y colaborativa. Me gusta estructurar ideas, investigar, resolver problemas y aportar con disciplina, pensamiento crítico y enfoque en la creación de valor"
+    ],
+    "collaboration": "2 horas a la semana",
+    "evidence": [
+      {
+        "title": "Intereses",
+        "detail": "Finanzas y Economía"
+      },
+      {
+        "title": "Habilidades",
+        "detail": "Análisis financiero Valoración de empresas Modelación financiera Finanzas corporativas Pensamiento analítico Resolución de problemas Trabajo en equipo Liderazgo Comunicación efectiva Atención al detalle"
+      },
+      {
+        "title": "Idiomas",
+        "detail": "Español e Inglés"
+      }
+    ],
+    "links": [
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/in/mariamasse/"
+      }
+    ]
+  },
+  "manuel-losa": {
+    "status": "Perfil completo",
+    "headline": "Técnico y creativo",
+    "bio": "Tras 3 años de estudios en ingeniería aeroespacial, Manuel es una persona cualificada y acostumbrada a buscar los detalles en toda tarea que se le requiere. La dificultad técnica de sus estudios también a generado un perfil muy creativo a la hora de solucionar problemas.",
+    "motivation": "Me gustaría crear un portal de búsqueda de viviendas para estudiantes de erasmus.",
+    "contribution": [
+      "Puedo aportar capacidad de organización, automatización de procesos, contacto personal y resolución de problemas."
+    ],
+    "collaboration": "12 horas/semana",
+    "evidence": [
+      {
+        "title": "Intereses",
+        "detail": "Educación STEM"
+      },
+      {
+        "title": "Habilidades",
+        "detail": "análisis de datos, capacidad de liderazgo"
+      },
+      {
+        "title": "Idiomas",
+        "detail": "español, ingles, chino (básico), alemán (básico)"
+      }
+    ],
+    "video": "/videos/manuel-losa.mp4",
+    "links": [
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/in/manuel-losa-l%C3%B3pez-7560913aa/"
+      }
+    ]
+  },
+  "leonardo-lozano": {
+    "status": "Perfil completo",
+    "headline": "Estudiante de Economía en USFQ | Datos, IA y automatización | The Panchonomist | USFQ DataHub | BI 40/45",
+    "bio": "Soy estudiante de Economía en la Universidad San Francisco de Quito, con interés en análisis económico, investigación aplicada, ciencias sociales computacionales, automatización y uso de datos. Formo parte de la directiva de The Panchonomist, donde contribuyo a iniciativas académicas, eventos, Analytics y proyectos como Econ Challenge Jr. 2026. También colaboro con USFQ DataHub en proyectos relacionados con bases de datos abiertas, metadata e investigación aplicada. En CLH participo como Builder en Automatización e IA, con el objetivo de aportar a la profesionalización y escalabilidad de la comunidad desde la tecnología. Mi trayectoria académica incluye el Diploma Bilingüe del Bachillerato Internacional con 40/45, cuatro becas de mérito, la Lista del Canciller de la USFQ con GPA 4.0, y reconocimientos como Abanderado del Pabellón Nacional y Mejor Egresado.",
+    "motivation": "Quiero construir sistemas, alianzas y proyectos que conecten economía, datos e IA para profesionalizar organizaciones, fortalecer redes universitarias y convertir información dispersa en herramientas útiles para la toma de decisiones.",
+    "contribution": [
+      "Aporto análisis económico, manejo de datos y pensamiento crítico para estructurar problemas, interpretar información y convertirla en propuestas aplicables. Puedo apoyar en investigación, automatización, organización de proyectos y comunicación clara de hallazgos."
+    ],
+    "collaboration": "2-3 horas/semana",
+    "evidence": [
+      {
+        "title": "Intereses",
+        "detail": "inteligencia artificial, análisis económico, ciencia de datos, automatización, investigación aplicada, ciencias sociales computacionales, educación, liderazgo estudiantil, innovación, desarrollo organizacional"
+      },
+      {
+        "title": "Habilidades",
+        "detail": "análisis de datos, pensamiento crítico, investigación académica, Python, R, SQL, Microsoft Excel, automatización, organización de proyectos, comunicación escrita, liderazgo estudiantil, tutoría académica, trabajo en equipo"
+      },
+      {
+        "title": "Idiomas",
+        "detail": "Español Nativo, Inglés C1, Portugués Intermedio"
+      }
+    ],
+    "links": [
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/in/leonardo-lozano-8a8710371/?locale=en"
+      }
+    ]
+  },
+  "juan-sebastian-gomez-vera": {
+    "status": "Perfil completo",
+    "headline": "Coordinador de Inteligencia Artificial y Automatización - CLH.",
+    "bio": "Sebastian es Ingeniero oriundo de Bucaramanga pero actualmente viviendo en Bogotá. Una persona que busca siempre ser proactiva dentro de su constante  educación. Ve lo asombroso que pueden ser las pequeñas cosas y decide alegremente buscar aprender algo de cualquier persona que conoce.",
+    "motivation": "Una red multicultural interdisciplinaria que ayude a impulsar conocimientos de tecnologías de vanguardia bajo criterios viabilidad aplicativa para mercados reales.",
+    "contribution": [
+      "Experiencia en investigación e implementación de conceptos de Inteligencia Artificial. Manejo de código y tecnologías aplicadas. Gestión de proyectos y soft skills de liderazgo y formación."
+    ],
+    "collaboration": "2",
+    "evidence": [
+      {
+        "title": "Intereses",
+        "detail": "Inteligencia Artificial, Gestión de Proyectos"
+      },
+      {
+        "title": "Habilidades",
+        "detail": "Análisis de Datos, Programación, Aprendizaje de Maquinas, Investigación"
+      },
+      {
+        "title": "Idiomas",
+        "detail": "Español, Inglés"
+      }
+    ],
+    "links": [
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/in/juansgomezv/"
+      }
+    ]
+  },
+  "jorge-gregorio-garcia-heras": {
+    "status": "Perfil completo",
+    "headline": "Fundador de CLH | Estrategia, comunidad e innovación | España",
+    "bio": "Jorge Gregorio García-Heras es cofundador de la Comunidad de Líderes Hispanoamericanos (CLH), una red internacional que conecta talento joven, universidades, profesionales y organizaciones. Impulsa iniciativas orientadas a transformar relaciones en oportunidades y proyectos reales entre España y Latinoamérica. Es cofundador de Beway, un ecosistema creado para acercar empresas y universitarios mediante retos, investigación, innovación y evidencias de ejecución. Su trabajo se centra en la visión estratégica, la creación de comunidad y la conexión de personas con capacidad, iniciativa y voluntad de construir juntas.",
+    "motivation": "Un ecosistema internacional en el que el talento joven acceda a oportunidades reales, las empresas descubran nuevas perspectivas y las universidades colaboren en proyectos, investigación e innovación entre países.",
+    "contribution": [
+      "Visión estratégica, creación de comunidades internacionales y capacidad para conectar talento, universidades y empresas. Experiencia impulsando alianzas, coordinando equipos y convirtiendo ideas en proyectos concretos."
+    ],
+    "collaboration": "Disponible para alianzas estratégicas, proyectos internacionales, desarrollo de comunidad y colaboraciones puntuales con empresas, universidades y miembros de CLH y Beway.",
+    "evidence": [
+      {
+        "title": "Intereses",
+        "detail": "emprendimiento, innovación, liderazgo, talento joven, educación, tecnología, inteligencia artificial, desarrollo de comunidades, colaboración internacional"
+      },
+      {
+        "title": "Habilidades",
+        "detail": "visión estratégica, creación de comunidades, desarrollo de alianzas, liderazgo de equipos, comunicación, coordinación de proyectos, networking, desarrollo de negocio"
+      },
+      {
+        "title": "Idiomas",
+        "detail": "español, inglés"
+      }
+    ],
+    "links": [
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/in/jgreego/"
+      }
+    ]
+  },
+  "jorge-calderon": {
+    "status": "Perfil completo",
+    "headline": "Creo en el liderazgo que trasciende, en las decisiones que transforman y que su impacto puede cambiar el mundo",
+    "bio": "Soy estudiante de Economía en la Universidad San Francisco de Quito (USFQ) y me apasiona comprender cómo funcionan los principios económicos en la práctica y cómo las instituciones influyen en la vida cotidiana. Me caracterizo por mi resiliencia, ambición y un fuerte deseo de crecimiento continuo.A lo largo de mi trayectoria académica y profesional, he consolidado habilidades clave en trabajo en equipo, comunicación y resolución de problemas. Como presidente del Consejo Estudiantil de la U.E. Liceo Panamericano Samborondón, se fomentó con éxito la cohesión grupal y se optimizó el desempeño del equipo. Así mismo la experiencia en el voluntariado me ayudó a comprender que lo más importante en esta vida, es el impacto y la huella imborrable que dejas a las personas que están en la comunidad.",
+    "motivation": "Una familia, que se sienta conectada con los valores de CLH.",
+    "contribution": [
+      "Experiencia en proyectos de voluntariado, gestión de grupos, propuestas de acción."
+    ],
+    "collaboration": "2-3 horas a la semana",
+    "evidence": [
+      {
+        "title": "Intereses",
+        "detail": "Economía circular, instituciones, educación."
+      },
+      {
+        "title": "Habilidades",
+        "detail": "Responsabilidad, liderazgo."
+      },
+      {
+        "title": "Idiomas",
+        "detail": "Inglés, español. (Francés y mandarín básico)"
+      }
+    ],
+    "links": [
+      {
+        "label": "LinkedIn",
+        "href": "http://www.linkedin.com/in/jorgeandrscalderon"
+      }
+    ]
+  },
+  "fernando-fuentes": {
+    "status": "Perfil completo",
+    "headline": "Ingeniero de Software | Arquitecturas Distribuidas | Liderazgo Digital",
+    "bio": "Fernando es un ingeniero de Software especializado en la construcción de sistemas nativos para la nube, con especialización en arquitecturas distribuidas y escalables para la era de la IA y los datos. Le gusta aprender continuamente y siempre buscar las experiencias más retadoras y que lo lleven a pensar fuera de la caja.",
+    "motivation": "Me gustaría construir una red de investigación en toda Latinoamérica relacionada con la tecnología aplicada a diferentes áreas de la sociedad, como las finanzas, la biotecnología, la robótica y en general, cualquier disciplina que se impulse de la innovación como vehículo para el progreso de la humanidad.",
+    "contribution": [
+      "Amplia experiencia en la gestión, diseño y construcción de proyectos de software empresariales. Visión de liderazgo y perspectiva digital. Innovación y conocimientos científicos especializados en la computación."
+    ],
+    "collaboration": "6 horas a la semana, trabajo por proyectos",
+    "evidence": [
+      {
+        "title": "Intereses",
+        "detail": "Sistemas en la nube, Software, Hardware, Finanzas, liderazgo"
+      },
+      {
+        "title": "Habilidades",
+        "detail": "Desarrollo de Software, Arquitectura en la nube, Liderazgo digital"
+      },
+      {
+        "title": "Idiomas",
+        "detail": "Español, inglés"
+      }
+    ],
+    "video": "/videos/fernando-fuentes.mp4",
+    "links": [
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/in/fernando-fuentes-aba154259/?locale=es"
+      }
+    ]
+  },
+  "fabian-rivera": {
+    "status": "Perfil completo",
+    "headline": "Ingeniería Industrial | Gestión de talento, liderazgo y desarrollo de personas",
+    "bio": "Fabián Rivera es estudiante de Ingeniería Industrial Administrativa, apasionado por la gestión de talento, el liderazgo y la construcción de equipos de alto rendimiento. Cuenta con experiencia en procesos de atracción de talento, coordinación de equipos y desarrollo de proyectos, enfocándose en conectar personas con oportunidades de crecimiento. Se interesa por la mejora continua, la optimización de procesos y la creación de espacios donde las personas puedan aportar valor y desarrollar su potencial. Actualmente busca seguir fortaleciendo sus habilidades en recursos humanos, liderazgo y gestión estratégica de personas.",
+    "motivation": "Quiero construir espacios donde el talento y las oportunidades puedan encontrarse naturalmente; donde las personas no tengan que perseguir oportunidades, sino donde las oportunidades lleguen a quienes tienen el potencial, las ganas y la visión para transformar su entorno.",
+    "contribution": [
+      "Experiencia en atracción de talento, entrevistas, gestión de proyectos y coordinación de equipos. Puedo aportar conocimientos en organización de procesos, identificación de perfiles, comunicación efectiva, liderazgo y creación de conexiones entre personas con objetivos comunes."
+    ],
+    "collaboration": "4-6 horas a la semana",
+    "evidence": [
+      {
+        "title": "Intereses",
+        "detail": "Gestión de talento, recursos humanos, liderazgo, desarrollo profesional, mejora continua, innovación, gestión de proyectos, networking, emprendimiento"
+      },
+      {
+        "title": "Habilidades",
+        "detail": "Liderazgo de equipos, comunicación efectiva, entrevistas y selección de talento, gestión de proyectos, organización, análisis de procesos, resolución de problemas, trabajo en equipo"
+      },
+      {
+        "title": "Idiomas",
+        "detail": "Español, inglés"
+      }
+    ],
+    "links": [
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/in/fabian-rivera-342ab8366/"
+      }
+    ]
+  },
+  "daniel-lopez": {
+    "status": "Perfil completo",
+    "headline": "Daniel López",
+    "bio": "Me apasiona crear conexiones valiosas, aprender de otros y colaborar para crear cosas nuevas. Con visión innovadora, desarrollo productos funcionales y de calidad. Además, lidero equipos a nivel nacional e internacional, en busca del mejor resultado posible por medio de la co-creación.",
+    "motivation": "Herramientas y soluciones que faciliten y optimicen procesos valiosos",
+    "contribution": [
+      "Ideas frescas, contactos y una visión de innovación y desarrollo constante"
+    ],
+    "collaboration": "Disponible para alianzas estratégicas, proyectos internacionales, desarrollo de comunidad y colaboraciones puntuales con empresas, universidades y miembros de CLH y Beway.",
+    "evidence": [
+      {
+        "title": "Intereses",
+        "detail": "ProgramaciónNegociosEmprendimientoTecnologíaCompetencias"
+      },
+      {
+        "title": "Habilidades",
+        "detail": "LiderazgoComunicaciónGestión de equipos y recursos"
+      },
+      {
+        "title": "Idiomas",
+        "detail": "InglésEspañol"
+      }
+    ],
+    "links": [
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/in/daniellopezdev/"
+      }
+    ]
+  },
+  "claudio-federico-buffardi-witzke": {
+    "status": "Perfil completo",
+    "headline": "Ingeniero Industrial en formación | Apasionado por la manufactura y los procesos | Bicicleta de montaña y enduro extremo",
+    "bio": "Claudio es estudiante de Ingeniería Industrial en Ciudad de México. Tiene experiencia en logística retail por su paso por Farmatodo, la cadena farmacéutica más grande de Venezuela, donde coordinó entregas de proveedores a gran escala y redujo el inventario de devoluciones en un 30%. Cuenta con certificación Six Sigma Yellow Belt. Fuera del trabajo le gusta montar motos de enduro extremo y de bici montañera.",
+    "motivation": "Una empresa de manufactura propia en Latinoamérica (aún explorando el sector), pero con claridad en el cómo — procesos eficientes, calidad y manufactura esbelta. Busco conocer a personas con experiencia en fábricas y producción industrial. Y quiero construir una familia.",
+    "contribution": [
+      "Experiencia en logística y cadena de suministro retail, mejora de procesos (Six Sigma), y distribución/comercialización de marcas internacionales en el mercado venezolano. También manejo de e-commerce ligero, marketing digital para nichos deportivos y análisis de datos con Excel e Inteligencia Artificial."
+    ],
+    "collaboration": "2-4 horas a la semana.",
+    "evidence": [
+      {
+        "title": "Intereses",
+        "detail": "Inteligencia Artificial, Motos, Bicicleta de montaña, Golf, Tenis, Música."
+      },
+      {
+        "title": "Habilidades",
+        "detail": "Mejora de procesos (Six Sigma), análisis de datos, Excel, mecánica de motos, mantenimiento de bicicletas de montaña, ventas y negociación, networking"
+      },
+      {
+        "title": "Idiomas",
+        "detail": "Español, Inglés, Italiano"
+      }
+    ],
+    "links": [
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/in/claudio-buffardi/"
+      }
+    ]
+  },
+  "christopher-marroquin": {
+    "status": "Perfil completo",
+    "headline": "Emprendedor tecnológico | Creo sistemas útiles y oportunidades a través de la tecnología | El Salvador",
+    "bio": "Soy estudiante de Ingeniería de Software y Negocios Digitales, desarrollador full-stack, programador competitivo y emprendedor tecnológico salvadoreño. Me apasiona aprender, conocer personas, resolver problemas y convertir ideas en proyectos que generen valor.Disfruto especialmente las lluvias de ideas, crear productos digitales, organizar eventos y encontrar formas de llevar una idea desde una conversación hasta una solución real. Como cofundador y líder general de C3, he impulsado competencias, plataformas y experiencias que conectan a jóvenes con aprendizaje, comunidad y oportunidades profesionales.Me considero una persona curiosa, proactiva y orientada a construir. Creo que la tecnología no solo sirve para desarrollar sistemas, sino también para conectar personas, crear experiencias y abrir oportunidades para otros.",
+    "motivation": "Quiero construir comunidades, alianzas y proyectos que conecten a personas con nuevas oportunidades de aprendizaje, colaboración y crecimiento. Me interesa crear cosas nuevas, impulsar ideas innovadoras y convertirlas en iniciativas que generen un impacto real y positivo.",
+    "contribution": [
+      "Puedo aportar experiencia creando y coordinando equipos, organizando eventos y experiencias tecnológicas, desarrollando productos digitales y convirtiendo ideas en planes ejecutables. También puedo contribuir con creatividad, lluvias de ideas, gestión de proyectos, resolución de problemas y conexión con talento joven.Para conocer mas sobre mi trabajo, los invito a visitar mi sitio web y portafolio: https://christophermarroquin.dev/"
+    ],
+    "collaboration": "2 - 3 horas por semana, con disponibilidad para proyectos y colaboraciones",
+    "evidence": [
+      {
+        "title": "Intereses",
+        "detail": "Emprendimiento tecnológico, productos digitales, comunidades tecnológicas, innovación, liderazgo juvenil, educación STEM, eventos tecnológicos, alianzas internacionales"
+      },
+      {
+        "title": "Habilidades",
+        "detail": "Desarrollo full-stack, liderazgo de equipos, gestión de proyectos, organización de eventos, ideación, resolución de problemas, comunicación"
+      },
+      {
+        "title": "Idiomas",
+        "detail": "Español nativo, inglés profesional"
+      }
+    ],
+    "links": [
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/in/christopher-marroquin23/?locale=es"
+      }
+    ]
+  },
+  "alberto-sanchez-prieto": {
+    "status": "Perfil completo",
+    "headline": "Innovación",
+    "bio": "Siente un verdadero amor por la conexión entre jóvenes de distintos países y por la fuerza transformadora que puede surgir cuando comparten ideas, experiencias y oportunidades. Cree firmemente en el potencial del talento joven y en la motivación como motor para generar impacto.",
+    "motivation": "Quiero construir junto al resto de miembros de CLH una red sólida y consolidada, pero, sobre todo, una comunidad con una misión y unos valores claros que nos permitan avanzar en la misma dirección. Un espacio desde el que podamos demostrar que los jóvenes tenemos la capacidad de coordinarnos, asumir responsabilidades y generar valor real cuando trabajamos con un propósito compartido.",
+    "contribution": [
+      "Puede aportar una visión internacional, nuevas ideas y, sobre todo, la resiliencia necesaria para llevarlas a la práctica, superar las dificultades y no abandonar el camino antes de convertirlas en resultados."
+    ],
+    "collaboration": "24 horas al dia",
+    "evidence": [
+      {
+        "title": "Intereses",
+        "detail": "Economia Colaborativa"
+      },
+      {
+        "title": "Habilidades",
+        "detail": "Imaginación"
+      },
+      {
+        "title": "Idiomas",
+        "detail": "Español, Ingles"
+      }
+    ],
+    "video": "/videos/alberto-sanchez-prieto.mp4",
+    "links": [
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/in/albertosprietocolmenero/"
+      }
+    ]
+  }
 };
 
 function Button({ children, onClick, variant = "primary", type = "button" }: { children: ReactNode; onClick?: () => void; variant?: "primary" | "secondary" | "light" | "ghost"; type?: "button" | "submit" }) {
