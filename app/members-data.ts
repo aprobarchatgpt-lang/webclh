@@ -694,5 +694,23 @@ export const members: Member[] = [
     "slug": "maria-jose-merida-acuna",
     "image": null,
     "linkedIn": "https://www.linkedin.com/in/maria-jose-merida-acu%C3%B1a-a6b0802ba/"
+  },
+  {
+    "name": "Daniel Eli Lopez",
+    "country": "El Salvador",
+    "university": "Universidad Francisco Gavidia",
+    "area": "Negocios e innovación",
+    "slug": "daniel-lopez",
+    "image": null,
+    "linkedIn": "https://www.linkedin.com/in/daniellopezdev/"
+  },
+  {
+    "name": "Alberto Sánchez Prieto",
+    "country": "España",
+    "university": "Universidad de Córdoba",
+    "area": "Veterinaria",
+    "slug": "alberto-sanchez-prieto",
+    "image": "/images/members/alberto-sanchez-prieto.png",
+    "linkedIn": "https://www.linkedin.com/in/albertosprietocolmenero/"
   }
 ];
