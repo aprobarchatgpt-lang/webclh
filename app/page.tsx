@@ -2,7 +2,7 @@
 
 import { FormEvent, ReactNode, useEffect, useMemo, useState } from "react";
 import { createPortal } from "react-dom";
-import { members, type Member } from "./members-data";
+import { members, type Member } from "./member-updates";
 
 type PageKey =
   | "inicio"
@@ -924,7 +924,7 @@ function MemberProfileDialog({ member, onClose, onConnect }: { member: Member; o
         <button className="member-profile-close" onClick={onClose} aria-label="Cerrar perfil">×</button>
         <div className="member-profile-media">
           <div className="member-profile-portrait">{member.image ? <img src={assetPath(member.image)} alt={`Retrato de ${member.name}`} /> : <div className="member-profile-initials" role="img" aria-label={`Iniciales de ${member.name}`}>{memberInitials(member.name)}</div>}</div>
-          {profile?.video || member.video ? <div className="member-profile-video member-profile-video-ready"><video controls playsInline preload="metadata" poster={member.image ? assetPath(member.image) : undefined}><source src={assetPath(profile?.video ?? member.video!)} type="video/mp4" />Tu navegador no permite reproducir este vídeo.</video><span>VÍDEO DE PRESENTACIÓN · 1 MINUTO</span></div> : null}
+          {profile?.video || member.video ? <div className="member-profile-video member-profile-video-ready"><video key={slug} controls playsInline preload="metadata" poster={member.image ? assetPath(member.image) : undefined} src={assetPath(profile?.video ?? member.video!)}>Tu navegador no permite reproducir este vídeo.</video><span>VÍDEO DE PRESENTACIÓN · 1 MINUTO</span></div> : null}
         </div>
         <div className="member-profile-heading">
           <div><p className="member-profile-status">{content.status}</p><h2 id={`member-profile-${slug}`}>{member.name}</h2><p>{content.headline}</p></div>
