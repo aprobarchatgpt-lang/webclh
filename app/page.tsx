@@ -2,7 +2,7 @@
 
 import { FormEvent, ReactNode, useEffect, useMemo, useState } from "react";
 import { createPortal } from "react-dom";
-import { members, type Member } from "./member-updates";
+import { members, type Member } from "./members-data";
 
 type PageKey =
   | "inicio"
@@ -110,6 +110,159 @@ const memberPilotProfiles: Record<string, {
   video?: string;
   links?: { label: string; href: string }[];
 }> = {
+  "alberto-sanchez-prieto": {
+    "status": "Perfil completo",
+    "headline": "Innovación",
+    "bio": "Siente un verdadero amor por la conexión entre jóvenes de distintos países y por la fuerza transformadora que puede surgir cuando comparten ideas, experiencias y oportunidades. Cree firmemente en el potencial del talento joven y en la motivación como motor para generar impacto.",
+    "motivation": "Quiero construir junto al resto de miembros de CLH una red sólida y consolidada, pero, sobre todo, una comunidad con una misión y unos valores claros que nos permitan avanzar en la misma dirección. Un espacio desde el que podamos demostrar que los jóvenes tenemos la capacidad de coordinarnos, asumir responsabilidades y generar valor real cuando trabajamos con un propósito compartido.",
+    "contribution": [
+      "Puede aportar una visión internacional, nuevas ideas y, sobre todo, la resiliencia necesaria para llevarlas a la práctica, superar las dificultades y no abandonar el camino antes de convertirlas en resultados."
+    ],
+    "collaboration": "24 horas al dia",
+    "evidence": [
+      {
+        "title": "Intereses",
+        "detail": "Economia Colaborativa"
+      },
+      {
+        "title": "Habilidades",
+        "detail": "Imaginación"
+      },
+      {
+        "title": "Idiomas",
+        "detail": "Español, Ingles"
+      }
+    ],
+    "video": "/videos/alberto-sanchez-prieto.mp4",
+    "links": [
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/in/albertosprietocolmenero/"
+      }
+    ]
+  },
+  "jorge-gregorio-garcia-heras": {
+    "status": "Perfil completo",
+    "headline": "Fundador de CLH | Estrategia, comunidad e innovación | España",
+    "bio": "Jorge Gregorio García-Heras es cofundador de la Comunidad de Líderes Hispanoamericanos (CLH), una red internacional que conecta talento joven, universidades, profesionales y organizaciones. Impulsa iniciativas orientadas a transformar relaciones en oportunidades y proyectos reales entre España y Latinoamérica. Es cofundador de Beway, un ecosistema creado para acercar empresas y universitarios mediante retos, investigación, innovación y evidencias de ejecución. Su trabajo se centra en la visión estratégica, la creación de comunidad y la conexión de personas con capacidad, iniciativa y voluntad de construir juntas.",
+    "motivation": "Un ecosistema internacional en el que el talento joven acceda a oportunidades reales, las empresas descubran nuevas perspectivas y las universidades colaboren en proyectos, investigación e innovación entre países.",
+    "contribution": [
+      "Visión estratégica, creación de comunidades internacionales y capacidad para conectar talento, universidades y empresas. Experiencia impulsando alianzas, coordinando equipos y convirtiendo ideas en proyectos concretos."
+    ],
+    "collaboration": "Disponible para alianzas estratégicas, proyectos internacionales, desarrollo de comunidad y colaboraciones puntuales con empresas, universidades y miembros de CLH y Beway.",
+    "evidence": [
+      {
+        "title": "Intereses",
+        "detail": "emprendimiento, innovación, liderazgo, talento joven, educación, tecnología, inteligencia artificial, desarrollo de comunidades, colaboración internacional"
+      },
+      {
+        "title": "Habilidades",
+        "detail": "visión estratégica, creación de comunidades, desarrollo de alianzas, liderazgo de equipos, comunicación, coordinación de proyectos, networking, desarrollo de negocio"
+      },
+      {
+        "title": "Idiomas",
+        "detail": "español, inglés"
+      }
+    ],
+    "video": "/videos/jorge-gregorio-garcia-heras.mp4",
+    "links": [
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/in/jgreego/"
+      }
+    ]
+  },
+  "camila-calvo": {
+    "status": "Perfil pendiente de completar",
+    "headline": "Marketing",
+    "bio": "Estudiante de Business Analytics & Marketing en Aden Business School. Experiencia en análisis de datos, compliance y operaciones a través de prácticas en Philips, Canal de Panamá y Scotiabank. Perfil orientado a business analytics, procesos y entornos corporativos.",
+    "motivation": "",
+    "contribution": [],
+    "collaboration": "",
+    "evidence": [],
+    "links": [
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/in/camila-calvo-de-la-guardia/"
+      }
+    ]
+  },
+  "cristobal-vargas-marchant": {
+    "status": "Perfil pendiente de completar",
+    "headline": "Economía",
+    "bio": "Estudiante de Ingeniería Comercial con mención en Economía en la Universidad de Chile. Vice President \nde Corporate Finance en el Club de Finanzas FEN, con experiencia en análisis financiero, research macroeconómico y participación en iniciativas vinculadas a mercados de capitales e investment banking. Perfil orientado a finanzas corporativas, análisis estratégico y desarrollo profesional en entornos competitivos.",
+    "motivation": "",
+    "contribution": [],
+    "collaboration": "",
+    "evidence": [],
+    "video": "/videos/cristobal-vargas-marchant.mp4",
+    "links": [
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/in/crist%C3%B3bal-vargas-marchant-4289151b5/"
+      }
+    ]
+  },
+  "emily-torres-pineda": {
+    "status": "Perfil pendiente de completar",
+    "headline": "Derecho",
+    "bio": "Estudiante de Jurisprudencia y Relaciones Internacionales en la Universidad del Rosario. Asistente de \ninvestigación en derechos humanos y derecho internacional. Coordinadora de semillero de investigación  y monitora académica en varias asignaturas jurídicas. Experiencia en Model United Nations (NHSMUN)  y en proyectos de investigación jurídica e inteligencia estratégica. Perfil orientado a política internacional, derecho internacional y liderazgo académico.",
+    "motivation": "",
+    "contribution": [],
+    "collaboration": "",
+    "evidence": [],
+    "links": [
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/in/emily-torres-pineda/"
+      }
+    ]
+  },
+  "federico-matz": {
+    "status": "Perfil pendiente de completar",
+    "headline": "Negocios Digitales",
+    "bio": "Estudiante de Negocios Digitales en la Universidad de San Andrés con un perfil orientado a la intersección entre estrategia, creatividad y tecnología, combinando experiencia en marketing, emprendimiento y análisis de negocio con una mentalidad práctica de “aprender haciendo”, destacando por el desarrollo de proyectos con impacto real —como soluciones digitales en salud o e-commerce— y una fuerte capacidad de storytelling, análisis data-driven y visión de producto, posicionándose como un perfil versátil enfocado en construir soluciones innovadoras y diferenciales en entornos dinámicos.",
+    "motivation": "",
+    "contribution": [],
+    "collaboration": "",
+    "evidence": [],
+    "links": [
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/in/federico-matz/"
+      }
+    ]
+  },
+  "michelle-rogel": {
+    "status": "Perfil completo",
+    "headline": "Estudiante de Ingeniería Mecatrónica | Gestión de proyectos de ingeniería e impacto social | Voluntariado Corporativo",
+    "bio": "Ingeniera en formación apasionada por liderar proyectos que generan impacto social, conectar personas y construir alianzas entre tecnología, empresas y comunidad.",
+    "motivation": "Quiero formar parte de una comunidad donde podamos compartir conocimiento, colaborar en proyectos con impacto y desarrollar iniciativas que unan la innovación, la tecnología y el compromiso social. También busco seguir creciendo como líder y aprender de personas con diferentes experiencias.",
+    "contribution": [
+      "• Gestión y coordinación de proyectos.\n• Organización de voluntariados corporativos.\n• Planeación de eventos y experiencias.\n• Vinculación con organizaciones de la sociedad civil.\n• Automatización y mejora de procesos.\n• Trabajo en equipo y liderazgo.\n• Desarrollo de estrategias de impacto social."
+    ],
+    "collaboration": "Disponible para alianzas estratégicas, proyectos internacionales, desarrollo de comunidad y colaboraciones puntuales con empresas, universidades y miembros de CLH y Beway.",
+    "evidence": [
+      {
+        "title": "Intereses",
+        "detail": "Innovación social, Ingeniería, Automatización, Inteligencia Artificial, Gestión de proyectos, Emprendimiento social, Liderazgo, Networking, Tecnología, Educación, Sustentabilidad, Voluntariado Corporativo, Desarrollo Comunitario."
+      },
+      {
+        "title": "Habilidades",
+        "detail": "* Project Management\n* Organización de eventos\n* Planeación estratégica\n* Liderazgo\n* Comunicación\n* Trabajo en equipo\n* Resolución de problemas\n* Manejo de IA (Claude, Codex)\n* Python\n* MATLAB\n* AutoCAD\n* Fusion 360\n* PLCs\n* Arduino\n* Análisis de datos\n* Microsoft Excel\n* Google Workspace"
+      },
+      {
+        "title": "Idiomas",
+        "detail": "🇲🇽 Español — Nativo\n🇺🇸 Inglés — Avanzado (C1)"
+      }
+    ],
+    "links": [
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/in/michelle-rogel-garc%C3%ADa-a37820219/"
+      }
+    ]
+  },
   "renata-berho": {
     "status": "Perfil completo",
     "headline": "Ingeniería aeroespacial, innovación tecnológica y liderazgo juvenil",
@@ -141,6 +294,749 @@ const memberPilotProfiles: Record<string, {
       }
     ]
   },
+  "santiago-narino-rivera": {
+    "status": "Perfil completo",
+    "headline": "Administración de Negocios Internacionales | Marketing Estratégico | Finanzas e Inversión | Estrategia e Innovación | IA aplicada a Negocios",
+    "bio": "Soy estudiante de Administración de Negocios Internacionales con énfasis en Marketing y formación complementaria en Finanzas. Me apasiona desarrollar estrategias que impulsen el crecimiento de las organizaciones mediante la innovación, el análisis y la tecnología. He participado en proyectos de investigación, consultoría, competencias internacionales de emprendimiento y análisis de negocios, fortaleciendo habilidades en estrategia, finanzas, comercio internacional y gestión de proyectos. Actualmente, dedico parte de mi tiempo a impulsar iniciativas que conectan estudiantes y profesionales para generar oportunidades de aprendizaje, colaboración e impacto en Hispanoamérica. Creo en el liderazgo basado en la acción, el aprendizaje continuo y el uso de la inteligencia artificial como herramienta para transformar la forma en que las empresas toman decisiones y crean valor.",
+    "motivation": "Quiero construir una red de jóvenes líderes que desarrollen proyectos de innovación, emprendimiento y transformación empresarial en Hispanoamérica. Me interesa impulsar alianzas entre universidades, empresas y organizaciones para generar oportunidades de aprendizaje, investigación aplicada y desarrollo profesional.",
+    "contribution": [
+      "Puedo aportar conocimientos en estrategia empresarial, innovación, análisis financiero, gestión de proyectos, comercio internacional, investigación de mercados y liderazgo de equipos. También disfruto conectar personas, estructurar iniciativas colaborativas y compartir herramientas de productividad y organización para proyectos de alto impacto."
+    ],
+    "collaboration": "Disponible para mentorías, proyectos estratégicos, iniciativas de innovación, investigación aplicada y colaboración interdisciplinaria. Aproximadamente 5–8 horas por semana.",
+    "evidence": [
+      {
+        "title": "Intereses",
+        "detail": "Estrategia empresarial, innovación, emprendimiento, inteligencia artificial, finanzas, inversión, marketing, comercio internacional, liderazgo, investigación, transformación digital, productividad, desarrollo profesional."
+      },
+      {
+        "title": "Habilidades",
+        "detail": "Liderazgo, gestión de proyectos, pensamiento estratégico, análisis financiero, negociación, resolución de problemas, investigación de mercados, comunicación, trabajo en equipo, planificación, innovación."
+      },
+      {
+        "title": "Idiomas",
+        "detail": "Español, inglés, francés"
+      }
+    ],
+    "video": "/videos/santiago-narino-rivera.mp4",
+    "links": [
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/in/santiago-nari%C3%B1o-rivera-10351429b/"
+      }
+    ]
+  },
+  "adrian-alava": {
+    "status": "Perfil pendiente de completar",
+    "headline": "Negocios Internacionales",
+    "bio": "Estudiante de Negocios Internacionales en la Universidad Espíritu Santo (UEES), con excelente \nrendimiento académico y experiencia en operaciones financieras y comercio exterior. Actualmente realiza prácticas en Ocean Network Express, desarrollando conocimientos en logística y operaciones de importación/exportación. Destaca por su perfil analítico, liderazgo y capacidad de adaptación internacional, reforzados por experiencias como el NASA Space Apps Challenge, olimpíadas matemáticas y programas académicos en el extranjero. Interesado en finanzas, comercio internacional y desarrollo estratégico en entornos globales.",
+    "motivation": "",
+    "contribution": [],
+    "collaboration": "",
+    "evidence": [],
+    "links": [
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/in/adrian-alava-93a64b312/"
+      }
+    ]
+  },
+  "alexa-ramirez-garcia": {
+    "status": "Perfil pendiente de completar",
+    "headline": "Marketing",
+    "bio": "Estudiante de International Business en el Tecnológico de Monterrey. Experiencia en comunicación, \nmarketing y desarrollo de campañas, con participación en proyectos de expansión internacional (KidZania) y programas de liderazgo (ESG Global Leadership Program). Fundadora de una iniciativa social enfocada en sostenibilidad y colaboradora en proyectos de impacto social y comunicación.",
+    "motivation": "",
+    "contribution": [],
+    "collaboration": "",
+    "evidence": [],
+    "links": [
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/in/alexaramirezg/"
+      }
+    ]
+  },
+  "byron-zambrano": {
+    "status": "Perfil pendiente de completar",
+    "headline": "Negocios Internacionales",
+    "bio": "Estudiante de International Business en la Universidad Espíritu Santo (UEES). Actualmente pasante en  Rivedasa S.A. y con experiencia previa en logística internacional en Paccari Chocolate, participando en gestión de exportaciones y coordinación de eventos promocionales. Coordinador de UEES Leaders, con perfil orientado a negocios internacionales, liderazgo estudiantil y gestión operativa.",
+    "motivation": "",
+    "contribution": [],
+    "collaboration": "",
+    "evidence": [],
+    "links": [
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/in/byron-zambrano-47853230b/"
+      }
+    ]
+  },
+  "christopher-marroquin": {
+    "status": "Perfil completo",
+    "headline": "Emprendedor tecnológico | Creo sistemas útiles y oportunidades a través de la tecnología | El Salvador",
+    "bio": "Soy estudiante de Ingeniería de Software y Negocios Digitales, desarrollador full-stack, programador competitivo y emprendedor tecnológico salvadoreño. Me apasiona aprender, conocer personas, resolver problemas y convertir ideas en proyectos que generen valor.\n\nDisfruto especialmente las lluvias de ideas, crear productos digitales, organizar eventos y encontrar formas de llevar una idea desde una conversación hasta una solución real. Como cofundador y líder general de C3, he impulsado competencias, plataformas y experiencias que conectan a jóvenes con aprendizaje, comunidad y oportunidades profesionales.\n\nMe considero una persona curiosa, proactiva y orientada a construir. Creo que la tecnología no solo sirve para desarrollar sistemas, sino también para conectar personas, crear experiencias y abrir oportunidades para otros.",
+    "motivation": "Quiero construir comunidades, alianzas y proyectos que conecten a personas con nuevas oportunidades de aprendizaje, colaboración y crecimiento. Me interesa crear cosas nuevas, impulsar ideas innovadoras y convertirlas en iniciativas que generen un impacto real y positivo.",
+    "contribution": [
+      "Puedo aportar experiencia creando y coordinando equipos, organizando eventos y experiencias tecnológicas, desarrollando productos digitales y convirtiendo ideas en planes ejecutables. También puedo contribuir con creatividad, lluvias de ideas, gestión de proyectos, resolución de problemas y conexión con talento joven.\nPara conocer mas sobre mi trabajo, los invito a visitar mi sitio web y portafolio: https://christophermarroquin.dev/"
+    ],
+    "collaboration": "2 - 3 horas por semana, con disponibilidad para proyectos y colaboraciones",
+    "evidence": [
+      {
+        "title": "Intereses",
+        "detail": "Emprendimiento tecnológico, productos digitales, comunidades tecnológicas, innovación, liderazgo juvenil, educación STEM, eventos tecnológicos, alianzas internacionales"
+      },
+      {
+        "title": "Habilidades",
+        "detail": "Desarrollo full-stack, liderazgo de equipos, gestión de proyectos, organización de eventos, ideación, resolución de problemas, comunicación"
+      },
+      {
+        "title": "Idiomas",
+        "detail": "Español nativo, inglés profesional"
+      }
+    ],
+    "video": "/videos/christopher-marroquin.mp4",
+    "links": [
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/in/christopher-marroquin23/?locale=es"
+      }
+    ]
+  },
+  "claudio-federico-buffardi-witzke": {
+    "status": "Perfil completo",
+    "headline": "Ingeniero Industrial en formación | Apasionado por la manufactura y los procesos | Bicicleta de montaña y enduro extremo",
+    "bio": "Claudio es estudiante de Ingeniería Industrial en Ciudad de México. Tiene experiencia en logística retail por su paso por Farmatodo, la cadena farmacéutica más grande de Venezuela, donde coordinó entregas de proveedores a gran escala y redujo el inventario de devoluciones en un 30%. Cuenta con certificación Six Sigma Yellow Belt. Fuera del trabajo le gusta montar motos de enduro extremo y de bici montañera.",
+    "motivation": "Una empresa de manufactura propia en Latinoamérica (aún explorando el sector), pero con claridad en el cómo — procesos eficientes, calidad y manufactura esbelta. Busco conocer a personas con experiencia en fábricas y producción industrial. Y quiero construir una familia.",
+    "contribution": [
+      "Experiencia en logística y cadena de suministro retail, mejora de procesos (Six Sigma), y distribución/comercialización de marcas internacionales en el mercado venezolano. También manejo de e-commerce ligero, marketing digital para nichos deportivos y análisis de datos con Excel e Inteligencia Artificial."
+    ],
+    "collaboration": "2-4 horas a la semana.",
+    "evidence": [
+      {
+        "title": "Intereses",
+        "detail": "Inteligencia Artificial, Motos, Bicicleta de montaña, Golf, Tenis, Música."
+      },
+      {
+        "title": "Habilidades",
+        "detail": "Mejora de procesos (Six Sigma), análisis de datos, Excel, mecánica de motos, mantenimiento de bicicletas de montaña, ventas y negociación, networking"
+      },
+      {
+        "title": "Idiomas",
+        "detail": "Español, Inglés, Italiano"
+      }
+    ],
+    "video": "/videos/claudio-federico-buffardi-witzke.mp4",
+    "links": [
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/in/claudio-buffardi/"
+      }
+    ]
+  },
+  "daniel-lopez": {
+    "status": "Perfil completo",
+    "headline": "Daniel López",
+    "bio": "Me apasiona crear conexiones valiosas, aprender de otros y colaborar para crear cosas nuevas. Con visión innovadora, desarrollo productos funcionales y de calidad. Además, lidero equipos a nivel nacional e internacional, en busca del mejor resultado posible por medio de la co-creación.",
+    "motivation": "Herramientas y soluciones que faciliten y optimicen procesos valiosos",
+    "contribution": [
+      "Ideas frescas, contactos y una visión de innovación y desarrollo constante"
+    ],
+    "collaboration": "Disponible para alianzas estratégicas, proyectos internacionales, desarrollo de comunidad y colaboraciones puntuales con empresas, universidades y miembros de CLH y Beway.",
+    "evidence": [
+      {
+        "title": "Intereses",
+        "detail": "Programación\nNegocios\nEmprendimiento\nTecnología\nCompetencias"
+      },
+      {
+        "title": "Habilidades",
+        "detail": "Liderazgo\nComunicación\nGestión de equipos y recursos"
+      },
+      {
+        "title": "Idiomas",
+        "detail": "Inglés\nEspañol"
+      }
+    ],
+    "video": "/videos/daniel-lopez.mp4",
+    "links": [
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/in/daniellopezdev/"
+      }
+    ]
+  },
+  "daniela-olmedo": {
+    "status": "Perfil completo",
+    "headline": "Consultoría · Finanzas · Curaduría",
+    "bio": "Daniela forma parte del área de análisis financiero y macroeconómico de CLH. Participa en consultoría estratégica, desarrollo de propuestas e investigación, con un interés especial por proyectos que conectan disciplinas, personas y perspectivas distintas.\nDisfruta especialmente la etapa previa a cualquier solución: comprender un problema en profundidad, cuestionar supuestos y construir una visión clara. Su trabajo se centra en el análisis financiero y económico, la investigación aplicada y el desarrollo de propuestas estratégicas. Ha participado en proyectos y competencias de finanzas, donde consolidó un enfoque basado la evaluación de escenarios y la toma de decisiones con criterio.",
+    "motivation": "Busca construir espacios donde la investigación, el pensamiento estratégico y la diversidad de perspectivas permitan abordar problemas complejos desde una mirada más amplia. Cree que las mejores ideas aparecen cuando distintas formas de pensar trabajan juntas hacia un mismo objetivo.",
+    "contribution": [
+      "Pensamiento analítico aplicado a finanzas y economía, capacidad para estructurar problemas complejos y convertir ideas en propuestas concretas. Experiencia en investigación, desarrollo de propuestas, comunicación, curaduría y coordinación de equipos multidisciplinares."
+    ],
+    "collaboration": "Disponible para colaborar con empresas y miembros de CLH en proyectos de análisis financiero, investigación económica y consultoría.",
+    "evidence": [
+      {
+        "title": "Intereses",
+        "detail": "Consultoría, finanzas, análisis financiero, economía, economía conductual, estrategia, investigación, curaduría, psicología."
+      },
+      {
+        "title": "Habilidades",
+        "detail": "Análisis financiero, investigación, desarrollo de propuestas, pensamiento estratégico, estructuración de proyectos , gestión de iniciativas, curaduría, comunicación, redacción"
+      },
+      {
+        "title": "Idiomas",
+        "detail": "Español, ingles"
+      }
+    ],
+    "video": "/videos/daniela-olmedo.mp4",
+    "links": [
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/in/daniela-olmedo-13a029318/"
+      }
+    ]
+  },
+  "fabian-rivera": {
+    "status": "Perfil completo",
+    "headline": "Ingeniería Industrial | Gestión de talento, liderazgo y desarrollo de personas",
+    "bio": "Fabián Rivera es estudiante de Ingeniería Industrial Administrativa, apasionado por la gestión de talento, el liderazgo y la construcción de equipos de alto rendimiento. Cuenta con experiencia en procesos de atracción de talento, coordinación de equipos y desarrollo de proyectos, enfocándose en conectar personas con oportunidades de crecimiento. Se interesa por la mejora continua, la optimización de procesos y la creación de espacios donde las personas puedan aportar valor y desarrollar su potencial. Actualmente busca seguir fortaleciendo sus habilidades en recursos humanos, liderazgo y gestión estratégica de personas.",
+    "motivation": "Quiero construir espacios donde el talento y las oportunidades puedan encontrarse naturalmente; donde las personas no tengan que perseguir oportunidades, sino donde las oportunidades lleguen a quienes tienen el potencial, las ganas y la visión para transformar su entorno.",
+    "contribution": [
+      "Experiencia en atracción de talento, entrevistas, gestión de proyectos y coordinación de equipos. Puedo aportar conocimientos en organización de procesos, identificación de perfiles, comunicación efectiva, liderazgo y creación de conexiones entre personas con objetivos comunes."
+    ],
+    "collaboration": "4-6 horas a la semana",
+    "evidence": [
+      {
+        "title": "Intereses",
+        "detail": "Gestión de talento, recursos humanos, liderazgo, desarrollo profesional, mejora continua, innovación, gestión de proyectos, networking, emprendimiento"
+      },
+      {
+        "title": "Habilidades",
+        "detail": "Liderazgo de equipos, comunicación efectiva, entrevistas y selección de talento, gestión de proyectos, organización, análisis de procesos, resolución de problemas, trabajo en equipo"
+      },
+      {
+        "title": "Idiomas",
+        "detail": "Español, inglés"
+      }
+    ],
+    "links": [
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/in/fabian-rivera-342ab8366/"
+      }
+    ]
+  },
+  "felipe-hernandez-marin": {
+    "status": "Perfil completo",
+    "headline": "Fundador y Director EcoSustainability Club - Farmacia + Administracción y Dirección de Empresas",
+    "bio": "Apasionado por el mundo científico, tecnológico y empresarial, tanto por tradición familiar como por vocación personal, estudio Farmacia y ADE Bilingüe en la Universidad CEU San Pablo con el objetivo de mejorar la vida de las personas a través de la investigación, la innovación y el conocimiento.\n\nAl comenzar mi etapa universitaria, un grupo de compañeros y yo activamos el EcoSustainability Club, una iniciativa que busca acercar la sostenibilidad a estudiantes como nosotros. Entusiasmados por aprender y generar un impacto positivo en la sociedad, para nosotros, la sostenibilidad no es solo una palabra de moda o tendencia pasajera, sino que supone adoptar un compromiso con los demás. Así, nuestro Club Universitario nace con el objetivo de fomentar una sociedad respetuosa con la persona y el medioambiente en la que se promueva el bien común.\n\nMi objetivo es integrar ciencia, empresa, innovación y sostenibilidad para crear soluciones que transformen vidas y construyan un futuro próspero y mejor para todos.",
+    "motivation": "Mi objetivo es construir una comunidad de jóvenes talentos en el ámbito de las ciencias de la salud conectando diferentes disciplinas transformando ideas en proyectos con impacto.",
+    "contribution": [
+      "Puedo aportar liderazgo y capacidad para convertir ideas en proyectos reales generando espacios en los que surjan nuevas oportunidades de colaboración. Mi formación en Farmacia y Dirección de Empresas me permite conectar el conocimiento científico con la estrategia, la innovación y el emprendimiento. Además, puedo contribuir con experiencia impulsando iniciativas estudiantiles, organizando actividades y creando comunidades con proyección internacional e impacto positivo."
+    ],
+    "collaboration": "Disponible para proyectos puntuales.",
+    "evidence": [
+      {
+        "title": "Intereses",
+        "detail": "Ciencias de la salud, ciencias farmacéuticas, farmacología, innovación en salud, investigación biomédica, sostenibildiad, emprendimiento, relaciones internacionales, impacto social."
+      },
+      {
+        "title": "Habilidades",
+        "detail": "Liderazgo de equipos, emprendimiento, gestión sostenible, comunicación."
+      },
+      {
+        "title": "Idiomas",
+        "detail": "Español, Inglés"
+      }
+    ],
+    "video": "/videos/felipe-hernandez-marin.mp4",
+    "links": [
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/in/felipe-hernandez-marin/"
+      }
+    ]
+  },
+  "fernando-fuentes": {
+    "status": "Perfil completo",
+    "headline": "Ingeniero de Software | Arquitecturas Distribuidas | Liderazgo Digital",
+    "bio": "Fernando es un ingeniero de Software especializado en la construcción de sistemas nativos para la nube, con especialización en arquitecturas distribuidas y escalables para la era de la IA y los datos. Le gusta aprender continuamente y siempre buscar las experiencias más retadoras y que lo lleven a pensar fuera de la caja.",
+    "motivation": "Me gustaría construir una red de investigación en toda Latinoamérica relacionada con la tecnología aplicada a diferentes áreas de la sociedad, como las finanzas, la biotecnología, la robótica y en general, cualquier disciplina que se impulse de la innovación como vehículo para el progreso de la humanidad.",
+    "contribution": [
+      "Amplia experiencia en la gestión, diseño y construcción de proyectos de software empresariales. Visión de liderazgo y perspectiva digital. Innovación y conocimientos científicos especializados en la computación."
+    ],
+    "collaboration": "6 horas a la semana, trabajo por proyectos",
+    "evidence": [
+      {
+        "title": "Intereses",
+        "detail": "Sistemas en la nube, Software, Hardware, Finanzas, liderazgo"
+      },
+      {
+        "title": "Habilidades",
+        "detail": "Desarrollo de Software, Arquitectura en la nube, Liderazgo digital"
+      },
+      {
+        "title": "Idiomas",
+        "detail": "Español, inglés"
+      }
+    ],
+    "video": "/videos/fernando-fuentes.mp4",
+    "links": [
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/in/fernando-fuentes-aba154259/?locale=es"
+      }
+    ]
+  },
+  "gabriela-gallardo": {
+    "status": "Perfil pendiente de completar",
+    "headline": "Business",
+    "bio": "Estudiante de Administración de Empresas en la Universidad Espíritu Santo. Experiencia en proyectos de \nestrategia y sostenibilidad, participando en iniciativas de compliance ambiental y competiciones internacionales de negocio (Global Scaling Challenge). Perfil orientado a estrategia, análisis y desarrollo empresarial.",
+    "motivation": "",
+    "contribution": [],
+    "collaboration": "",
+    "evidence": [],
+    "links": [
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/in/gabriela-gallardo-96a7842a5/"
+      }
+    ]
+  },
+  "german-benito-menendez": {
+    "status": "Perfil pendiente de completar",
+    "headline": "Farmacéutico | Trade Marketing en ISDIN | BioLynx | MSc Pharma Marketing & Commercial Leadership",
+    "bio": "Germán es un farmacéutico especializado en marketing, actualmente trabajando en ISDIN, donde se encarga de estrategias de trade marketing orientadas a maximizar la visibilidad de marca en el punto de venta. Cursó un MSc en Pharma Marketing & Commercial Leadership, profundizando en la intersección entre ciencia, negocio y comunicación.\n\nForma parte de BioLynx, una comunidad científica de talento joven, y colabora activamente en el área de Expansión Internacional de CLH Global, donde busca y desarrolla alianzas estratégicas con marcas y organizaciones para los eventos de la comunidad. \n\nEs un apasionado de las nuevas tecnologías y la inteligencia artificial, y trata de aplicarlas a fondo tanto en su día a día personal como en su trabajo. \n\nLe motiva construir puentes entre el mundo farmacéutico y otros sectores, y cree en el poder de las redes internacionales para acelerar el crecimiento profesional de las nuevas generaciones.",
+    "motivation": "Un modelo de \"partner progresivo\": empresas que empiezan con un coffee break o un stand y escalan hacia mentorías, CEO shadowing o proyectos conjuntos con la comunidad.",
+    "contribution": [
+      "Gestión de comunidad, eventos y redes sociales (experiencia en BioLynx); desarrollo de campañas de marketing digital (email marketing); aplicación de IA a negocio, flujos de trabajo y análisis; y gestión de relaciones comerciales con partners, incluyendo contacto en frío (outbound)."
+    ],
+    "collaboration": "2-4 horas a la semana, disponible todo el año, prefiero trabajar bajo proyectos/retos que me motiven a conseguir un objetivo",
+    "evidence": [
+      {
+        "title": "Intereses",
+        "detail": "Marketing, gestión de colaboraciones comerciales, gestión de proyectos, oratoria, inteligencia artificial, networking internacional, desarrollo de comunidades"
+      },
+      {
+        "title": "Habilidades",
+        "detail": "Marketing, gestión de comunidad, organización de eventos, gestión de redes sociales, email marketing, aplicación de IA a negocio, gestión de relaciones comerciales, contacto en frío (outbound)"
+      },
+      {
+        "title": "Idiomas",
+        "detail": "Español, Inglés, Italiano, Alemán (básico)"
+      }
+    ],
+    "video": "/videos/german-benito-menendez.mp4",
+    "links": [
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/in/germanbenito21/"
+      }
+    ]
+  },
+  "ian-ruiz": {
+    "status": "Perfil completo",
+    "headline": "Emprendedor Digital",
+    "bio": "Estudiante de Negocios Internacionales de la Universidad Espíritu Santo (Ecuador), Coordinador de Marketing del Hult Prize Ecuador 2026.",
+    "motivation": "Me gustaría colaborar en cualquier proyecto promovido por la comunidad.",
+    "contribution": [
+      "Experiencia en gestión de proyectos de escala nacional e internacional."
+    ],
+    "collaboration": "2-4",
+    "evidence": [
+      {
+        "title": "Intereses",
+        "detail": "Inteligencia Artificial, Marketing, Inversión, Emprendimiento, Economía"
+      },
+      {
+        "title": "Habilidades",
+        "detail": "Liderazgo de equipos, Planificación Estratégica, Comunicación, Atención al detalle"
+      },
+      {
+        "title": "Idiomas",
+        "detail": "Español, Inglés"
+      }
+    ],
+    "video": "/videos/ian-ruiz.mp4",
+    "links": [
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/in/ian-ruiz/?locale=es"
+      }
+    ]
+  },
+  "jose-humberto-leon-ledesma": {
+    "status": "Perfil pendiente de completar",
+    "headline": "Comunicación",
+    "bio": "Estudiante de Entertainment Business Management en la Universidad Anáhuac Mayab. Presidente \nde la Sociedad de Alumnos de la Escuela de Comunicación y Dirección de Empresas de \nEntretenimiento. Experiencia en la industria del entretenimiento y hospitality con The Walt \nDisney Company y proyectos internacionales de entretenimiento, con perfil orientado a liderazgo \nde equipos, producción de experiencias y gestión de proyectos creativos.",
+    "motivation": "",
+    "contribution": [],
+    "collaboration": "",
+    "evidence": [],
+    "links": [
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/in/jos%C3%A9-humberto-le%C3%B3n-ledesma-1bb4111b7/"
+      }
+    ]
+  },
+  "josue-roberto-polanco": {
+    "status": "Perfil pendiente de completar",
+    "headline": "Tecnología",
+    "bio": "Estudiante de Software Engineering and Digital Business en ESEN, enfocado en backend \ndevelopment, algoritmos y calidad de software. Co-fundador de Competitive Coding Club (C3), donde participa en la organización de competiciones nacionales de programación y en la creación de espacios para el desarrollo del talento técnico joven en El Salvador. Cuenta con experiencia en programación competitiva de nivel internacional (ICPC), formación de estudiantes en algoritmos y desarrollo backend con Python, FastAPI y Firebase, destacando por su pensamiento analítico, precisión técnica y capacidad de ejecución.",
+    "motivation": "",
+    "contribution": [],
+    "collaboration": "",
+    "evidence": [],
+    "links": [
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/in/roberto-polanco-0bb176354/"
+      }
+    ]
+  },
+  "juan-sebastian-gomez-vera": {
+    "status": "Perfil completo",
+    "headline": "Coordinador de Inteligencia Artificial y Automatización - CLH.",
+    "bio": "Sebastian es Ingeniero oriundo de Bucaramanga pero actualmente viviendo en Bogotá. Una persona que busca siempre ser proactiva dentro de su constante  educación. Ve lo asombroso que pueden ser las pequeñas cosas y decide alegremente buscar aprender algo de cualquier persona que conoce.",
+    "motivation": "Una red multicultural interdisciplinaria que ayude a impulsar conocimientos de tecnologías de vanguardia bajo criterios viabilidad aplicativa para mercados reales.",
+    "contribution": [
+      "Experiencia en investigación e implementación de conceptos de Inteligencia Artificial. Manejo de código y tecnologías aplicadas. Gestión de proyectos y soft skills de liderazgo y formación."
+    ],
+    "collaboration": "2",
+    "evidence": [
+      {
+        "title": "Intereses",
+        "detail": "Inteligencia Artificial, Gestión de Proyectos"
+      },
+      {
+        "title": "Habilidades",
+        "detail": "Análisis de Datos, Programación, Aprendizaje de Maquinas, Investigación"
+      },
+      {
+        "title": "Idiomas",
+        "detail": "Español, Inglés"
+      }
+    ],
+    "video": "/videos/juan-sebastian-gomez-vera.mp4",
+    "links": [
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/in/juansgomezv/"
+      }
+    ]
+  },
+  "kevin-elias-luna-palacios": {
+    "status": "Perfil pendiente de completar",
+    "headline": "Ingenieria Informática",
+    "bio": "Estudiante de Ingeniería de Software y Negocios Digitales en ESEN. Presidente de EduTECH ESEN, \nliderando iniciativas de educación tecnológica y alfabetización digital. Perfil orientado a ciberseguridad, tecnología y liderazgo en entornos formativos.",
+    "motivation": "",
+    "contribution": [],
+    "collaboration": "",
+    "evidence": [],
+    "links": [
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/in/kevin-luna-a0b024325/?locale=es"
+      }
+    ]
+  },
+  "krissia-alejandra-bueno": {
+    "status": "Perfil pendiente de completar",
+    "headline": "Business",
+    "bio": "Estudiante de Economía y Negocios en ESEN. Experiencia en análisis económico y datos como asistente \nde cátedra en múltiples áreas y en entornos financieros. Perfil orientado a análisis, econometría y desarrollo académico.",
+    "motivation": "",
+    "contribution": [],
+    "collaboration": "",
+    "evidence": [],
+    "links": [
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/in/krissia-bueno-a61a4031a/"
+      }
+    ]
+  },
+  "larissa-arias-alamilla": {
+    "status": "Perfil completo",
+    "headline": "Ingeniera Industrial | Liderazgo, gestión de proyectos y mejora de procesos",
+    "bio": "Estudiante de Ingeniería Industrial con experiencia en liderazgo, gestión de proyectos, planeación y coordinación de equipos. Me he desarrollado en espacios de liderazgo universitario, donde he participado en la organización de actividades formativas, proyectos de responsabilidad social y gestión de equipos multidisciplinarios. Como vicepresidenta del programa Impulsa durante la gestión 2026, fortalecí mis habilidades de comunicación, toma de decisiones, organización y trabajo colaborativo. También cuento con experiencia en proyectos relacionados con logística, optimización de procesos y análisis para la mejora de operaciones. Me caracterizo por mi iniciativa, compromiso y capacidad para conectar personas y áreas con el propósito de transformar ideas en proyectos concretos. Busco continuar desarrollándome profesionalmente, generar alianzas y participar en iniciativas que impulsen la innovación, el liderazgo y el impacto positivo en la sociedad.",
+    "motivation": "Busco construir alianzas estratégicas y proyectos que conecten el talento joven con empresas y organizaciones, impulsando la innovación, el liderazgo y el impacto positivo. Estoy abierta a proyectos internacionales, desarrollo de comunidades y colaboraciones con miembros de CLH y BeWay.",
+    "contribution": [
+      "Conocimientos de Ingeniería Industrial, gestión y coordinación de proyectos, liderazgo de equipos, planeación, logística, mejora de procesos y organización. Experiencia en iniciativas de responsabilidad social y colaboración entre áreas."
+    ],
+    "collaboration": "4-5 horas a la semana",
+    "evidence": [
+      {
+        "title": "Intereses",
+        "detail": "Ingeniería Industrial, liderazgo, gestión de proyectos, logística, mejora de procesos, innovación, emprendimiento, responsabilidad social, desarrollo profesional, sostenibilidad."
+      },
+      {
+        "title": "Habilidades",
+        "detail": "Liderazgo, gestión de proyectos, trabajo en equipo, comunicación, planeación, organización, logística, mejora de procesos, resolución de problemas, toma de decisiones."
+      },
+      {
+        "title": "Idiomas",
+        "detail": "Español, Inglés"
+      }
+    ],
+    "video": "/videos/larissa-arias-alamilla.mp4",
+    "links": [
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/in/larissa-arias-alamilla-7a3931374/"
+      }
+    ]
+  },
+  "leonardo-lozano": {
+    "status": "Perfil completo",
+    "headline": "Estudiante de Economía en USFQ | Datos, IA y automatización | The Panchonomist | USFQ DataHub | BI 40/45",
+    "bio": "Soy estudiante de Economía en la Universidad San Francisco de Quito, con interés en análisis económico, investigación aplicada, ciencias sociales computacionales, automatización y uso de datos. Formo parte de la directiva de The Panchonomist, donde contribuyo a iniciativas académicas, eventos, Analytics y proyectos como Econ Challenge Jr. 2026. También colaboro con USFQ DataHub en proyectos relacionados con bases de datos abiertas, metadata e investigación aplicada. En CLH participo como Builder en Automatización e IA, con el objetivo de aportar a la profesionalización y escalabilidad de la comunidad desde la tecnología. Mi trayectoria académica incluye el Diploma Bilingüe del Bachillerato Internacional con 40/45, cuatro becas de mérito, la Lista del Canciller de la USFQ con GPA 4.0, y reconocimientos como Abanderado del Pabellón Nacional y Mejor Egresado.",
+    "motivation": "Quiero construir sistemas, alianzas y proyectos que conecten economía, datos e IA para profesionalizar organizaciones, fortalecer redes universitarias y convertir información dispersa en herramientas útiles para la toma de decisiones.",
+    "contribution": [
+      "Aporto análisis económico, manejo de datos y pensamiento crítico para estructurar problemas, interpretar información y convertirla en propuestas aplicables. Puedo apoyar en investigación, automatización, organización de proyectos y comunicación clara de hallazgos."
+    ],
+    "collaboration": "2-3 horas/semana",
+    "evidence": [
+      {
+        "title": "Intereses",
+        "detail": "inteligencia artificial, análisis económico, ciencia de datos, automatización, investigación aplicada, ciencias sociales computacionales, educación, liderazgo estudiantil, innovación, desarrollo organizacional"
+      },
+      {
+        "title": "Habilidades",
+        "detail": "análisis de datos, pensamiento crítico, investigación académica, Python, R, SQL, Microsoft Excel, automatización, organización de proyectos, comunicación escrita, liderazgo estudiantil, tutoría académica, trabajo en equipo"
+      },
+      {
+        "title": "Idiomas",
+        "detail": "Español Nativo, Inglés C1, Portugués Intermedio"
+      }
+    ],
+    "video": "/videos/leonardo-lozano.mp4",
+    "links": [
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/in/leonardo-lozano-8a8710371/?locale=en"
+      }
+    ]
+  },
+  "lucia-maria-vizcarrondo": {
+    "status": "Perfil pendiente de completar",
+    "headline": "Marketing",
+    "bio": "Estudiante de Marketing en la Universidad de Navarra, especializada en Comunicación Corporativa y \nparticipante del Global Program in Innovation & Entrepreneurship (GPIE), un programa selectivo centrado en \ninnovación y emprendimiento. Ha desarrollado experiencia en marketing hotelero, creación de contenido, \ngestión de eventos y posicionamiento de marca durante sus prácticas en Hotel El Convento, complementada \ncon certificaciones en marketing digital y SEO. Perfil con visión internacional, creativo, orientado a la comunicación \nestratégica, la innovación y el desarrollo de marcas.",
+    "motivation": "",
+    "contribution": [],
+    "collaboration": "",
+    "evidence": [],
+    "links": [
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/in/luc%C3%ADa-maria-vizcarrondo-0928613ab/"
+      }
+    ]
+  },
+  "manuel-losa": {
+    "status": "Perfil completo",
+    "headline": "Técnico y creativo",
+    "bio": "Tras 3 años de estudios en ingeniería aeroespacial, Manuel es una persona cualificada y acostumbrada a buscar los detalles en toda tarea que se le requiere. La dificultad técnica de sus estudios también a generado un perfil muy creativo a la hora de solucionar problemas.",
+    "motivation": "Me gustaría crear un portal de búsqueda de viviendas para estudiantes de erasmus.",
+    "contribution": [
+      "Puedo aportar capacidad de organización, automatización de procesos, contacto personal y resolución de problemas."
+    ],
+    "collaboration": "12 horas/semana",
+    "evidence": [
+      {
+        "title": "Intereses",
+        "detail": "Educación STEM"
+      },
+      {
+        "title": "Habilidades",
+        "detail": "análisis de datos, capacidad de liderazgo"
+      },
+      {
+        "title": "Idiomas",
+        "detail": "español, ingles, chino (básico), alemán (básico)"
+      }
+    ],
+    "video": "/videos/manuel-losa.mp4",
+    "links": [
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/in/manuel-losa-l%C3%B3pez-7560913aa/"
+      }
+    ]
+  },
+  "maria-amo": {
+    "status": "Perfil pendiente de completar",
+    "headline": "Marketing",
+    "bio": "Estudiante de Marketing en inglés en la Universidad Rey Juan Carlos, con experiencia internacional en \nEM Normandie Oxford, Disneyland Paris y Walt Disney World. Paid Media Intern en Havas Media España y Vicepresidenta de ESN URJC, con experiencia en campañas digitales, gestión de equipos, movilidad internacional y experiencia de cliente en entornos multiculturales. Perfil orientado a marketing estratégico, paid media, innovación y creación de experiencias internacionales de alto impacto.",
+    "motivation": "",
+    "contribution": [],
+    "collaboration": "",
+    "evidence": [],
+    "links": [
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/in/mar%C3%ADa-amo/"
+      }
+    ]
+  },
+  "maria-pia-olivera": {
+    "status": "Perfil pendiente de completar",
+    "headline": "Relaciones Internacionales",
+    "bio": "Estudiante de Estudios Internacionales en Universidad ORT Uruguay. Formación en política internacional y análisis geopolítico, con certificaciones en política exterior y relaciones internacionales. Perfil orientado a análisis estratégico, relaciones internacionales y entorno político global.",
+    "motivation": "",
+    "contribution": [],
+    "collaboration": "",
+    "evidence": [],
+    "links": [
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/in/mar%C3%ADa-p%C3%ADa-olivera-coccaro-339928389/"
+      }
+    ]
+  },
+  "maria-victoria-llorach": {
+    "status": "Perfil pendiente de completar",
+    "headline": "Marketing",
+    "bio": "",
+    "motivation": "",
+    "contribution": [],
+    "collaboration": "",
+    "evidence": [],
+    "links": []
+  },
+  "martina-leich": {
+    "status": "Perfil completo",
+    "headline": "Estudiante de Comunicación | Comunicación estratégica, Publicidad y Marketing - Periodismo | Cultura, moda y arte | Uruguay",
+    "bio": "Dentro de la carrera le interesan las áreas de Comunicación Estratégica, Publicidad y Marketing - Periodismo. La combinación de estas áreas le permiten comunicar a las audiencias con una base estratégica sólida. Le interesa explorar la cultura, la moda y el arte. Además, disfruta compartir espacios internacionales y multiculturales.\nEs una persona proactiva, flexible, tenaz y organizada; siempre busca dar su máximo en todo lo que hace, convencida de que de los desafíos surgen los mejores aprendizajes. Estas cualidades se reflejan tanto en su vida personal como en su vida profesional y busca compartirlas con quienes la rodean a través del liderazgo.",
+    "motivation": "Una red de apoyo y colaboración multicultural.",
+    "contribution": [
+      "Tengo experiencia en gestión y creación de contenido para iniciativas institucionales y emprendimientos, así como en proyectos sociales. También en creación de capacitaciones y entrevistas. \nMi empatía y tenacidad me permite guiar proyectos, logrando grandes resultados. Soy una persona creativa, lo que me permite comunicar mensajes atractivos con especial atención al detalle –sin perder su profundidad–."
+    ],
+    "collaboration": "2 horas por semana, disponible para proyectos puntuales",
+    "evidence": [
+      {
+        "title": "Intereses",
+        "detail": "Cultura, moda, arte"
+      },
+      {
+        "title": "Habilidades",
+        "detail": "Empatía, dinamismo y energía, perseverancia, pensamiento crítico, trabajo en equipo, liderazgo, atención al detalle, criterio estético, flexibilidad, proactividad"
+      },
+      {
+        "title": "Idiomas",
+        "detail": "Español, inglés, portugués"
+      }
+    ],
+    "links": [
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/in/martina-leicht-05b44b340/"
+      }
+    ]
+  },
+  "miguel-angel": {
+    "status": "Perfil pendiente de completar",
+    "headline": "Tecnología",
+    "bio": "Estudiante de Ingeniería en Systems Engineering en la Universidad Interamericana de Panamá, \ncon experiencia en infraestructura tecnológica, coordinación de proyectos y soporte IT. Actualmente realiza prácticas en Philips dentro del área de Infrastructure Services, desarrollando conocimientos en gestión de proyectos, operaciones tecnológicas y entornos corporativos internacionales. Destaca por su perfil técnico, orientación al detalle y capacidad de trabajo en equipo, combinando formación en ingeniería con interés por liderazgo y tecnología aplicada a negocio.",
+    "motivation": "",
+    "contribution": [],
+    "collaboration": "",
+    "evidence": [],
+    "links": [
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/in/miguel-mes-81458a285/"
+      }
+    ]
+  },
+  "milton-gorocica-rivas": {
+    "status": "Perfil pendiente de completar",
+    "headline": "Emprender",
+    "bio": "Estudiante de International Business en la Universidad Anáhuac Mayab. Emprendedor y director de \nRancho El Prado, proyecto enfocado en hospitalidad, naturaleza y experiencias sostenibles. Expresidente de la Sociedad de Alumnos de la Facultad de Negocios, con perfil orientado a emprendimiento, liderazgo de equipos y desarrollo de proyectos turísticos.",
+    "motivation": "",
+    "contribution": [],
+    "collaboration": "",
+    "evidence": [],
+    "links": [
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/in/milton-gorocica-rivas-7a110a2b1/"
+      }
+    ]
+  },
+  "minerva-capcha": {
+    "status": "Perfil pendiente de completar",
+    "headline": "Derecho",
+    "bio": "Estudiante de Marketing en la Universidad del Pacífico. Becaria del programa de Gestión de Inversiones \ny Mercado de Capitales de la Bolsa de Valores de Lima. Delegada en Harvard WorldMUN y activa en proyectos internacionales de diplomacia y negociación. Experiencia en investigación de mercado, economía conductual y estrategia de comunicación institucional. Perfil orientado a estrategia, finanzas, innovación y liderazgo internacional.",
+    "motivation": "",
+    "contribution": [],
+    "collaboration": "",
+    "evidence": [],
+    "links": [
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/in/capcha-minerva/"
+      }
+    ]
+  },
+  "nicole-ramirez": {
+    "status": "Perfil pendiente de completar",
+    "headline": "Expansión",
+    "bio": "Estudiante de International Business en la Universidad Espíritu Santo (UEES), becada al 100% por \nmérito académico tras ganar INNOVA UEES 2023 con un proyecto de innovación de impacto. Destaca por su liderazgo, pensamiento crítico y capacidad de adaptación, combinando un perfil académico de alto rendimiento con interés en desarrollo de negocios y comercio internacional. Actualmente realiza prácticas como Executive Assistant Intern en RIVEDASA y participa activamente en apoyo académico como Teaching Assistant en Accounting II.",
+    "motivation": "",
+    "contribution": [],
+    "collaboration": "",
+    "evidence": [],
+    "links": [
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/in/nicole-ram%C3%ADrez-chica-4573bb305/"
+      }
+    ]
+  },
+  "oscar-jose-pleites": {
+    "status": "Perfil pendiente de completar",
+    "headline": "Tecnología",
+    "bio": "Estudiante de Software Engineering and Digital Business en ESEN, especializado en algoritmos, \nbackend y programación competitiva de alto nivel. Co-fundador de Competitive Coding Club (C3), donde lidera la creación de competiciones técnicas y el desarrollo de comunidades tecnológicas en El Salvador. Destaca por su pensamiento estructurado, capacidad de liderazgo bajo presión y enfoque extremo en resolución de problemas complejos, correctness y ejecución técnica.",
+    "motivation": "",
+    "contribution": [],
+    "collaboration": "",
+    "evidence": [],
+    "links": [
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/in/osplei/"
+      }
+    ]
+  },
+  "priscila-bryan-serrano": {
+    "status": "Perfil pendiente de completar",
+    "headline": "Operaciones",
+    "bio": "Estudiante de Florida State University con formación en finanzas, análisis de datos y gestión \nempresarial. Ha desarrollado experiencia en compañías internacionales como Philips y Ascendancy Fund, participando en análisis financiero, financiación inmobiliaria y gestión administrativa. Perfil analítico, adaptable y orientado a la resolución de problemas, con interés en innovación, tecnología aplicada a finanzas y desarrollo internacional.",
+    "motivation": "",
+    "contribution": [],
+    "collaboration": "",
+    "evidence": [],
+    "links": [
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/in/priscilla-bryan-serrano-65b022313/"
+      }
+    ]
+  },
+  "ricardo-corao": {
+    "status": "Perfil pendiente de completar",
+    "headline": "Ingenieria Industrial",
+    "bio": "Estudiante de Ingeniería Industrial Administrativa en la USMA. Experiencia en operaciones y mejora de \nprocesos en EF y Haleon, participando en planificación, ejecución de proyectos internacionales y optimización industrial (Lean Six Sigma). Perfil orientado a operaciones, eficiencia y gestión de proyectos.",
+    "motivation": "",
+    "contribution": [],
+    "collaboration": "",
+    "evidence": [],
+    "links": [
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/in/ricardo-corao-837036331/"
+      }
+    ]
+  },
   "sebastian-rotter-rochin": {
     "status": "Perfil completo",
     "headline": "Estudiante de Negocios Internacionales | Liderazgo Estratégico | Desarrollo Organizacional",
@@ -164,6 +1060,7 @@ const memberPilotProfiles: Record<string, {
         "detail": "Español, Inglés y Chino Básico"
       }
     ],
+    "video": "/videos/sebastian-rotter-rochin.mp4",
     "links": [
       {
         "label": "LinkedIn",
@@ -264,6 +1161,21 @@ const memberPilotProfiles: Record<string, {
       }
     ]
   },
+  "valeria-espinoza-leon": {
+    "status": "Perfil pendiente de completar",
+    "headline": "Negocios Internacionales",
+    "bio": "Estudiante de Negocios Internacionales en la Universidad Espíritu Santo (UEES). Fundadora del vivero \nSan Cristóbal y participante en Hult Prize 2025 con el proyecto social Koralink. Experiencia en proyectos vinculados a sostenibilidad, gestión de iniciativas emprendedoras y liderazgo estudiantil. Perfil orientado a emprendimiento, sostenibilidad y negocios internacionales.",
+    "motivation": "",
+    "contribution": [],
+    "collaboration": "",
+    "evidence": [],
+    "links": [
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/in/valeria-espinoza-le%C3%B3n-4bb325306/"
+      }
+    ]
+  },
   "valeria-riojas-davila": {
     "status": "Perfil completo",
     "headline": "Estudiante de Mercadotecnia estratégica | Negocios internacionales | Liderazgo | Gestión de Proyectos e Impacto Social",
@@ -295,33 +1207,343 @@ const memberPilotProfiles: Record<string, {
       }
     ]
   },
-  "michelle-rogel": {
+  "vivianna-reynold": {
     "status": "Perfil completo",
-    "headline": "Estudiante de Ingeniería Mecatrónica | Gestión de proyectos de ingeniería e impacto social | Voluntariado Corporativo",
-    "bio": "Ingeniera en formación apasionada por liderar proyectos que generan impacto social, conectar personas y construir alianzas entre tecnología, empresas y comunidad.",
-    "motivation": "Quiero formar parte de una comunidad donde podamos compartir conocimiento, colaborar en proyectos con impacto y desarrollar iniciativas que unan la innovación, la tecnología y el compromiso social. También busco seguir creciendo como líder y aprender de personas con diferentes experiencias.",
+    "headline": "Estratega de marketing de contenidos y narrativa de marca | México",
+    "bio": "Vivian es creadora de contenido y estratega de marketing digital. Con formación en finanzas, aporta una mirada analítica poco común al desarrollo de marca: diseña estrategias de contenido orientadas a la conversión, construye narrativas con voz propia y traduce conceptos complejos en historias cercanas. Su trabajo se ubica en la intersección entre la comunicación estratégica, el storytelling y el emprendimiento con propósito. Le interesa el marketing que no solo capta audiencias, sino que construye comunidad y significado a largo plazo.",
+    "motivation": "Una red de creadores y proyectos hispanohablantes que apuesten por el contenido con propósito.",
     "contribution": [
-      "• Gestión y coordinación de proyectos.• Organización de voluntariados corporativos.• Planeación de eventos y experiencias.• Vinculación con organizaciones de la sociedad civil.• Automatización y mejora de procesos.• Trabajo en equipo y liderazgo.• Desarrollo de estrategias de impacto social."
+      "Estrategia de marketing de contenidos y desarrollo de voz de marca: guiones para redes, arquitectura narrativa y análisis de audiencia. Aporto también una perspectiva financiera para medir y comunicar el valor de una marca."
     ],
-    "collaboration": "Disponible para alianzas estratégicas, proyectos internacionales, desarrollo de comunidad y colaboraciones puntuales con empresas, universidades y miembros de CLH y Beway.",
+    "collaboration": "Disponibilidad flexible entre semana por las tardes y fines de semana; abierta a proyectos puntuales y alianzas de mediano plazo.",
     "evidence": [
       {
         "title": "Intereses",
-        "detail": "Innovación social, Ingeniería, Automatización, Inteligencia Artificial, Gestión de proyectos, Emprendimiento social, Liderazgo, Networking, Tecnología, Educación, Sustentabilidad, Voluntariado Corporativo, Desarrollo Comunitario."
+        "detail": "marketing de contenidos, storytelling de marca, comunicación digital, emprendimiento con propósito, estrategia en redes sociales, cultura Gen Z, finanzas aplicadas al branding"
       },
       {
         "title": "Habilidades",
-        "detail": "* Project Management* Organización de eventos* Planeación estratégica* Liderazgo* Comunicación* Trabajo en equipo* Resolución de problemas* Manejo de IA (Claude, Codex)* Python* MATLAB* AutoCAD* Fusion 360* PLCs* Arduino* Análisis de datos* Microsoft Excel* Google Workspace"
+        "detail": "estrategia de contenido, redacción y copywriting, desarrollo de voz de marca, storytelling, análisis financiero"
       },
       {
         "title": "Idiomas",
-        "detail": "🇲🇽 Español — Nativo🇺🇸 Inglés — Avanzado (C1)"
+        "detail": "español, inglés"
+      }
+    ],
+    "video": "/videos/vivianna-reynold.mp4",
+    "links": [
+      {
+        "label": "LinkedIn",
+        "href": "www.linkedin.com/in/vivianna-reynold-8120b1300"
+      }
+    ]
+  },
+  "yamel-fernandez": {
+    "status": "Perfil pendiente de completar",
+    "headline": "Marketing",
+    "bio": "Estudiante de Comunicación Audiovisual en la Universidad Iberoamericana. Experiencia en fotografía y \nstorytelling visual, cubriendo eventos, retrato y proyectos sociales, incluyendo trabajos institucionales de alto nivel. Perfil creativo orientado a contenido, narrativa visual y producción audiovisual.",
+    "motivation": "",
+    "contribution": [],
+    "collaboration": "",
+    "evidence": [],
+    "links": [
+      {
+        "label": "LinkedIn",
+        "href": "https://linkedin.com/in/yamel-fernández-899617317/?skipRedirect=true"
+      }
+    ]
+  },
+  "anahi-ayala-monzon": {
+    "status": "Perfil completo",
+    "headline": "Ciencias Diplomáticas y Derecho | Diálogo, cooperación internacional y diplomacia deportiva | Paraguay",
+    "bio": "Anahí Ayala Monzón estudia Ciencias Diplomáticas y Derecho, dos carreras que combina para comprender las relaciones internacionales desde la teoría y la práctica. Orienta su camino hacia el cruce entre el deporte, el derecho y la diplomacia, donde se encuentran su vocación profesional y su pasión personal. Hoy ese interés ya se traduce en acciones concretas. Representa a distintos países en simulaciones diplomáticas, colaborando tambien en la organización de eventos internacionales y deportivos. A la vez, sostiene un compromiso constante con causas ambientales y sociales a través del voluntariado. En el ámbito universitario, preside el Tribunal Electoral Independiente de su Club de Diplomacia. Además, es miembro fundadora y Secretaria de Finanzas de la Revista Diplomática Académica \"El Diplómata UC\", espacio que impulsa la construcción de articulos, debate de ideas y la vida institucional. Entiende la cooperación internacional como un ejercicio cotidiano de diálogo y representación, y el deporte como un lenguaje capaz de acercar culturas. Con esa base, aspira a seguir creciendo y a tender puentes cada vez más amplios entre las naciones.",
+    "motivation": "Construir, junto a la comunidad, un sistema de investigación y redacción de artículos que forme a nuevos autores, e iniciativas que respondan a los intereses y necesidades de sus miembros. En equipo, abrir a más jóvenes espacios de cooperación internacional y diálogo entre naciones.",
+    "contribution": [
+      "Investigación y redacción de artículos académicos, experiencia en representación diplomática, organización de eventos internacionales y trabajo voluntario. Competencias en negociación, mediación intercultural y comunicación bilingüe, y liderazgo orientado a la cooperación internacional."
+    ],
+    "collaboration": "Disponible para proyectos y colaboraciones puntuales, según agenda académica.",
+    "evidence": [
+      {
+        "title": "Intereses",
+        "detail": "Diplomacia, derecho internacional, diplomacia deportiva, cooperación internacional, medioambiente y conservación, fortalecimiento democrático, liderazgo juvenil, investigación y escritura académica, inclusión social, compromiso social y voluntariado."
+      },
+      {
+        "title": "Habilidades",
+        "detail": "Negociación, oratoria, mediación intercultural, construcción de consensos, gestión de proyectos y eventos, liderazgo de equipos, análisis estratégico, comunicación bilingüe, gestión del tiempo y multitarea, y adaptabilidad."
+      },
+      {
+        "title": "Idiomas",
+        "detail": "Español, Guaraní e Inglés."
       }
     ],
     "links": [
       {
         "label": "LinkedIn",
-        "href": "https://www.linkedin.com/in/michelle-rogel-garc%C3%ADa-a37820219/"
+        "href": "https://www.linkedin.com/in/anahiayalazn/?locale=en"
+      }
+    ]
+  },
+  "ander-garcia": {
+    "status": "Perfil pendiente de completar",
+    "headline": "Derecho",
+    "bio": "",
+    "motivation": "",
+    "contribution": [],
+    "collaboration": "",
+    "evidence": [],
+    "links": []
+  },
+  "federico-lander": {
+    "status": "Perfil completo",
+    "headline": "Estudiante de Ingeniería en Dirección de Negocios | Apasionado por las finanzas, la innovación y desarrollo empresarial",
+    "bio": "Estudiante de cuarto semestre de Ingeniería en Dirección de Negocios, con un fuerte interés en finanzas, desarrollo empresarial y liderazgo. Complementa su formación académica con su participación en la Sociedad de Ingeniería, el Programa de Liderazgo Empresarial y diversas actividades extracurriculares y de voluntariado.\nSe caracteriza por su disciplina, compromiso y disposición para aprender y asumir nuevos retos.",
+    "motivation": "Me interesa construir una red de relaciones profesionales que genere oportunidades de aprendizaje y colaboración. Busco impulsar proyectos relacionados con finanzas y negocios.",
+    "contribution": [
+      "Perspectiva de un estudiante de negocios interesado en finanzas, liderazgo y desarrollo empresarial. Puedo compartir aprendizajes de proyectos académicos, networking, actividades de liderazgo y voluntariado, así como mi experiencia desarrollando habilidades técnicas y profesionales."
+    ],
+    "collaboration": "5 horas por semana",
+    "evidence": [
+      {
+        "title": "Intereses",
+        "detail": "inteligencia artificial, mercado de valores, consultoría, deportes"
+      },
+      {
+        "title": "Habilidades",
+        "detail": "Análisis, resolución de problemas, trabajo en equipo, comunicación, liderazgo, organización, disciplina, pensamiento crítico, Excel, networking"
+      },
+      {
+        "title": "Idiomas",
+        "detail": "Español, inglés"
+      }
+    ],
+    "video": "/videos/federico-lander.mp4",
+    "links": [
+      {
+        "label": "LinkedIn",
+        "href": "https://linkedin.com/in/federicolander29/es/?skipRedirect=true"
+      }
+    ]
+  },
+  "fran-rodgmont": {
+    "status": "Perfil pendiente de completar",
+    "headline": "Ingeniería Informática",
+    "bio": "Estudiante de Computer Science en Universidad Don Bosco. Fundador de Obelysk, centrado en el desarrollo de infraestructura de inteligencia artificial y sistemas aplicados a digital assets. Perfil orientado a inteligencia artificial, arquitectura tecnológica y construcción de soluciones deep tech en entornos innovadores",
+    "motivation": "",
+    "contribution": [],
+    "collaboration": "",
+    "evidence": [],
+    "links": [
+      {
+        "label": "LinkedIn",
+        "href": "https://linkedin.com/in/rodgmont/?skipRedirect=true"
+      }
+    ]
+  },
+  "gilberto-ceballos": {
+    "status": "Perfil completo",
+    "headline": "Estudiante de Derecho | Derecho Corporativo y M&A",
+    "bio": "Gilberto Ceballos es estudiante de noveno semestre de Derecho en la Universidad Panamericana con sólida experiencia en derecho corporativo, M&A y reestructuras. Ha trabajado en prestigiosos bufetes como Garrido Licona, S.C. y Rios Zertuche, González Lutteroth y Rodríguez, S.C., desarrollando competencias en asesoramiento corporativo y análisis legal. Domina inglés, español y francés, lo que le permite desempeñarse en entornos multiculturales. Busca contribuir eficazmente como abogado ético y comprometido, manteniendo actualización constante sobre tendencias legales.",
+    "motivation": "Proyectos de alto impacto en derecho corporativo e innovación legal; fortalecer mi práctica en reestructuras y financiero;\ncontribuir al desarrollo de soluciones legales éticas y estratégicas en contextos multiculturales.",
+    "contribution": [
+      "Experiencia en derecho corporativo y M&A, asesoramiento en constitución y operación de sociedades, redacción de contratos, comunicación multilingüe (inglés, español, francés) y análisis legal estratégico."
+    ],
+    "collaboration": "Siempre",
+    "evidence": [
+      {
+        "title": "Intereses",
+        "detail": "Derecho corporativo, M&A, Innovación legal, Derecho de tecnología, Entornos multiculturales, Liderazgo ético, Fútbol, Viajar, Gastronomía"
+      },
+      {
+        "title": "Habilidades",
+        "detail": "Análisis crítico, Comunicación efectiva, Trabajo en equipo, Liderazgo, Pensamiento estratégico, Resolución de problemas, Adaptabilidad multicultural, Negociación, Redacción y presentación de ideas, Gestión de proyectos, Atención al detalle"
+      },
+      {
+        "title": "Idiomas",
+        "detail": "Español, Inglés, Frances"
+      }
+    ],
+    "video": "/videos/gilberto-ceballos.mp4",
+    "links": [
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/in/gilberto-ceballos-97aa94230/"
+      }
+    ]
+  },
+  "iker-guitierrez-de-jesus": {
+    "status": "Perfil pendiente de completar",
+    "headline": "Ingeniería Industrial",
+    "bio": "Estudiante de Ingeniería Industrial y de Sistemas en el Tecnológico de Monterrey, con experiencia profesional como \nDigital Intern en El Puerto de Liverpool. Presidente de COPARMEX Capítulo Universitario Tec Santa Fe, donde lidera \niniciativas de vinculación empresarial, emprendimiento, formación profesional y liderazgo joven. Cuenta además con \nexperiencia en coordinación logística, organización de eventos y gestión de proyectos dentro de asociaciones estudiantiles. \nPerfil orientado a transformación digital, mejora de procesos, tecnología aplicada a la toma de decisiones y construcción de \nconexiones entre el entorno universitario y empresarial.",
+    "motivation": "",
+    "contribution": [],
+    "collaboration": "",
+    "evidence": [],
+    "links": [
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/in/iker-guti%C3%A9rrez-de-jes%C3%BAs-aa7b05244/"
+      }
+    ]
+  },
+  "ivo-gomez-de-segura": {
+    "status": "Perfil pendiente de completar",
+    "headline": "Relaciones Internacionales",
+    "bio": "Estudiante de Business Administration & International Relations en IE University. Experiencia en ventas \ny consultoría de branding, con participación en proyectos en IEU Labs y entorno internacional (SMU). Perfil orientado a negocio, marketing y entornos internacionales.",
+    "motivation": "",
+    "contribution": [],
+    "collaboration": "",
+    "evidence": [],
+    "links": [
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/in/ivogomezdeseguragomez/?locale=es"
+      }
+    ]
+  },
+  "jorge-calderon": {
+    "status": "Perfil completo",
+    "headline": "Creo en el liderazgo que trasciende, en las decisiones que transforman y que su impacto puede cambiar el mundo",
+    "bio": "Soy estudiante de Economía en la Universidad San Francisco de Quito (USFQ) y me apasiona comprender cómo funcionan los principios económicos en la práctica y cómo las instituciones influyen en la vida cotidiana. Me caracterizo por mi resiliencia, ambición y un fuerte deseo de crecimiento continuo.\n\nA lo largo de mi trayectoria académica y profesional, he consolidado habilidades clave en trabajo en equipo, comunicación y resolución de problemas. Como presidente del Consejo Estudiantil de la U.E. Liceo Panamericano Samborondón, se fomentó con éxito la cohesión grupal y se optimizó el desempeño del equipo. Así mismo la experiencia en el voluntariado me ayudó a comprender que lo más importante en esta vida, es el impacto y la huella imborrable que dejas a las personas que están en la comunidad.",
+    "motivation": "Una familia, que se sienta conectada con los valores de CLH.",
+    "contribution": [
+      "Experiencia en proyectos de voluntariado, gestión de grupos, propuestas de acción."
+    ],
+    "collaboration": "2-3 horas a la semana",
+    "evidence": [
+      {
+        "title": "Intereses",
+        "detail": "Economía circular, instituciones, educación."
+      },
+      {
+        "title": "Habilidades",
+        "detail": "Responsabilidad, liderazgo."
+      },
+      {
+        "title": "Idiomas",
+        "detail": "Inglés, español. (Francés y mandarín básico)"
+      }
+    ],
+    "video": "/videos/jorge-calderon.mp4",
+    "links": [
+      {
+        "label": "LinkedIn",
+        "href": "www.linkedin.com/in/jorgeandrscalderon"
+      }
+    ]
+  },
+  "karen-jimena-fonseca": {
+    "status": "Perfil pendiente de completar",
+    "headline": "Finanzas",
+    "bio": "Estudiante de Finanzas y Relaciones Internacionales en la Universidad Externado de Colombia. \nLiderazgo en mercado de capitales como directora en Finvext Club y monitora académica, con experiencia en investigación y análisis financiero. Perfil orientado a inversión, asset management y mercados financieros.",
+    "motivation": "",
+    "contribution": [],
+    "collaboration": "",
+    "evidence": [],
+    "links": [
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/in/karen-jimena-fonseca/"
+      }
+    ]
+  },
+  "krissia-alejandra-bueno-clh-077": {
+    "status": "Perfil pendiente de completar",
+    "headline": "Miembro",
+    "bio": "",
+    "motivation": "",
+    "contribution": [],
+    "collaboration": "",
+    "evidence": [],
+    "links": []
+  },
+  "laura-nayeli-mendez-martinez": {
+    "status": "Perfil pendiente de completar",
+    "headline": "Negocios Internacionales",
+    "bio": "Estudiante de Negocios Internacionales en el Tecnológico de Monterrey y participante de la quinta generación del \nEugenio Garza Sada Global Leadership Program. Vicepresidenta de SABGB Campus Monterrey, donde impulsa \niniciativas de formación profesional, vinculación empresarial, liderazgo estudiantil y experiencias relacionadas con \ncomercio internacional y nearshoring. Cofundadora de Música 0, proyecto social que combina cultura, \nparticipación universitaria y lucha contra el hambre. Perfil orientado a negocios globales, liderazgo con propósito, \norganización de eventos, creación de alianzas e impacto social.",
+    "motivation": "",
+    "contribution": [],
+    "collaboration": "",
+    "evidence": [],
+    "links": [
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/in/laura-nayeli-mendez-martinez-979627381/"
+      }
+    ]
+  },
+  "luz-aiyana-gonzalez-gordillo": {
+    "status": "Perfil pendiente de completar",
+    "headline": "Turismo Internacional",
+    "bio": "Estudiante de Turismo Internacional en la Universidad Anáhuac Puebla, con formación complementaria en gestión \nde marcas de lujo y turismo sostenible. Actualmente es Secretaria General del Consejo Estudiantil GASTUR y \nNetworking Executive del programa Vértice Honors, donde desarrolla alianzas estratégicas, gestiona patrocinios \ny genera oportunidades para estudiantes de alto rendimiento. Cuenta además con experiencia en estrategia y \noperaciones turísticas, diseño de itinerarios personalizados y organización de iniciativas orientadas a la integración \nestudiantil. Perfil enfocado en liderazgo, relaciones institucionales, hospitalidad, turismo consciente y desarrollo de\n experiencias de alto impacto.",
+    "motivation": "",
+    "contribution": [],
+    "collaboration": "",
+    "evidence": [],
+    "links": [
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/in/aiyana-gonz%C3%A1lez/"
+      }
+    ]
+  },
+  "maria-jose-merida-acuna": {
+    "status": "Perfil completo",
+    "headline": "Emprendedora | Innovación e Inteligencia Artificial | Liderazgo | Relaciones Internacionales",
+    "bio": "María José es emprendedora y estudiante de Relaciones Internacionales, apasionada por el liderazgo, la innovación y el uso estratégico de la inteligencia artificial para generar impacto. Ha desarrollado proyectos de impacto social, iniciativas de emprendimiento y transformación digital, combinando una visión global con la capacidad de convertir ideas en acciones. Cree en el aprendizaje continuo, la colaboración y la creación de oportunidades que conecten a jóvenes, empresas y organizaciones para resolver desafíos reales. Su propósito es impulsar iniciativas que fomenten la innovación, el liderazgo y el desarrollo sostenible.",
+    "motivation": "Quiero construir una red de líderes, emprendedores y agentes de cambio que generen oportunidades para quienes no han tenido acceso a ellas. Mi propósito es conectar personas, organizaciones y empresas para impulsar proyectos que identifiquen, desarrollen y potencien talentos, utilizando la innovación, la inteligencia artificial y la colaboración como herramientas para crear un impacto sostenible y transformar comunidades en Hispanoamérica.",
+    "contribution": [
+      "Experiencia en desarrollo de negocios, marketing estratégico y ventas; implementación de herramientas de inteligencia artificial para optimizar procesos; liderazgo de proyectos, creación de alianzas, organización de iniciativas para jóvenes y una visión internacional enfocada en innovación, emprendimiento e impacto social."
+    ],
+    "collaboration": "3 horas",
+    "evidence": [
+      {
+        "title": "Intereses",
+        "detail": "Inteligencia Artificial, Desarrollo sostenibles, inversiones, emprendimientos, negocios, escritura intencional, filosofia"
+      },
+      {
+        "title": "Habilidades",
+        "detail": "Negociación, Liderazgo, Desarrolladora de estrategias, Adaptabilidad, Comunicacion asertiva, inteligencia cultural"
+      },
+      {
+        "title": "Idiomas",
+        "detail": "Español, Ingles y Frances"
+      }
+    ],
+    "video": "/videos/maria-jose-merida-acuna.mp4",
+    "links": [
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/in/maria-jose-merida-acu%C3%B1a-a6b0802ba/"
+      }
+    ]
+  },
+  "maria-lucia-masse-porras": {
+    "status": "Perfil completo",
+    "headline": "Banca de Inversión y Valoración de Empresas | Modelación Financiera | Finanzas Corporativas | Estudiante de Finanzas y Relaciones Internacionales",
+    "bio": "María Lucía es estudiante de Finanzas y Relaciones Internacionales en la Universidad Externado de Colombia, con un marcado interés en Banca de Inversión, Finanzas Corporativas y Valoración de Empresas.\n\nSe caracteriza por ser una persona disciplinada, analítica y curiosa, motivada por comprender cómo las empresas crean valor y toman decisiones financieras estratégicas. Disfruta trabajar con datos, desarrollar análisis estructurados y abordar los problemas con un pensamiento crítico y una gran atención al detalle.\n\nSu objetivo es continuar desarrollándose como Analista de Banca de Inversión o Analista Financiera, aportando rigor analítico, sólidos fundamentos financieros y una visión orientada a la creación de valor a largo plazo.",
+    "motivation": "Quiero impulsar proyectos que conecten las finanzas con el impacto empresarial y social, construir una red de personas con alto potencial y participar en iniciativas internacionales donde el conocimiento, la colaboración y la innovación generen valor.",
+    "contribution": [
+      "Análisis financiero, valoración de empresas y modelación financiera, además de una visión estratégica y colaborativa. Me gusta estructurar ideas, investigar, resolver problemas y aportar con disciplina, pensamiento crítico y enfoque en la creación de valor"
+    ],
+    "collaboration": "2 horas a la semana",
+    "evidence": [
+      {
+        "title": "Intereses",
+        "detail": "Finanzas y Economía"
+      },
+      {
+        "title": "Habilidades",
+        "detail": "Análisis financiero Valoración de empresas Modelación financiera Finanzas corporativas Pensamiento analítico Resolución de problemas Trabajo en equipo Liderazgo Comunicación efectiva Atención al detalle"
+      },
+      {
+        "title": "Idiomas",
+        "detail": "Español e Inglés"
+      }
+    ],
+    "links": [
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/in/mariamasse/"
       }
     ]
   },
@@ -355,235 +1577,153 @@ const memberPilotProfiles: Record<string, {
       }
     ]
   },
-  "maria-lucia-masse-porras": {
+  "miguel-jose-taveras": {
+    "status": "Perfil pendiente de completar",
+    "headline": "Derecho",
+    "bio": "Estudiante de Derecho en PUCMM y socio gerente de Kimaya Consulting, iniciativa enfocada en inclusión \nlaboral para personas con discapacidad. Perfil con fuerte implicación en derecho, política e impacto social, combinando liderazgo universitario, experiencia institucional y capacidad de emprendimiento.",
+    "motivation": "",
+    "contribution": [],
+    "collaboration": "",
+    "evidence": [],
+    "links": [
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/in/miguel-jos%C3%A9-taveras-ben%C3%ADtez-88b9a52a1/"
+      }
+    ]
+  },
+  "milla-allegra-balandran": {
+    "status": "Perfil pendiente de completar",
+    "headline": "Relaciones Internacionales",
+    "bio": "Estudiante de doble grado en Derecho y Relaciones Internacionales en el Tecnológico de Monterrey. Activa  en liderazgo estudiantil y debate internacional a través de Model UN y el National Hispanic Institute, donde participa como JFL College Intern. Seleccionada para el Eugenio Garza Sada Global Leadership Program, con enfoque en liderazgo, asuntos internacionales y compromiso comunitario",
+    "motivation": "",
+    "contribution": [],
+    "collaboration": "",
+    "evidence": [],
+    "links": [
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/in/millaallegraa/"
+      }
+    ]
+  },
+  "raphael-andersor-sanchez-pinto": {
+    "status": "Perfil pendiente de completar",
+    "headline": "Finanzas",
+    "bio": "Estudiante de Economía en la Universidad del Pacífico y del programa Economics & Finance de la \nUniversity of London (dirección académica LSE). Director de Trascendencia Académica en la representación estudiantil (REUP) y miembro del consejo de facultad de Economía y Finanzas. Integrante de la sociedad honorífica Alpha Sigma Nu y vocero institucional de la universidad. Perfil orientado a análisis económico, finanzas y liderazgo estudiantil.",
+    "motivation": "",
+    "contribution": [],
+    "collaboration": "",
+    "evidence": [],
+    "links": [
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/in/raphael-sanchez-pinto/"
+      }
+    ]
+  },
+  "roberto-moran": {
+    "status": "Perfil pendiente de completar",
+    "headline": "Miembro",
+    "bio": "",
+    "motivation": "",
+    "contribution": [],
+    "collaboration": "",
+    "evidence": [],
+    "links": []
+  },
+  "rodrigo-lopez-bolanos": {
+    "status": "Perfil pendiente de completar",
+    "headline": "Business",
+    "bio": "Estudiante de Economía y Negocios en ESEN. Perfil con fuerte liderazgo en iniciativas académicas, \ntecnológicas y de impacto social, destacando en formación en liderazgo, incidencia política y emprendimiento. Experiencia como capacitador y facilitador de equipos, con enfoque en innovación, comunicación y desarrollo de proyectos.",
+    "motivation": "",
+    "contribution": [],
+    "collaboration": "",
+    "evidence": [],
+    "links": [
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/in/rodrigo-l%C3%B3pez-161954250/"
+      }
+    ]
+  },
+  "sophia-de-leone": {
+    "status": "Perfil pendiente de completar",
+    "headline": "Negocios Digitales",
+    "bio": "Estudiante de Negocios Digitales en University of Michigan (Ross) y Universidad de San Andrés. Experiencia en análisis financiero y operaciones en entorno tech, además de emprendimiento con una marca de producto sostenible. Perfil técnico con conocimientos en Python y SQL, orientado a product, business analytics y desarrollo de negocio en entornos internacionales.",
+    "motivation": "",
+    "contribution": [],
+    "collaboration": "",
+    "evidence": [],
+    "links": [
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/in/sophia-de-leone/?locale=es"
+      }
+    ]
+  },
+  "stephany-cajamarca": {
+    "status": "Perfil pendiente de completar",
+    "headline": "Negocios Internacionales",
+    "bio": "Hult Prize. Emprendedora",
+    "motivation": "",
+    "contribution": [],
+    "collaboration": "",
+    "evidence": [],
+    "links": [
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/in/stephany-cajamarca-7548ab3b0/"
+      }
+    ]
+  },
+  "valeria-aspiazu": {
     "status": "Perfil completo",
-    "headline": "Banca de Inversión y Valoración de Empresas | Modelación Financiera | Finanzas Corporativas | Estudiante de Finanzas y Relaciones Internacionales",
-    "bio": "María Lucía es estudiante de Finanzas y Relaciones Internacionales en la Universidad Externado de Colombia, con un marcado interés en Banca de Inversión, Finanzas Corporativas y Valoración de Empresas.Se caracteriza por ser una persona disciplinada, analítica y curiosa, motivada por comprender cómo las empresas crean valor y toman decisiones financieras estratégicas. Disfruta trabajar con datos, desarrollar análisis estructurados y abordar los problemas con un pensamiento crítico y una gran atención al detalle.Su objetivo es continuar desarrollándose como Analista de Banca de Inversión o Analista Financiera, aportando rigor analítico, sólidos fundamentos financieros y una visión orientada a la creación de valor a largo plazo.",
-    "motivation": "Quiero impulsar proyectos que conecten las finanzas con el impacto empresarial y social, construir una red de personas con alto potencial y participar en iniciativas internacionales donde el conocimiento, la colaboración y la innovación generen valor.",
+    "headline": "Especialista en liderazgo educativo para América Latina. | Escritora | Creadora y líder de proyectos.",
+    "bio": "Profesional especialista en liderazgo educativo para América Latina, escritora y creadora de proyectos con impacto social. Mi trayectoria se ha caracterizado por impulsar iniciativas que promueven la educación, el liderazgo juvenil y el desarrollo sostenible, articulando esfuerzos entre la academia, organizaciones sociales y el sector privado. Como líder, creo en el poder de las ideas para transformar realidades y en la educación como el principal motor del cambio. He participado en el diseño y gestión de programas orientados al fortalecimiento de competencias, la formación de nuevos líderes y la construcción de comunidades comprometidas con el bien común. Mi vocación por la escritura y la comunicación me ha permitido inspirar, sensibilizar y movilizar a diferentes audiencias a través de contenidos con propósito. Actualmente continúo desarrollando proyectos que integran innovación, liderazgo y servicio, convencida de que el verdadero impacto se alcanza cuando las personas encuentran un propósito que trasciende sus propios intereses y contribuye positivamente a la sociedad.",
+    "motivation": "Dentro de CLH me gustaría construir una red de colaboración que impulse proyectos con impacto en educación, liderazgo, innovación y desarrollo sostenible, promoviendo alianzas entre universidades, empresas, organizaciones sociales e instituciones públicas de América Latina. Aspiro a desarrollar iniciativas que fortalezcan la formación de líderes comprometidos con el bien común, capaces de transformar los desafíos de sus comunidades en oportunidades de crecimiento.\n\nUno de los proyectos que deseo impulsar es el programa que promueve el cuidado y bienestar de la salud mental SEAH y la revista EDUKT.",
     "contribution": [
-      "Análisis financiero, valoración de empresas y modelación financiera, además de una visión estratégica y colaborativa. Me gusta estructurar ideas, investigar, resolver problemas y aportar con disciplina, pensamiento crítico y enfoque en la creación de valor"
+      "Aspiro a contribuir a la comunidad CLH compartiendo mi experiencia en liderazgo educativo, gestión de proyectos de impacto social, comunicación estratégica y formación de jóvenes líderes. Creo en el poder de la colaboración para convertir las ideas en iniciativas sostenibles que respondan a los desafíos de nuestras comunidades. Desde mi experiencia como escritora y creadora de proyectos, puedo aportar metodologías para fortalecer la escritura como herramienta de influencia, reflexión y transformación social, el liderazgo con propósito, la creatividad, la construcción de alianzas entre academia, empresa, organizaciones sociales y sector público, además del desarrollo de estrategias que generen impacto. Asimismo, deseo compartir herramientas para la gestión de equipos, organización de eventos, conferencias y espacios de aprendizaje colaborativo, el diseño de programas formativos y la comunicación como instrumento para inspirar, movilizar personas y construir una cultura basada en principios, valores e innovación social con el objetivo de convertir ideas en proyectos sostenibles."
     ],
-    "collaboration": "2 horas a la semana",
+    "collaboration": "Actualmente cuento con una disponibilidad estimada de 3 a 4 horas semanales para colaborar activamente en los proyectos e iniciativas impulsados por la comunidad. Me interesa aportar con mi experiencia en liderazgo, educación, gestión de proyectos y const",
     "evidence": [
       {
         "title": "Intereses",
-        "detail": "Finanzas y Economía"
+        "detail": "Liderazgo y desarrollo del talento, Educación e innovación educativa, Gestión de proyectos e innovación social, Emprendimiento y empresa, Comunicación estratégica y escritura, Cooperación internacional y Desarrollo Sostenible"
       },
       {
         "title": "Habilidades",
-        "detail": "Análisis financiero Valoración de empresas Modelación financiera Finanzas corporativas Pensamiento analítico Resolución de problemas Trabajo en equipo Liderazgo Comunicación efectiva Atención al detalle"
+        "detail": "Liderazgo estratégico, Innovación social, Gestión y dirección de proyectos, Construcción de alianzas estratégicas, Comunicación para el cambio social, Desarrollo de ecosistemas de aprendizaje y liderazgo."
       },
       {
         "title": "Idiomas",
-        "detail": "Español e Inglés"
+        "detail": "Español, Inglés."
       }
     ],
     "links": [
       {
         "label": "LinkedIn",
-        "href": "https://www.linkedin.com/in/mariamasse/"
+        "href": "https://www.linkedin.com/in/valeria-aspiazu-51145221a/"
       }
     ]
   },
-  "manuel-losa": {
+  "valeria-ocheita": {
     "status": "Perfil completo",
-    "headline": "Técnico y creativo",
-    "bio": "Tras 3 años de estudios en ingeniería aeroespacial, Manuel es una persona cualificada y acostumbrada a buscar los detalles en toda tarea que se le requiere. La dificultad técnica de sus estudios también a generado un perfil muy creativo a la hora de solucionar problemas.",
-    "motivation": "Me gustaría crear un portal de búsqueda de viviendas para estudiantes de erasmus.",
+    "headline": "Estudiante creativa",
+    "bio": "Valeria es una futura comunicadora dispuesta a enseñar que la comunicación va más allá de la simple idea de “escribir” o “leer”. Porque sabe que con el lenguaje se mueve el mundo y con el se pueden hacer muchas cosas.",
+    "motivation": "Impulsar a ayudar a posicionar una marca, crear conexiones con audiencias y poder difundir correctamente el propósito de una empresa o marca.",
     "contribution": [
-      "Puedo aportar capacidad de organización, automatización de procesos, contacto personal y resolución de problemas."
+      "Desarrollar estrategias de comunicación alineadas con la marca u organización. \nCrear contenido creativo que conecte con la audiencia. \nAnalizar audiencias, y métricas clave"
     ],
-    "collaboration": "12 horas/semana",
+    "collaboration": "2 horas",
     "evidence": [
       {
         "title": "Intereses",
-        "detail": "Educación STEM"
+        "detail": "Storytelling, organizaciones de eventos, branding, la creatividad e innovación de campañas"
       },
       {
         "title": "Habilidades",
-        "detail": "análisis de datos, capacidad de liderazgo"
-      },
-      {
-        "title": "Idiomas",
-        "detail": "español, ingles, chino (básico), alemán (básico)"
-      }
-    ],
-    "video": "/videos/manuel-losa.mp4",
-    "links": [
-      {
-        "label": "LinkedIn",
-        "href": "https://www.linkedin.com/in/manuel-losa-l%C3%B3pez-7560913aa/"
-      }
-    ]
-  },
-  "leonardo-lozano": {
-    "status": "Perfil completo",
-    "headline": "Estudiante de Economía en USFQ | Datos, IA y automatización | The Panchonomist | USFQ DataHub | BI 40/45",
-    "bio": "Soy estudiante de Economía en la Universidad San Francisco de Quito, con interés en análisis económico, investigación aplicada, ciencias sociales computacionales, automatización y uso de datos. Formo parte de la directiva de The Panchonomist, donde contribuyo a iniciativas académicas, eventos, Analytics y proyectos como Econ Challenge Jr. 2026. También colaboro con USFQ DataHub en proyectos relacionados con bases de datos abiertas, metadata e investigación aplicada. En CLH participo como Builder en Automatización e IA, con el objetivo de aportar a la profesionalización y escalabilidad de la comunidad desde la tecnología. Mi trayectoria académica incluye el Diploma Bilingüe del Bachillerato Internacional con 40/45, cuatro becas de mérito, la Lista del Canciller de la USFQ con GPA 4.0, y reconocimientos como Abanderado del Pabellón Nacional y Mejor Egresado.",
-    "motivation": "Quiero construir sistemas, alianzas y proyectos que conecten economía, datos e IA para profesionalizar organizaciones, fortalecer redes universitarias y convertir información dispersa en herramientas útiles para la toma de decisiones.",
-    "contribution": [
-      "Aporto análisis económico, manejo de datos y pensamiento crítico para estructurar problemas, interpretar información y convertirla en propuestas aplicables. Puedo apoyar en investigación, automatización, organización de proyectos y comunicación clara de hallazgos."
-    ],
-    "collaboration": "2-3 horas/semana",
-    "evidence": [
-      {
-        "title": "Intereses",
-        "detail": "inteligencia artificial, análisis económico, ciencia de datos, automatización, investigación aplicada, ciencias sociales computacionales, educación, liderazgo estudiantil, innovación, desarrollo organizacional"
-      },
-      {
-        "title": "Habilidades",
-        "detail": "análisis de datos, pensamiento crítico, investigación académica, Python, R, SQL, Microsoft Excel, automatización, organización de proyectos, comunicación escrita, liderazgo estudiantil, tutoría académica, trabajo en equipo"
-      },
-      {
-        "title": "Idiomas",
-        "detail": "Español Nativo, Inglés C1, Portugués Intermedio"
-      }
-    ],
-    "links": [
-      {
-        "label": "LinkedIn",
-        "href": "https://www.linkedin.com/in/leonardo-lozano-8a8710371/?locale=en"
-      }
-    ]
-  },
-  "juan-sebastian-gomez-vera": {
-    "status": "Perfil completo",
-    "headline": "Coordinador de Inteligencia Artificial y Automatización - CLH.",
-    "bio": "Sebastian es Ingeniero oriundo de Bucaramanga pero actualmente viviendo en Bogotá. Una persona que busca siempre ser proactiva dentro de su constante  educación. Ve lo asombroso que pueden ser las pequeñas cosas y decide alegremente buscar aprender algo de cualquier persona que conoce.",
-    "motivation": "Una red multicultural interdisciplinaria que ayude a impulsar conocimientos de tecnologías de vanguardia bajo criterios viabilidad aplicativa para mercados reales.",
-    "contribution": [
-      "Experiencia en investigación e implementación de conceptos de Inteligencia Artificial. Manejo de código y tecnologías aplicadas. Gestión de proyectos y soft skills de liderazgo y formación."
-    ],
-    "collaboration": "2",
-    "evidence": [
-      {
-        "title": "Intereses",
-        "detail": "Inteligencia Artificial, Gestión de Proyectos"
-      },
-      {
-        "title": "Habilidades",
-        "detail": "Análisis de Datos, Programación, Aprendizaje de Maquinas, Investigación"
-      },
-      {
-        "title": "Idiomas",
-        "detail": "Español, Inglés"
-      }
-    ],
-    "links": [
-      {
-        "label": "LinkedIn",
-        "href": "https://www.linkedin.com/in/juansgomezv/"
-      }
-    ]
-  },
-  "jorge-gregorio-garcia-heras": {
-    "status": "Perfil completo",
-    "headline": "Fundador de CLH | Estrategia, comunidad e innovación | España",
-    "bio": "Jorge Gregorio García-Heras es cofundador de la Comunidad de Líderes Hispanoamericanos (CLH), una red internacional que conecta talento joven, universidades, profesionales y organizaciones. Impulsa iniciativas orientadas a transformar relaciones en oportunidades y proyectos reales entre España y Latinoamérica. Es cofundador de Beway, un ecosistema creado para acercar empresas y universitarios mediante retos, investigación, innovación y evidencias de ejecución. Su trabajo se centra en la visión estratégica, la creación de comunidad y la conexión de personas con capacidad, iniciativa y voluntad de construir juntas.",
-    "motivation": "Un ecosistema internacional en el que el talento joven acceda a oportunidades reales, las empresas descubran nuevas perspectivas y las universidades colaboren en proyectos, investigación e innovación entre países.",
-    "contribution": [
-      "Visión estratégica, creación de comunidades internacionales y capacidad para conectar talento, universidades y empresas. Experiencia impulsando alianzas, coordinando equipos y convirtiendo ideas en proyectos concretos."
-    ],
-    "collaboration": "Disponible para alianzas estratégicas, proyectos internacionales, desarrollo de comunidad y colaboraciones puntuales con empresas, universidades y miembros de CLH y Beway.",
-    "evidence": [
-      {
-        "title": "Intereses",
-        "detail": "emprendimiento, innovación, liderazgo, talento joven, educación, tecnología, inteligencia artificial, desarrollo de comunidades, colaboración internacional"
-      },
-      {
-        "title": "Habilidades",
-        "detail": "visión estratégica, creación de comunidades, desarrollo de alianzas, liderazgo de equipos, comunicación, coordinación de proyectos, networking, desarrollo de negocio"
-      },
-      {
-        "title": "Idiomas",
-        "detail": "español, inglés"
-      }
-    ],
-    "links": [
-      {
-        "label": "LinkedIn",
-        "href": "https://www.linkedin.com/in/jgreego/"
-      }
-    ]
-  },
-  "jorge-calderon": {
-    "status": "Perfil completo",
-    "headline": "Creo en el liderazgo que trasciende, en las decisiones que transforman y que su impacto puede cambiar el mundo",
-    "bio": "Soy estudiante de Economía en la Universidad San Francisco de Quito (USFQ) y me apasiona comprender cómo funcionan los principios económicos en la práctica y cómo las instituciones influyen en la vida cotidiana. Me caracterizo por mi resiliencia, ambición y un fuerte deseo de crecimiento continuo.A lo largo de mi trayectoria académica y profesional, he consolidado habilidades clave en trabajo en equipo, comunicación y resolución de problemas. Como presidente del Consejo Estudiantil de la U.E. Liceo Panamericano Samborondón, se fomentó con éxito la cohesión grupal y se optimizó el desempeño del equipo. Así mismo la experiencia en el voluntariado me ayudó a comprender que lo más importante en esta vida, es el impacto y la huella imborrable que dejas a las personas que están en la comunidad.",
-    "motivation": "Una familia, que se sienta conectada con los valores de CLH.",
-    "contribution": [
-      "Experiencia en proyectos de voluntariado, gestión de grupos, propuestas de acción."
-    ],
-    "collaboration": "2-3 horas a la semana",
-    "evidence": [
-      {
-        "title": "Intereses",
-        "detail": "Economía circular, instituciones, educación."
-      },
-      {
-        "title": "Habilidades",
-        "detail": "Responsabilidad, liderazgo."
-      },
-      {
-        "title": "Idiomas",
-        "detail": "Inglés, español. (Francés y mandarín básico)"
-      }
-    ],
-    "links": [
-      {
-        "label": "LinkedIn",
-        "href": "http://www.linkedin.com/in/jorgeandrscalderon"
-      }
-    ]
-  },
-  "fernando-fuentes": {
-    "status": "Perfil completo",
-    "headline": "Ingeniero de Software | Arquitecturas Distribuidas | Liderazgo Digital",
-    "bio": "Fernando es un ingeniero de Software especializado en la construcción de sistemas nativos para la nube, con especialización en arquitecturas distribuidas y escalables para la era de la IA y los datos. Le gusta aprender continuamente y siempre buscar las experiencias más retadoras y que lo lleven a pensar fuera de la caja.",
-    "motivation": "Me gustaría construir una red de investigación en toda Latinoamérica relacionada con la tecnología aplicada a diferentes áreas de la sociedad, como las finanzas, la biotecnología, la robótica y en general, cualquier disciplina que se impulse de la innovación como vehículo para el progreso de la humanidad.",
-    "contribution": [
-      "Amplia experiencia en la gestión, diseño y construcción de proyectos de software empresariales. Visión de liderazgo y perspectiva digital. Innovación y conocimientos científicos especializados en la computación."
-    ],
-    "collaboration": "6 horas a la semana, trabajo por proyectos",
-    "evidence": [
-      {
-        "title": "Intereses",
-        "detail": "Sistemas en la nube, Software, Hardware, Finanzas, liderazgo"
-      },
-      {
-        "title": "Habilidades",
-        "detail": "Desarrollo de Software, Arquitectura en la nube, Liderazgo digital"
-      },
-      {
-        "title": "Idiomas",
-        "detail": "Español, inglés"
-      }
-    ],
-    "video": "/videos/fernando-fuentes.mp4",
-    "links": [
-      {
-        "label": "LinkedIn",
-        "href": "https://www.linkedin.com/in/fernando-fuentes-aba154259/?locale=es"
-      }
-    ]
-  },
-  "fabian-rivera": {
-    "status": "Perfil completo",
-    "headline": "Ingeniería Industrial | Gestión de talento, liderazgo y desarrollo de personas",
-    "bio": "Fabián Rivera es estudiante de Ingeniería Industrial Administrativa, apasionado por la gestión de talento, el liderazgo y la construcción de equipos de alto rendimiento. Cuenta con experiencia en procesos de atracción de talento, coordinación de equipos y desarrollo de proyectos, enfocándose en conectar personas con oportunidades de crecimiento. Se interesa por la mejora continua, la optimización de procesos y la creación de espacios donde las personas puedan aportar valor y desarrollar su potencial. Actualmente busca seguir fortaleciendo sus habilidades en recursos humanos, liderazgo y gestión estratégica de personas.",
-    "motivation": "Quiero construir espacios donde el talento y las oportunidades puedan encontrarse naturalmente; donde las personas no tengan que perseguir oportunidades, sino donde las oportunidades lleguen a quienes tienen el potencial, las ganas y la visión para transformar su entorno.",
-    "contribution": [
-      "Experiencia en atracción de talento, entrevistas, gestión de proyectos y coordinación de equipos. Puedo aportar conocimientos en organización de procesos, identificación de perfiles, comunicación efectiva, liderazgo y creación de conexiones entre personas con objetivos comunes."
-    ],
-    "collaboration": "4-6 horas a la semana",
-    "evidence": [
-      {
-        "title": "Intereses",
-        "detail": "Gestión de talento, recursos humanos, liderazgo, desarrollo profesional, mejora continua, innovación, gestión de proyectos, networking, emprendimiento"
-      },
-      {
-        "title": "Habilidades",
-        "detail": "Liderazgo de equipos, comunicación efectiva, entrevistas y selección de talento, gestión de proyectos, organización, análisis de procesos, resolución de problemas, trabajo en equipo"
+        "detail": "Creatividad, pensamiento estratégico, comunicación efectiva."
       },
       {
         "title": "Idiomas",
@@ -593,128 +1733,22 @@ const memberPilotProfiles: Record<string, {
     "links": [
       {
         "label": "LinkedIn",
-        "href": "https://www.linkedin.com/in/fabian-rivera-342ab8366/"
+        "href": "https://www.linkedin.com/in/valeria-ocheita-95931a380/"
       }
     ]
   },
-  "daniel-lopez": {
-    "status": "Perfil completo",
-    "headline": "Daniel López",
-    "bio": "Me apasiona crear conexiones valiosas, aprender de otros y colaborar para crear cosas nuevas. Con visión innovadora, desarrollo productos funcionales y de calidad. Además, lidero equipos a nivel nacional e internacional, en busca del mejor resultado posible por medio de la co-creación.",
-    "motivation": "Herramientas y soluciones que faciliten y optimicen procesos valiosos",
-    "contribution": [
-      "Ideas frescas, contactos y una visión de innovación y desarrollo constante"
-    ],
-    "collaboration": "Disponible para alianzas estratégicas, proyectos internacionales, desarrollo de comunidad y colaboraciones puntuales con empresas, universidades y miembros de CLH y Beway.",
-    "evidence": [
-      {
-        "title": "Intereses",
-        "detail": "ProgramaciónNegociosEmprendimientoTecnologíaCompetencias"
-      },
-      {
-        "title": "Habilidades",
-        "detail": "LiderazgoComunicaciónGestión de equipos y recursos"
-      },
-      {
-        "title": "Idiomas",
-        "detail": "InglésEspañol"
-      }
-    ],
+  "yarey-coronel": {
+    "status": "Perfil pendiente de completar",
+    "headline": "Negocios Internacionales",
+    "bio": "Estudiante de Negocios Internacionales en la Universidad Espíritu Santo (UEES), con destacado \nrendimiento académico y enfoque en comercio exterior, importación/exportación y análisis estratégico. Actualmente realiza prácticas en Generatrust Administradora de Fondos y Fideicomisos, complementando su formación con experiencia en gestión administrativa, facturación electrónica y análisis financiero. Perfil proactivo, orientado a liderazgo, entornos multiculturales y desarrollo de negocios internacionales.",
+    "motivation": "",
+    "contribution": [],
+    "collaboration": "",
+    "evidence": [],
     "links": [
       {
         "label": "LinkedIn",
-        "href": "https://www.linkedin.com/in/daniellopezdev/"
-      }
-    ]
-  },
-  "claudio-federico-buffardi-witzke": {
-    "status": "Perfil completo",
-    "headline": "Ingeniero Industrial en formación | Apasionado por la manufactura y los procesos | Bicicleta de montaña y enduro extremo",
-    "bio": "Claudio es estudiante de Ingeniería Industrial en Ciudad de México. Tiene experiencia en logística retail por su paso por Farmatodo, la cadena farmacéutica más grande de Venezuela, donde coordinó entregas de proveedores a gran escala y redujo el inventario de devoluciones en un 30%. Cuenta con certificación Six Sigma Yellow Belt. Fuera del trabajo le gusta montar motos de enduro extremo y de bici montañera.",
-    "motivation": "Una empresa de manufactura propia en Latinoamérica (aún explorando el sector), pero con claridad en el cómo — procesos eficientes, calidad y manufactura esbelta. Busco conocer a personas con experiencia en fábricas y producción industrial. Y quiero construir una familia.",
-    "contribution": [
-      "Experiencia en logística y cadena de suministro retail, mejora de procesos (Six Sigma), y distribución/comercialización de marcas internacionales en el mercado venezolano. También manejo de e-commerce ligero, marketing digital para nichos deportivos y análisis de datos con Excel e Inteligencia Artificial."
-    ],
-    "collaboration": "2-4 horas a la semana.",
-    "evidence": [
-      {
-        "title": "Intereses",
-        "detail": "Inteligencia Artificial, Motos, Bicicleta de montaña, Golf, Tenis, Música."
-      },
-      {
-        "title": "Habilidades",
-        "detail": "Mejora de procesos (Six Sigma), análisis de datos, Excel, mecánica de motos, mantenimiento de bicicletas de montaña, ventas y negociación, networking"
-      },
-      {
-        "title": "Idiomas",
-        "detail": "Español, Inglés, Italiano"
-      }
-    ],
-    "links": [
-      {
-        "label": "LinkedIn",
-        "href": "https://www.linkedin.com/in/claudio-buffardi/"
-      }
-    ]
-  },
-  "christopher-marroquin": {
-    "status": "Perfil completo",
-    "headline": "Emprendedor tecnológico | Creo sistemas útiles y oportunidades a través de la tecnología | El Salvador",
-    "bio": "Soy estudiante de Ingeniería de Software y Negocios Digitales, desarrollador full-stack, programador competitivo y emprendedor tecnológico salvadoreño. Me apasiona aprender, conocer personas, resolver problemas y convertir ideas en proyectos que generen valor.Disfruto especialmente las lluvias de ideas, crear productos digitales, organizar eventos y encontrar formas de llevar una idea desde una conversación hasta una solución real. Como cofundador y líder general de C3, he impulsado competencias, plataformas y experiencias que conectan a jóvenes con aprendizaje, comunidad y oportunidades profesionales.Me considero una persona curiosa, proactiva y orientada a construir. Creo que la tecnología no solo sirve para desarrollar sistemas, sino también para conectar personas, crear experiencias y abrir oportunidades para otros.",
-    "motivation": "Quiero construir comunidades, alianzas y proyectos que conecten a personas con nuevas oportunidades de aprendizaje, colaboración y crecimiento. Me interesa crear cosas nuevas, impulsar ideas innovadoras y convertirlas en iniciativas que generen un impacto real y positivo.",
-    "contribution": [
-      "Puedo aportar experiencia creando y coordinando equipos, organizando eventos y experiencias tecnológicas, desarrollando productos digitales y convirtiendo ideas en planes ejecutables. También puedo contribuir con creatividad, lluvias de ideas, gestión de proyectos, resolución de problemas y conexión con talento joven.Para conocer mas sobre mi trabajo, los invito a visitar mi sitio web y portafolio: https://christophermarroquin.dev/"
-    ],
-    "collaboration": "2 - 3 horas por semana, con disponibilidad para proyectos y colaboraciones",
-    "evidence": [
-      {
-        "title": "Intereses",
-        "detail": "Emprendimiento tecnológico, productos digitales, comunidades tecnológicas, innovación, liderazgo juvenil, educación STEM, eventos tecnológicos, alianzas internacionales"
-      },
-      {
-        "title": "Habilidades",
-        "detail": "Desarrollo full-stack, liderazgo de equipos, gestión de proyectos, organización de eventos, ideación, resolución de problemas, comunicación"
-      },
-      {
-        "title": "Idiomas",
-        "detail": "Español nativo, inglés profesional"
-      }
-    ],
-    "links": [
-      {
-        "label": "LinkedIn",
-        "href": "https://www.linkedin.com/in/christopher-marroquin23/?locale=es"
-      }
-    ]
-  },
-  "alberto-sanchez-prieto": {
-    "status": "Perfil completo",
-    "headline": "Innovación",
-    "bio": "Siente un verdadero amor por la conexión entre jóvenes de distintos países y por la fuerza transformadora que puede surgir cuando comparten ideas, experiencias y oportunidades. Cree firmemente en el potencial del talento joven y en la motivación como motor para generar impacto.",
-    "motivation": "Quiero construir junto al resto de miembros de CLH una red sólida y consolidada, pero, sobre todo, una comunidad con una misión y unos valores claros que nos permitan avanzar en la misma dirección. Un espacio desde el que podamos demostrar que los jóvenes tenemos la capacidad de coordinarnos, asumir responsabilidades y generar valor real cuando trabajamos con un propósito compartido.",
-    "contribution": [
-      "Puede aportar una visión internacional, nuevas ideas y, sobre todo, la resiliencia necesaria para llevarlas a la práctica, superar las dificultades y no abandonar el camino antes de convertirlas en resultados."
-    ],
-    "collaboration": "24 horas al dia",
-    "evidence": [
-      {
-        "title": "Intereses",
-        "detail": "Economia Colaborativa"
-      },
-      {
-        "title": "Habilidades",
-        "detail": "Imaginación"
-      },
-      {
-        "title": "Idiomas",
-        "detail": "Español, Ingles"
-      }
-    ],
-    "video": "/videos/alberto-sanchez-prieto.mp4",
-    "links": [
-      {
-        "label": "LinkedIn",
-        "href": "https://www.linkedin.com/in/albertosprietocolmenero/"
+        "href": "https://www.linkedin.com/in/yarey-coronel-88217834a/"
       }
     ]
   }
@@ -928,7 +1962,7 @@ function MemberProfileDialog({ member, onClose, onConnect }: { member: Member; o
         </div>
         <div className="member-profile-heading">
           <div><p className="member-profile-status">{content.status}</p><h2 id={`member-profile-${slug}`}>{member.name}</h2><p>{content.headline}</p></div>
-          <dl><div><dt>País</dt><dd>{member.country}</dd></div><div><dt>Universidad</dt><dd>{member.university}</dd></div><div><dt>Área</dt><dd>{member.area}</dd></div></dl>
+          <dl><div><dt>País</dt><dd>{member.country}</dd></div><div><dt>Rol en CLH</dt><dd>{member.role}</dd></div><div><dt>Área profesional</dt><dd>{member.area}</dd></div></dl>
         </div>
         {profile && <div className="member-profile-body">
           <section className="member-profile-about"><p className="member-profile-label">QUIÉN SOY</p><p>{content.bio}</p></section>
@@ -954,12 +1988,12 @@ function MemberProfileDialog({ member, onClose, onConnect }: { member: Member; o
 
 function Miembros({ go }: { go: (page: PageKey) => void }) {
   const [country, setCountry] = useState("Todos");
-  const [area, setArea] = useState("Todas");
+  const [area, setArea] = useState("Todos");
   const [search, setSearch] = useState("");
   const [selected, setSelected] = useState<Member | null>(null);
   const countries = ["Todos", ...Array.from(new Set(members.map((m) => m.country))).sort()];
-  const areas = ["Todas", ...Array.from(new Set(members.map((m) => m.area))).sort()];
-  const filtered = useMemo(() => members.filter((member) => (country === "Todos" || member.country === country) && (area === "Todas" || member.area === area) && member.name.toLowerCase().includes(search.toLowerCase())), [country, area, search]);
+  const areas = ["Todos", ...Array.from(new Set(members.map((m) => m.role))).sort()];
+  const filtered = useMemo(() => members.filter((member) => (country === "Todos" || member.country === country) && (area === "Todos" || member.role === area) && member.name.toLowerCase().includes(search.toLowerCase())), [country, area, search]);
 
   useEffect(() => {
     const readMemberHash = () => {
@@ -982,10 +2016,10 @@ function Miembros({ go }: { go: (page: PageKey) => void }) {
   return <>
     <PageHero eyebrow="Nuestros miembros" title="El valor de CLH está en las personas que deciden construir juntas." body="Más de 100 líderes jóvenes de España y Latinoamérica forman una red conectada por la iniciativa, el criterio y la voluntad de aportar." image="/images/comunidad.jpg" />
     <div className="shell"><StatBand /></div>
-    <section className="section shell"><SectionTitle kicker="Directorio" title="Conoce a la comunidad." body="Filtra por país o área de interés para descubrir los perfiles incorporados desde la base de miembros de CLH. La fotografía y el perfil completo aparecen cuando el miembro ya ha facilitado y validado ese contenido." />
-      <div className="filters"><label>País<select value={country} onChange={(e) => setCountry(e.target.value)}>{countries.map((item) => <option key={item}>{item}</option>)}</select></label><label>Área de interés<select value={area} onChange={(e) => setArea(e.target.value)}>{areas.map((item) => <option key={item}>{item}</option>)}</select></label><label className="search-field">Buscar por nombre<input value={search} onChange={(e) => setSearch(e.target.value)} placeholder="Ej. Federico" /></label><span className="result-count">{filtered.length} perfiles</span></div>
-      <div className="member-grid">{filtered.map((member) => <article className={member.featured ? "member-card member-card-featured" : "member-card"} key={member.slug}><div className="member-image">{member.image ? <img src={assetPath(member.image)} alt={`Retrato de ${member.name}`} /> : <div className="member-initials" role="img" aria-label={`Iniciales de ${member.name}`}>{memberInitials(member.name)}</div>}{member.featured && <span className="member-featured-label">Perfil completo de ejemplo</span>}</div><div><p className="member-country">{member.country}</p><h3>{member.name}</h3><p>{member.university}</p><span>{member.area}</span><button onClick={() => openProfile(member)}>Ver perfil <i>↗</i></button></div></article>)}</div>
-      {filtered.length === 0 && <div className="empty-state"><h3>No encontramos perfiles con esos filtros.</h3><p>Prueba con otro país, área o nombre.</p><Button variant="secondary" onClick={() => { setCountry("Todos"); setArea("Todas"); setSearch(""); }}>Limpiar filtros</Button></div>}
+    <section className="section shell"><SectionTitle kicker="Directorio" title="Conoce a la comunidad." body="Filtra por país o posición dentro de CLH para descubrir a las personas que forman la comunidad. La fotografía y el perfil completo aparecen cuando el miembro ya ha facilitado y validado ese contenido." />
+      <div className="filters"><label>País<select value={country} onChange={(e) => setCountry(e.target.value)}>{countries.map((item) => <option key={item}>{item}</option>)}</select></label><label>Rol en CLH<select value={area} onChange={(e) => setArea(e.target.value)}>{areas.map((item) => <option key={item}>{item}</option>)}</select></label><label className="search-field">Buscar por nombre<input value={search} onChange={(e) => setSearch(e.target.value)} placeholder="Ej. Federico" /></label><span className="result-count">{filtered.length} perfiles</span></div>
+      <div className="member-grid">{filtered.map((member) => <article className={member.featured ? "member-card member-card-featured" : "member-card"} key={member.id}><div className="member-image">{member.image ? <img src={assetPath(member.image)} alt={`Retrato de ${member.name}`} /> : <div className="member-initials" role="img" aria-label={`Iniciales de ${member.name}`}>{memberInitials(member.name)}</div>}{member.featured && <span className="member-featured-label">Perfil completo de ejemplo</span>}</div><div><p className="member-country">{member.country}</p><h3>{member.name}</h3><p>{member.role}</p><button onClick={() => openProfile(member)}>Ver perfil <i>↗</i></button></div></article>)}</div>
+      {filtered.length === 0 && <div className="empty-state"><h3>No encontramos perfiles con esos filtros.</h3><p>Prueba con otro país, rol o nombre.</p><Button variant="secondary" onClick={() => { setCountry("Todos"); setArea("Todos"); setSearch(""); }}>Limpiar filtros</Button></div>}
     </section>
     <section className="section soft-section"><div className="shell split-story"><div><Kicker>Lo que une perfiles diferentes</Kicker><h2>La diversidad tiene valor cuando existe una cultura común.</h2></div><div><p>CLH conecta perfiles de tecnología, empresa, derecho, ingeniería, comunicación, ciencias y relaciones internacionales.</p><p>La selección no se basa únicamente en notas o títulos, sino en la evidencia de iniciativa, responsabilidad y capacidad para movilizar a otras personas.</p><Button onClick={() => go("comunidad")}>Conoce cómo funciona la comunidad</Button></div></div></section>
     <Closing go={go} title="Formar parte empieza antes de recibir una invitación." body="El Rincón de las Ideas permite conocer a las personas a través de aquello que quieren poner en marcha." primary="ideas" primaryLabel="Presenta una idea" />
