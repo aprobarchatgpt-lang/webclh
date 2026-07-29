@@ -341,13 +341,29 @@ const memberPilotProfiles: Record<string, {
     ]
   },
   "alexa-ramirez-garcia": {
-    "status": "Perfil pendiente de completar",
-    "headline": "Marketing",
-    "bio": "Estudiante de International Business en el Tecnológico de Monterrey. Experiencia en comunicación, \nmarketing y desarrollo de campañas, con participación en proyectos de expansión internacional (KidZania) y programas de liderazgo (ESG Global Leadership Program). Fundadora de una iniciativa social enfocada en sostenibilidad y colaboradora en proyectos de impacto social y comunicación.",
-    "motivation": "",
-    "contribution": [],
-    "collaboration": "",
-    "evidence": [],
+    "status": "Perfil completo",
+    "headline": "Maketing Internacional",
+    "bio": "Estudiante de Negocios Internacionales con enfoque en marketing internacional, cuenta con experiencia en planes de importacion y exportación de productos y servicios, comunicación institucional, branding y estrategias digitales. Ha liderado proyectos de impacto social y participado en iniciativas de liderazgo con alcance internacional.",
+    "motivation": "Impulsar el conocimiento de ideas innovadoras a generaciones jóvenes y mercados globales",
+    "contribution": [
+      "Estrategias phygital comerciales para mercados nacionales e internacionales, manejo de software de diseño, edición y gestión, experiencia en creación y ejecución de modelos de negocios e iniciativas sociales."
+    ],
+    "collaboration": "4 horas/semana",
+    "evidence": [
+      {
+        "title": "Intereses",
+        "detail": "Marketing, Publicidad, Estrategias de expansión internacional, relaciones públicas."
+      },
+      {
+        "title": "Habilidades",
+        "detail": "Análisis de datos, Liderazgo humanista, Comunicación, Marketing digital, Experiencia de usuario UX, Planeación y gestión logística, Estudios de mercado, Negociaciones"
+      },
+      {
+        "title": "Idiomas",
+        "detail": "Español, Inglés"
+      }
+    ],
+    "video": "/videos/alexa-ramirez-garcia.mp4",
     "links": [
       {
         "label": "LinkedIn",
@@ -587,13 +603,29 @@ const memberPilotProfiles: Record<string, {
     ]
   },
   "gabriela-gallardo": {
-    "status": "Perfil pendiente de completar",
-    "headline": "Business",
-    "bio": "Estudiante de Administración de Empresas en la Universidad Espíritu Santo. Experiencia en proyectos de \nestrategia y sostenibilidad, participando en iniciativas de compliance ambiental y competiciones internacionales de negocio (Global Scaling Challenge). Perfil orientado a estrategia, análisis y desarrollo empresarial.",
-    "motivation": "",
-    "contribution": [],
-    "collaboration": "",
-    "evidence": [],
+    "status": "Perfil completo",
+    "headline": "Estratega empresarial | IA aplicada e Innovación | Sostenibilidad e impacto social | Ecuador",
+    "bio": "Gabriela Gallardo es estudiante de Administración de Empresas y líder juvenil ecuatoriana, apasionada por el emprendimiento, la sostenibilidad y la inteligencia artificial. A través de su participación en programas de liderazgo, innovación y emprendimiento, ha adquirido experiencia desarrollando ideas, coordinando proyectos y participando en competencias nacionales e internacionales. También se mantiene en formación constante en inteligencia artificial aplicada, automatización y creación de soluciones digitales. Se caracteriza por conectar la visión estratégica con la creatividad para identificar oportunidades, fortalecer propuestas y convertir ideas en proyectos con potencial. Cree en el emprendimiento digital como una vía para generar soluciones escalables y en la sostenibilidad como un criterio que debe incorporarse desde el diseño de cada iniciativa. Dentro de CLH, busca compartir su experiencia, aprender de otros líderes y construir alianzas que transformen ideas en proyectos de impacto para Hispanoamérica.",
+    "motivation": "Quiero construir alianzas con jóvenes líderes de Hispanoamérica para impulsar proyectos en las áreas que más me apasionan: el emprendimiento digital y las herramientas basadas en inteligencia artificial, así como las iniciativas de sostenibilidad, la innovación y el impacto social. Mi visión es aportar a la creación de propuestas que funcionen técnicamente, sean viables en lo económico y, al mismo tiempo, respondan a las personas, las comunidades y el entorno.\n\nMe interesa conectar con personas de distintas carreras, países y trayectorias para complementar conocimientos y convertir ideas en proyectos concretos. Creo que los mejores resultados surgen cuando se cruzan perspectivas diversas, por eso busco espacios donde podamos investigar problemas, validar oportunidades, diseñar propuestas y aprender en el camino.\n\nA largo plazo, aspiro a desarrollarme en el ecosistema del emprendimiento digital, creando plataformas, automatizaciones y herramientas de inteligencia artificial que ayuden a empresas, organizaciones y emprendedores a optimizar sus procesos y crecer.\n\nDentro de CLH, quiero empezar por construir relaciones genuinas que con el tiempo se conviertan en colaboraciones, iniciativas académicas, participaciones en competencias y futuros emprendimientos. Más que impulsar un solo proyecto, busco formar parte de una red que convierta el conocimiento compartido en acciones reales para que las conexiones se conviertan en oportunidades y proyectos que aporten al desarrollo de la región.",
+    "contribution": [
+      "Experiencia con gestión de proyectos, estrategia y comunicación empresarial e IA aplicada. Puedo contribuir al diseño de iniciativas, creación de soluciones digitales, organización de comunidades y desarrollo de proyectos de innovación, sostenibilidad e impacto social.\n\nMe encantaría aportar desde mi experiencia en gestión de proyectos, estrategia, comunicación empresarial e inteligencia artificial aplicada, junto con una mirada creativa que conecta emprendimiento, tecnología y sostenibilidad. Mi participación en programas de innovación, incubación y competencias me ha permitido desarrollar habilidades para analizar ideas, identificar oportunidades y fortalecer proyectos desde sus primeras etapas.\n\nPuedo brindar feedback a quienes estén desarrollando un emprendimiento, ayudarlos a diferenciar su propuesta y apoyarlos en la preparación para concursos. Además, puedo contribuir a la creación de soluciones digitales, automatizaciones y herramientas de IA que optimicen procesos y hagan los proyectos más funcionales y escalables. Asimismo, aportar con alternativas para incorporar la sostenibilidad desde el diseño de una iniciativa y reducir su impacto generando valor de manera responsable."
+    ],
+    "collaboration": "2-3 horas semanales disponbibles con posibilidad de ampliar",
+    "evidence": [
+      {
+        "title": "Intereses",
+        "detail": "Emprendimiento digital, marketing, deportes, inteligencia artificial, sostenibilidad empresarial, innovación, arte, liderazgo juvenil, impacto social, transformación digital, economía circular, estrategia empresarial, desarrollo web, ODS, alianzas regionales"
+      },
+      {
+        "title": "Habilidades",
+        "detail": "Desarrollo de ideas de negocio, pensamiento estratégico, desarrollo de marca, pitching, inteligencia artificial aplicada, marketing estratégico, automatización de procesos, creación de soluciones digitales, gestión de proyectos, liderazgo, comunicación estratégica."
+      },
+      {
+        "title": "Idiomas",
+        "detail": "español nativo, inglés avanzado"
+      }
+    ],
+    "video": "/videos/gabriela-gallardo.mp4",
     "links": [
       {
         "label": "LinkedIn",
@@ -679,13 +711,29 @@ const memberPilotProfiles: Record<string, {
     ]
   },
   "josue-roberto-polanco": {
-    "status": "Perfil pendiente de completar",
-    "headline": "Tecnología",
-    "bio": "Estudiante de Software Engineering and Digital Business en ESEN, enfocado en backend \ndevelopment, algoritmos y calidad de software. Co-fundador de Competitive Coding Club (C3), donde participa en la organización de competiciones nacionales de programación y en la creación de espacios para el desarrollo del talento técnico joven en El Salvador. Cuenta con experiencia en programación competitiva de nivel internacional (ICPC), formación de estudiantes en algoritmos y desarrollo backend con Python, FastAPI y Firebase, destacando por su pensamiento analítico, precisión técnica y capacidad de ejecución.",
-    "motivation": "",
-    "contribution": [],
-    "collaboration": "",
-    "evidence": [],
+    "status": "Perfil completo",
+    "headline": "Ingeniero de Software | Co-Fundador Competitive Coding Club | El Salvador",
+    "bio": "Roberto Polanco es estudiante de Ingeniería de Software y Negocios Digitales, desarrollador backend y cofundador del Competitive Coding Club (C3). Cuenta con experiencia en desarrollo de plataformas digitales, programación competitiva y enseñanza de algoritmos y estructuras de datos. Asi mismo, es el Co-Lider del area de Contenido para el C3, encargado de la estructura y redaccion de retos, eventos y oportunidades.",
+    "motivation": "Una comunidad de jovenes interesados en la tecnologia. Crear eventos, herramientas y experiencias que permitan exponer el talento tech al mundo y a empresas interesadas en desarrollar ese talento.",
+    "contribution": [
+      "Experiencia en trabajo de proyectos de software, resolucion avanzada de problemas, habilidades en organizacion de eventos de tecnologia y en creacion de metodologias de trabajo."
+    ],
+    "collaboration": "14 - 16 horas /semana proyectos de software y para colaboracion en eventos",
+    "evidence": [
+      {
+        "title": "Intereses",
+        "detail": "Tecnologia, Programacion competitiva, Hackathons, Startups, Inteligencia artificial"
+      },
+      {
+        "title": "Habilidades",
+        "detail": "resolucion de problemas, pensamiento critico, creacion de metodologias, ingieneria de software, levantamiento de requerimientos"
+      },
+      {
+        "title": "Idiomas",
+        "detail": "español, ingles"
+      }
+    ],
+    "video": "/videos/josue-roberto-polanco.mp4",
     "links": [
       {
         "label": "LinkedIn",
@@ -948,13 +996,29 @@ const memberPilotProfiles: Record<string, {
     ]
   },
   "milton-gorocica-rivas": {
-    "status": "Perfil pendiente de completar",
-    "headline": "Emprender",
-    "bio": "Estudiante de International Business en la Universidad Anáhuac Mayab. Emprendedor y director de \nRancho El Prado, proyecto enfocado en hospitalidad, naturaleza y experiencias sostenibles. Expresidente de la Sociedad de Alumnos de la Facultad de Negocios, con perfil orientado a emprendimiento, liderazgo de equipos y desarrollo de proyectos turísticos.",
-    "motivation": "",
-    "contribution": [],
-    "collaboration": "",
-    "evidence": [],
+    "status": "Perfil completo",
+    "headline": "Emprendedor | Hospitalidad | Comercio y ventas| México",
+    "bio": "Soy estudiante de Negocios Internacionales y emprendedor, con experiencia en liderazgo, desarrollo de negocios y gestión de proyectos. He participado en la dirección estratégica y el crecimiento de una empresa familiar, liderando iniciativas comerciales, operativas y de experiencia del cliente. Además, colaboro como asistente de un Chief Revenue Officer (CRO), donde participo en proyectos relacionados con estrategia, crecimiento empresarial y desarrollo organizacional.\n\nMe apasiona comunicar ideas, construir relaciones de confianza y generar oportunidades de negocio. Disfruto vender, negociar y convertir ideas en proyectos concretos. Me caracterizo por tomar la iniciativa, aprender rápidamente y asumir retos con entusiasmo. Mi objetivo es seguir desarrollándome como líder y contribuir a la construcción de organizaciones que generen impacto a largo plazo.",
+    "motivation": "Empresas y proyectos que generen valor a largo plazo, conectando personas, estrategia y ejecución para impulsar crecimiento e innovación.",
+    "contribution": [
+      "Liderazgo, desarrollo de negocios, ventas, comunicación verbal, gestión de proyectos, pensamiento estratégico y capacidad para ejecutar ideas."
+    ],
+    "collaboration": "6 horas semanales. Abierto a colaborar en proyectos de emprendimiento, estrategia, desarrollo de negocios, liderazgo, ventas y crecimiento empresarial.",
+    "evidence": [
+      {
+        "title": "Intereses",
+        "detail": "emprendimiento, desarrollo de negocios, liderazgo, estrategia empresarial, ventas, negociación, innovación, crecimiento empresarial, networking, turismo"
+      },
+      {
+        "title": "Habilidades",
+        "detail": "liderazgo, comunicación, oratoria, ventas, negociación, gestión de proyectos, pensamiento estratégico, resolución de problemas, iniciativa, trabajo en equipo"
+      },
+      {
+        "title": "Idiomas",
+        "detail": "Español, inglés, holandés"
+      }
+    ],
+    "video": "/videos/milton-gorocica-rivas.mp4",
     "links": [
       {
         "label": "LinkedIn",
@@ -1162,13 +1226,29 @@ const memberPilotProfiles: Record<string, {
     ]
   },
   "valeria-espinoza-leon": {
-    "status": "Perfil pendiente de completar",
-    "headline": "Negocios Internacionales",
-    "bio": "Estudiante de Negocios Internacionales en la Universidad Espíritu Santo (UEES). Fundadora del vivero \nSan Cristóbal y participante en Hult Prize 2025 con el proyecto social Koralink. Experiencia en proyectos vinculados a sostenibilidad, gestión de iniciativas emprendedoras y liderazgo estudiantil. Perfil orientado a emprendimiento, sostenibilidad y negocios internacionales.",
-    "motivation": "",
-    "contribution": [],
-    "collaboration": "",
-    "evidence": [],
+    "status": "Perfil completo",
+    "headline": "Gestión de Abastecimiento & Cadena de Suministro | Innovación Social & Startups | Ecuador",
+    "bio": "Es estudiante de la Universidad Espíritu Santo (UEES) con experiencia práctica en gestión de abastecimiento y procesos logísticos en el sector portuario. Ha liderado e impulsado proyectos de impacto e innovación desde fases tempranas, destacando su participación en competencias globales como el Hult Prize y el programa Techfounders. Su enfoque profesional combina el análisis operativo con una visión orientada a la sostenibilidad, el desarrollo de negocios estratégicos y la creación de soluciones eficientes que generen valor real en su entorno.",
+    "motivation": "Redes de colaboración e iniciativas que impulsen el agro emprendimiento, el desarrollo de tecnología con impacto social y alianzas estratégicas entre la comunidad universitaria y el ecosistema emprendedor.",
+    "contribution": [
+      "Visión estratégica, gestión de abastecimiento, desarrollo de startups, emprendimiento ambiental y liderazgo en clubes universitarios. Aporto pensamiento analítico e intuitivo, resolución diplomática de problemas y fuerte compromiso con proyectos con propósito social."
+    ],
+    "collaboration": "6-8 horas semanales",
+    "evidence": [
+      {
+        "title": "Intereses",
+        "detail": "Emprendimiento social, desarrollo de startups, viverismo y reforestación nativa, cadena de suministro, economía circular, bienestar animal, liderazgo universitario"
+      },
+      {
+        "title": "Habilidades",
+        "detail": "Desarrollo de proyectos, gestión de abastecimiento, liderazgo de equipos, innovación social, análisis de procesos, emprendimiento agrícola, trabajo colaborativo"
+      },
+      {
+        "title": "Idiomas",
+        "detail": "Español, Inglés, Italiano, Ruso"
+      }
+    ],
+    "video": "/videos/valeria-espinoza-leon.mp4",
     "links": [
       {
         "label": "LinkedIn",
@@ -1325,13 +1405,28 @@ const memberPilotProfiles: Record<string, {
     ]
   },
   "fran-rodgmont": {
-    "status": "Perfil pendiente de completar",
-    "headline": "Ingeniería Informática",
-    "bio": "Estudiante de Computer Science en Universidad Don Bosco. Fundador de Obelysk, centrado en el desarrollo de infraestructura de inteligencia artificial y sistemas aplicados a digital assets. Perfil orientado a inteligencia artificial, arquitectura tecnológica y construcción de soluciones deep tech en entornos innovadores",
-    "motivation": "",
-    "contribution": [],
-    "collaboration": "",
-    "evidence": [],
+    "status": "Perfil completo",
+    "headline": "Fundador de Obelysk y Hubenders | Tecnología, investigación y comunidad",
+    "bio": "Francisco es fundador y presidente de Obelysk y Hubenders, dos iniciativas enfocadas en infraestructura de inteligencia artificial y en la construcción de centros ecosistémicos de emprendimiento tecnológico desde El Salvador hacia América Latina. Con formación en Ingeniería en Computación, economía y ciencias jurídicas, así como experiencia en proyectos deeptech y activos digitales, se ha consolidado como tecnólogo y disruptor orientado a soluciones de alto impacto para mercados emergentes.\n\nSu trabajo se centra en diseñar y escalar plataformas que conectan talento, capital y proyectos reales en torno a la IA, Bitcoin y la economía digital, articulando alianzas con universidades, fundadores e inversionistas de la región. A través de Hubenders.com, busca unificar el ecosistema emprendedor centroamericano y acompañar a fundadores desde la idea hasta la IPO; con Obelysk.tech, desarrolla infraestructura de IA de frontera adaptada a las necesidades de empresas y organizaciones latinoamericanas.\n\nFrancisco combina investigación, estrategia y ejecución para transformar visión en productos y comunidades tangibles, poniendo la tecnología de frontera al servicio de personas y organizaciones que quieren construir modelos distintos para la región. Su objetivo es que América Latina deje de ser solo consumidora de tecnología y se convierta en creadora de una industria deeptech propia, posicionando a El Salvador como un punto de referencia disruptivo para la región y el mundo.",
+    "motivation": "Quiero impulsar una red de fundadores hispanoamericanos enfocada en infraestructura de IA y activos digitales, conectada con capital, talento y mentorías. Me interesa co-crear laboratorios de experimentación tecnológica y programas que acerquen tecnologías de frontera a mercados emergentes",
+    "contribution": [
+      "Conocimiento en infraestructura de IA, Bitcoin y blockchain, diseño de productos tecnológicos y modelos de negocio. Experiencia en construcción de comunidades, apoyo a fundadores early-stage, análisis de regulaciones de activos digitales y conexión con redes de emprendimiento en Latinoamérica y Europa."
+    ],
+    "collaboration": "2–4 horas/semana, disponible para proyectos puntuales de investigación, mentorías a fundadores early-stage y co-creación de iniciativas de IA y activos digitales.",
+    "evidence": [
+      {
+        "title": "Intereses",
+        "detail": "Inteligencia artificial, infraestructura de IA, blockchain, Bitcoin, criptomonedas, activos digitales, emprendimiento tecnológico, venture capital, ecosistemas de startups, diseño de productos, investigación aplicada, venture studio, tecnología en mercados emergentes."
+      },
+      {
+        "title": "Habilidades",
+        "detail": "Arquitectura de sistemas de IA, análisis de protocolos blockchain, desarrollo full-stack, diseño de productos digitales, investigación tecnológica, construcción de comunidades, liderazgo de equipos, estrategia de negocios, redacción de contenido y pensamiento crítico, networking con fundaores e inversionistas."
+      },
+      {
+        "title": "Idiomas",
+        "detail": "Español, Ingles e Italiano"
+      }
+    ],
     "links": [
       {
         "label": "LinkedIn",
@@ -1371,13 +1466,29 @@ const memberPilotProfiles: Record<string, {
     ]
   },
   "iker-guitierrez-de-jesus": {
-    "status": "Perfil pendiente de completar",
-    "headline": "Ingeniería Industrial",
-    "bio": "Estudiante de Ingeniería Industrial y de Sistemas en el Tecnológico de Monterrey, con experiencia profesional como \nDigital Intern en El Puerto de Liverpool. Presidente de COPARMEX Capítulo Universitario Tec Santa Fe, donde lidera \niniciativas de vinculación empresarial, emprendimiento, formación profesional y liderazgo joven. Cuenta además con \nexperiencia en coordinación logística, organización de eventos y gestión de proyectos dentro de asociaciones estudiantiles. \nPerfil orientado a transformación digital, mejora de procesos, tecnología aplicada a la toma de decisiones y construcción de \nconexiones entre el entorno universitario y empresarial.",
-    "motivation": "",
-    "contribution": [],
-    "collaboration": "",
-    "evidence": [],
+    "status": "Perfil completo",
+    "headline": "Estudiante en Tecnológico de Monterrey | Digital Intern en El Puerto de Liverpool | Presidente de COPARMEX Capítulo Universitario Tec Santa Fe",
+    "bio": "Soy estudiante de Ingeniería Industrial y de Sistemas en el Tecnológico de Monterrey, con interés en la mejora de procesos, la gestión de proyectos y el uso de la tecnología para apoyar la toma de decisiones.\n\nActualmente formo parte de El Puerto de Liverpool como Digital Intern, donde continúo desarrollando mi experiencia profesional y conociendo de cerca la coordinación y ejecución de iniciativas dentro del área Digital.\n\nAdemás, soy presidente de COPARMEX Capítulo Universitario Tec Santa Fe, desde donde impulso, junto con mi equipo, proyectos de liderazgo, vinculación empresarial e impacto en la comunidad estudiantil. Mi participación en grupos estudiantiles y programas de formación me ha permitido fortalecer habilidades de organización, comunicación, colaboración y liderazgo.\n\nMe interesa seguir participando en proyectos donde pueda conectar el pensamiento analítico, la tecnología y la gestión para generar valor en las organizaciones y en las personas.",
+    "motivation": "Quiero construir alianzas entre universidades, organizaciones y COPARMEX, una red empresarial mexicana, para impulsar colaboraciones, eventos y proyectos conjuntos que generen aprendizaje mutuo, networking internacional y oportunidades de impacto.",
+    "contribution": [
+      "Puedo aportar experiencia en liderazgo, gestión de proyectos, mejora de procesos y organización de iniciativas. También puedo compartir aprendizajes del entorno empresarial, herramientas digitales, contactos y disposición para colaborar en proyectos."
+    ],
+    "collaboration": "Depende de cada semana, pero quizás de 2 a 5 horas",
+    "evidence": [
+      {
+        "title": "Intereses",
+        "detail": "Liderazgo, Gestión de Proyectos, Emprendimiento, Innovación, Mejora de Procesos, Vinculación Empresarial, Alianzas Universitarias, Impacto Social, Networking Internacional, Desarrollo de Talento"
+      },
+      {
+        "title": "Habilidades",
+        "detail": "Gestión de proyectos, Liderazgo, Comunicación, Capacidad de análisis, Trabajo en equipo"
+      },
+      {
+        "title": "Idiomas",
+        "detail": "Español, Inglés, Francés"
+      }
+    ],
+    "video": "/videos/iker-guitierrez-de-jesus.mp4",
     "links": [
       {
         "label": "LinkedIn",
@@ -1472,17 +1583,33 @@ const memberPilotProfiles: Record<string, {
     ]
   },
   "luz-aiyana-gonzalez-gordillo": {
-    "status": "Perfil pendiente de completar",
-    "headline": "Turismo Internacional",
-    "bio": "Estudiante de Turismo Internacional en la Universidad Anáhuac Puebla, con formación complementaria en gestión \nde marcas de lujo y turismo sostenible. Actualmente es Secretaria General del Consejo Estudiantil GASTUR y \nNetworking Executive del programa Vértice Honors, donde desarrolla alianzas estratégicas, gestiona patrocinios \ny genera oportunidades para estudiantes de alto rendimiento. Cuenta además con experiencia en estrategia y \noperaciones turísticas, diseño de itinerarios personalizados y organización de iniciativas orientadas a la integración \nestudiantil. Perfil enfocado en liderazgo, relaciones institucionales, hospitalidad, turismo consciente y desarrollo de\n experiencias de alto impacto.",
-    "motivation": "",
-    "contribution": [],
-    "collaboration": "",
-    "evidence": [],
+    "status": "Perfil completo",
+    "headline": "Estudiante Turismo Internacional | Secretaria General de Sociedad de Alumnos de Gastronomía y Turismo | Executive del comité de Networking en el Programa de Liderazgo y Excelencia Académica Vértice",
+    "bio": "Estudiante de Turismo Internacional en la Universidad Anáhuac Puebla orientada a tender puentes entre la planificación estratégica y la ejecución en el terreno. Su trayectoria abarca la gestión de eventos, el diseño de alianzas clave y el desarrollo de iniciativas sustentables con enfoque en el diálogo cultural y la conexión humana.\nCree en la capacidad del talento joven para liderar soluciones actuales mientras potencia el bagaje de quienes abrieron el camino antes. Destaca por su capacidad para transformar ideas complejas en proyectos viables y estructurados. En CLH busca colaborar activamente con líderes e impulsarla creación de iniciativas internacionales desde el networking, la dirección creativa y la gestión.",
+    "motivation": "Desarrollo de proyectos de turismo sostenible a través de la comunidad, conectando la inversión internacional con el crecimiento de comunidades en México. Creación de alianzas estratégicas entre firmas multinacionales, la academia y organizaciones internacionales para impulsar la sostenibilidad en la industria. Dirección y logística de eventos corporativos y foros internacionales de alto nivel que faciliten la atracción de capital y el networking ejecutivo. Estructuración de plataformas de colaboración para posicionar iniciativas con impacto social a nivel global.",
+    "contribution": [
+      "Experiencia en liderazgo de comités ejecutivos y representación universitaria en la secretaría general de turismo, gestión de networking en programas de excelencia y coordinación de comités estudiantiles. Logística y organización de eventos corporativos y deportivos de alto nivel con marcas trasnacionales, así como la realización de foros de impacto.\nConocimientos en el desarrollo e implementación de modelos de turismo sostenible y regenerativo con ecotecnias. Diseño e impulso de proyectos orientados al desarrollo económico y social de comunidades locales en México en alianza con el sector empresarial.\nRecursos de networking estratégico, vinculación académica y corporativa, gestión de alianzas, liderazgo de equipos y articulación de iniciativas con causa social."
+    ],
+    "collaboration": "8-9 horas/semana, disponible para proyectos, eventos y colaboraciones estratégicas",
+    "evidence": [
+      {
+        "title": "Intereses",
+        "detail": "Turismo regenerativo y sostenible, alianzas estratégicas internacionales, gestión de eventos corporativos, desarrollo comunitario, networking de alto perfil, responsabilidad social empresarial, inversión de impacto, vinculación empresarial-académica, logística y dirección de eventos, cooperación internacional, estrategias ESG, innovación turística."
+      },
+      {
+        "title": "Habilidades",
+        "detail": "Liderazgo de comités ejecutivos, gestión de alianzas estratégicas, organización y logística de eventos corporativos, networking de alto perfil, negociación y diplomacia corporativa, vinculación académica-empresarial, gestión de proyectos comunitarios, comunicación institucional, dirección de equipos multidisciplinarios, planificación estratégica."
+      },
+      {
+        "title": "Idiomas",
+        "detail": "Español, Inglés"
+      }
+    ],
+    "video": "/videos/luz-aiyana-gonzalez-gordillo.mp4",
     "links": [
       {
         "label": "LinkedIn",
-        "href": "https://www.linkedin.com/in/aiyana-gonz%C3%A1lez/"
+        "href": "https://www.linkedin.com/in/aiyana-gonz%C3%A1lez?utm_source=share_via&utm_content=profile&utm_medium=member_ios"
       }
     ]
   },
@@ -1593,13 +1720,29 @@ const memberPilotProfiles: Record<string, {
     ]
   },
   "milla-allegra-balandran": {
-    "status": "Perfil pendiente de completar",
-    "headline": "Relaciones Internacionales",
-    "bio": "Estudiante de doble grado en Derecho y Relaciones Internacionales en el Tecnológico de Monterrey. Activa  en liderazgo estudiantil y debate internacional a través de Model UN y el National Hispanic Institute, donde participa como JFL College Intern. Seleccionada para el Eugenio Garza Sada Global Leadership Program, con enfoque en liderazgo, asuntos internacionales y compromiso comunitario",
-    "motivation": "",
-    "contribution": [],
-    "collaboration": "",
-    "evidence": [],
+    "status": "Perfil completo",
+    "headline": "Liderazgo comunitario | Derecho Internacional | México",
+    "bio": "Allegra cursa una doble licenciatura en Derecho y Relaciones Internacionales en el Tecnológico de Monterrey. Apasionada por la política, los asuntos sociales y la cooperación internacional, ha desarrollado experiencia en liderazgo estudiantil, gestión de proyectos y organización de eventos académicos y comunitarios de gran escala.\n\nActualmente preside la Sociedad de Alumnos de Derecho del Tecnológico de Monterrey y participa activamente en iniciativas de debate, arbitraje internacional y desarrollo de liderazgo. Su trayectoria incluye colaboraciones con el National Hispanic Institute y otros proyectos enfocados en la formación de jóvenes líderes. Además, disfruta de la fotografía, el diseño gráfico, la literatura y la edición de video, disciplinas que complementan su enfoque creativo y multidisciplinario.",
+    "motivation": "Construir una red internacional de apoyo que genere oportunidades más equitativas de acceso a la educación, el desarrollo profesional y el empleo, conectando personas, instituciones y comunidades para impulsar el talento sin importar el lugar de origen.",
+    "contribution": [
+      "Experiencia en liderazgo estudiantil, gestión de proyectos, organización de eventos de alto impacto y desarrollo de comunidades. Me interesa colaborar en iniciativas de educación, participación ciudadana, cooperación internacional y formación de nuevos líderes."
+    ],
+    "collaboration": "2-4 horas por la semana, disponible para proyectos puntuales de colaboración, organización de eventos o alianzas estratégicas",
+    "evidence": [
+      {
+        "title": "Intereses",
+        "detail": "liderazgo juvenil, relaciones internacionales, política pública, participación ciudadana, educación, diplomacia, arbitraje internacional, debate, innovación social, cooperación internacional"
+      },
+      {
+        "title": "Habilidades",
+        "detail": "liderazgo de equipos, gestión de proyectos, organización de eventos, oratoria, negociación, comunicación estratégica, trabajo en equipo, resolución de conflictos, gestión de alianzas, speaking público"
+      },
+      {
+        "title": "Idiomas",
+        "detail": "Español, inglés, francés, italiano"
+      }
+    ],
+    "video": "/videos/milla-allegra-balandran.mp4",
     "links": [
       {
         "label": "LinkedIn",

@@ -146,9 +146,10 @@ export const members: Member[] = [
     "area": "Marketing",
     "role": "Marketing",
     "slug": "alexa-ramirez-garcia",
-    "image": null,
+    "image": "/images/members/alexa-ramirez-garcia.webp",
     "linkedIn": "https://www.linkedin.com/in/alexaramirezg/",
-    "featured": false
+    "featured": false,
+    "video": "/videos/alexa-ramirez-garcia.mp4"
   },
   {
     "id": "CLH-004",
@@ -260,9 +261,10 @@ export const members: Member[] = [
     "area": "Business",
     "role": "Comunidad y Talento",
     "slug": "gabriela-gallardo",
-    "image": null,
+    "image": "/images/members/gabriela-gallardo.webp",
     "linkedIn": "https://www.linkedin.com/in/gabriela-gallardo-96a7842a5/",
-    "featured": false
+    "featured": false,
+    "video": "/videos/gabriela-gallardo.mp4"
   },
   {
     "id": "CLH-067",
@@ -310,9 +312,10 @@ export const members: Member[] = [
     "area": "Tecnología",
     "role": "BEWAY Tecnología",
     "slug": "josue-roberto-polanco",
-    "image": null,
+    "image": "/images/members/josue-roberto-polanco.webp",
     "linkedIn": "https://www.linkedin.com/in/roberto-polanco-0bb176354/",
-    "featured": false
+    "featured": false,
+    "video": "/videos/josue-roberto-polanco.mp4"
   },
   {
     "id": "CLH-055",
@@ -467,12 +470,13 @@ export const members: Member[] = [
     "name": "Milton Gorocica Rivas",
     "country": "México",
     "university": "Anahuac Mayab",
-    "area": "Emprender",
+    "area": "Hospitalidad-Comercio",
     "role": "Eventos y Experiencias",
     "slug": "milton-gorocica-rivas",
-    "image": null,
+    "image": "/images/members/milton-gorocica-rivas.webp",
     "linkedIn": "https://www.linkedin.com/in/milton-gorocica-rivas-7a110a2b1/",
-    "featured": false
+    "featured": false,
+    "video": "/videos/milton-gorocica-rivas.mp4"
   },
   {
     "id": "CLH-019",
@@ -590,13 +594,14 @@ export const members: Member[] = [
     "id": "CLH-058",
     "name": "Valeria Espinoza León",
     "country": "Ecuador",
-    "university": "UEES",
-    "area": "Negocios Internacionales",
+    "university": "UEES/Universidad de Especialidades Espíritu Santo",
+    "area": "Gestión de proyectos y Cadena de Suministro",
     "role": "Eventos y Experiencias | Tecnología",
     "slug": "valeria-espinoza-leon",
-    "image": null,
+    "image": "/images/members/valeria-espinoza-leon.webp",
     "linkedIn": "https://www.linkedin.com/in/valeria-espinoza-le%C3%B3n-4bb325306/",
-    "featured": false
+    "featured": false,
+    "video": "/videos/valeria-espinoza-leon.mp4"
   },
   {
     "id": "CLH-038",
@@ -681,7 +686,7 @@ export const members: Member[] = [
     "area": "Ingeniería Informática",
     "role": "Miembro",
     "slug": "fran-rodgmont",
-    "image": null,
+    "image": "/images/members/fran-rodgmont.webp",
     "linkedIn": "https://linkedin.com/in/rodgmont/?skipRedirect=true",
     "featured": false
   },
@@ -700,15 +705,16 @@ export const members: Member[] = [
   },
   {
     "id": "CLH-073",
-    "name": "Iker Guitierrez de Jesus",
+    "name": "Iker Gutiérrez de Jesús",
     "country": "México",
     "university": "Tecnológico de Monterrey",
     "area": "Ingeniería Industrial",
     "role": "Miembro",
     "slug": "iker-guitierrez-de-jesus",
-    "image": null,
+    "image": "/images/members/iker-guitierrez-de-jesus.webp",
     "linkedIn": "https://www.linkedin.com/in/iker-guti%C3%A9rrez-de-jes%C3%BAs-aa7b05244/",
-    "featured": false
+    "featured": false,
+    "video": "/videos/iker-guitierrez-de-jesus.mp4"
   },
   {
     "id": "CLH-023",
@@ -761,27 +767,16 @@ export const members: Member[] = [
   },
   {
     "id": "CLH-071",
-    "name": "Laura Nayeli Mendez Martinez",
-    "country": "México",
-    "university": "Tecnológico de Monterrey",
-    "area": "Negocios Internacionales",
-    "role": "Miembro",
-    "slug": "laura-nayeli-mendez-martinez",
-    "image": null,
-    "linkedIn": "https://www.linkedin.com/in/laura-nayeli-mendez-martinez-979627381/",
-    "featured": false
-  },
-  {
-    "id": "CLH-072",
     "name": "Luz Aiyana González Gordillo",
     "country": "México",
     "university": "Anáhuac Puebla",
     "area": "Turismo Internacional",
     "role": "Miembro",
     "slug": "luz-aiyana-gonzalez-gordillo",
-    "image": null,
-    "linkedIn": "https://www.linkedin.com/in/aiyana-gonz%C3%A1lez/",
-    "featured": false
+    "image": "/images/members/luz-aiyana-gonzalez-gordillo.webp",
+    "linkedIn": "https://www.linkedin.com/in/aiyana-gonz%C3%A1lez?utm_source=share_via&utm_content=profile&utm_medium=member_ios",
+    "featured": false,
+    "video": "/videos/luz-aiyana-gonzalez-gordillo.mp4"
   },
   {
     "id": "CLH-074",
@@ -840,9 +835,10 @@ export const members: Member[] = [
     "area": "Relaciones Internacionales",
     "role": "Miembro",
     "slug": "milla-allegra-balandran",
-    "image": null,
+    "image": "/images/members/milla-allegra-balandran.webp",
     "linkedIn": "https://www.linkedin.com/in/millaallegraa/",
-    "featured": false
+    "featured": false,
+    "video": "/videos/milla-allegra-balandran.mp4"
   },
   {
     "id": "CLH-036",
