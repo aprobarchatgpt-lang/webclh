@@ -98,7 +98,8 @@ img { display: block; max-width: 100%; }
 .stat-band > div:last-child { border-right: 0; }
 .stat-band strong { color: var(--gold-soft); font-size: 43px; letter-spacing: -.05em; }
 .stat-band span { color: #cbcbd7; margin-top: 4px; font-size: 13px; text-transform: uppercase; letter-spacing: .08em; }
-.shell > .stat-band { margin-top: 0; background: var(--navy); padding: 0 18px; }
+.stat-band-frame { background: var(--navy); border-top: 1px solid rgba(255,255,255,.22); }
+.stat-band-frame .stat-band { margin-top: 0; border-top: 0; background: var(--navy); padding: 0 18px; }
 
 .three-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
 .numbered-cards article { min-height: 245px; padding: 28px; border: 1px solid var(--line); display: flex; flex-direction: column; }
