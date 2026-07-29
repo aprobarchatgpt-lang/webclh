@@ -1837,7 +1837,7 @@ function Inicio({ go }: { go: (page: PageKey) => void }) {
         <div className="hero-portraits" aria-label="Tres miembros de la Comunidad de Líderes Hispanoamericanos">
           <article><figure className="hero-portrait-placeholder" role="img" aria-label="Fotografía de Michelle Rogel pendiente de autorización"><span>MR</span></figure><div><strong>Michelle Rogel</strong><span>México</span></div></article>
           <article><figure className="hero-portrait-placeholder" role="img" aria-label="Fotografía de Camila Calvo pendiente de incorporar"><span>CC</span></figure><div><strong>Camila Calvo</strong><span>Panamá</span></div></article>
-          <article><figure className="hero-portrait-placeholder" role="img" aria-label="Fotografía de Federico Matz pendiente de autorización"><span>FM</span></figure><div><strong>Federico Matz</strong><span>Argentina</span></div></article>
+          <article><figure className="hero-portrait-placeholder" role="img" aria-label="Fotografía de Santiago Nariño Rivera pendiente de incorporar"><span>SN</span></figure><div><strong>Santiago Nariño Rivera</strong><span>Colombia</span></div></article>
           <div className="portrait-metric"><strong>+100</strong><span>líderes · 14 países</span></div>
         </div>
       </div>
