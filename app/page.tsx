@@ -1841,7 +1841,7 @@ function Inicio({ go }: { go: (page: PageKey) => void }) {
           <div className="portrait-metric"><strong>+100</strong><span>líderes · 14 países</span></div>
         </div>
       </div>
-      <div className="shell"><StatBand /></div>
+      <div className="stat-band-frame"><div className="shell"><StatBand /></div></div>
     </section>
 
     <section className="section shell">
@@ -2023,7 +2023,7 @@ function Miembros({ go }: { go: (page: PageKey) => void }) {
   };
   return <>
     <PageHero eyebrow="Nuestros miembros" title="El valor de CLH está en las personas que deciden construir juntas." body="Más de 100 líderes jóvenes de España y Latinoamérica forman una red conectada por la iniciativa, el criterio y la voluntad de aportar." image="/images/comunidad.jpg" />
-    <div className="shell"><StatBand /></div>
+    <div className="stat-band-frame"><div className="shell"><StatBand /></div></div>
     <section className="section shell"><SectionTitle kicker="Directorio" title="Conoce a la comunidad." body="Filtra por país o posición dentro de CLH para descubrir a las personas que forman la comunidad. La fotografía y el perfil completo aparecen cuando el miembro ya ha facilitado y validado ese contenido." />
       <div className="filters"><label>País<select value={country} onChange={(e) => setCountry(e.target.value)}>{countries.map((item) => <option key={item}>{item}</option>)}</select></label><label>Rol en CLH<select value={area} onChange={(e) => setArea(e.target.value)}>{areas.map((item) => <option key={item}>{item}</option>)}</select></label><label className="search-field">Buscar por nombre<input value={search} onChange={(e) => setSearch(e.target.value)} placeholder="Ej. Federico" /></label><span className="result-count">{filtered.length} perfiles</span></div>
       <div className="member-grid">{filtered.map((member) => <article className={member.featured ? "member-card member-card-featured" : "member-card"} key={member.id}><div className="member-image">{member.image ? <img src={assetPath(member.image)} alt={`Retrato de ${member.name}`} /> : <div className="member-initials" role="img" aria-label={`Iniciales de ${member.name}`}>{memberInitials(member.name)}</div>}{member.featured && <span className="member-featured-label">Perfil completo de ejemplo</span>}</div><div><p className="member-country">{member.country}</p><h3>{member.name}</h3><p>{member.role}</p><button onClick={() => openProfile(member)}>Ver perfil <i>↗</i></button></div></article>)}</div>
