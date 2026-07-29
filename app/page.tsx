@@ -1837,7 +1837,7 @@ function Inicio({ go }: { go: (page: PageKey) => void }) {
         <div className="hero-portraits" aria-label="Tres miembros de la Comunidad de Líderes Hispanoamericanos">
           <article><figure className="hero-portrait-placeholder" role="img" aria-label="Fotografía de Michelle Rogel pendiente de autorización"><span>MR</span></figure><div><strong>Michelle Rogel</strong><span>México</span></div></article>
           <article><figure className="hero-portrait-placeholder" role="img" aria-label="Fotografía de Camila Calvo pendiente de incorporar"><span>CC</span></figure><div><strong>Camila Calvo</strong><span>Panamá</span></div></article>
-          <article><figure className="hero-portrait-placeholder" role="img" aria-label="Fotografía de Santiago Nariño Rivera pendiente de incorporar"><span>SN</span></figure><div><strong>Santiago Nariño Rivera</strong><span>Colombia</span></div></article>
+          <article><img src={assetPath("/images/members/santiago-narino-rivera.webp")} alt="Santiago Nariño Rivera" /><div><strong>Santiago Nariño Rivera</strong><span>Colombia</span></div></article>
           <div className="portrait-metric"><strong>+100</strong><span>líderes · 14 países</span></div>
         </div>
       </div>
@@ -1875,7 +1875,15 @@ function Inicio({ go }: { go: (page: PageKey) => void }) {
 
     <section className="international-section">
       <div className="shell international-grid">
-        <div className="international-image"><img src={assetPath("/images/equipo.jpg")} alt="Equipo internacional trabajando de forma coordinada" /><span>14 países conectados</span></div>
+        <div className="international-image" role="img" aria-label="Miembros de CLH de Colombia, Argentina, Perú y República Dominicana">
+          <div className="international-collage" aria-hidden="true">
+            <img src={assetPath("/images/members/santiago-narino-rivera.webp")} alt="" />
+            <img src={assetPath("/images/members/renata-berho.webp")} alt="" />
+            <img src={assetPath("/images/members/valeria-riojas-davila.webp")} alt="" />
+            <img src={assetPath("/images/members/vivianna-reynold.webp")} alt="" />
+          </div>
+          <span>14 países conectados</span>
+        </div>
         <div><Kicker>Presencia internacional</Kicker><h2>Una misma cultura, en distintos países.</h2><p>La dimensión internacional de CLH consiste en crear relaciones operativas entre personas que estudian, trabajan y construyen en contextos diferentes, pero comparten una misma exigencia.</p><p>Una oportunidad detectada en un país puede convertirse en una colaboración, una investigación o un proyecto entre varios mercados.</p><Button onClick={() => go("miembros")}>Conoce a nuestros miembros</Button></div>
       </div>
     </section>
