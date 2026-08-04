@@ -772,7 +772,8 @@ export const members: Member[] = [
     "area": "Negocios Internacionales",
     "role": "Miembro",
     "slug": "laura-nayeli-mendez-martinez",
-    "image": null,
+    "image": "/images/members/laura-nayeli-mendez-martinez.webp",
+    "video": "/videos/laura-nayeli-mendez-martinez.mp4",
     "linkedIn": "https://www.linkedin.com/in/laura-nayeli-mendez-martinez-979627381/",
     "featured": false
   },
