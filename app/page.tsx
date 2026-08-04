@@ -1748,16 +1748,6 @@ const memberPilotProfiles: Record<string, {
       }
     ]
   },
-  "krissia-alejandra-bueno-clh-077": {
-    "status": "Perfil pendiente de completar",
-    "headline": "Miembro",
-    "bio": "",
-    "motivation": "",
-    "contribution": [],
-    "collaboration": "",
-    "evidence": [],
-    "links": []
-  },
   "laura-nayeli-mendez-martinez": {
     "status": "Perfil completo",
     "headline": "Estudiante de Negocios Internacionales | Liderazgo e innovación social | México",
@@ -1781,7 +1771,6 @@ const memberPilotProfiles: Record<string, {
         "detail": "Español, inglés, francés, alemán"
       }
     ],
-    "video": "/videos/laura-nayeli-mendez-martinez.mp4",
     "links": [
       {
         "label": "LinkedIn",
@@ -2248,8 +2237,8 @@ function Inicio({ go }: { go: (page: PageKey) => void }) {
           <div className="button-row"><Button variant="light" onClick={() => go("comunidad")}>Descubre la comunidad</Button><Button variant="ghost" onClick={() => go("organizaciones")}>Colabora con CLH</Button></div>
         </div>
         <div className="hero-portraits" aria-label="Tres miembros de la Comunidad de Líderes Hispanoamericanos">
-          <article><figure className="hero-portrait-placeholder" role="img" aria-label="Fotografía de Michelle Rogel pendiente de autorización"><span>MR</span></figure><div><strong>Michelle Rogel</strong><span>México</span></div></article>
-          <article><figure className="hero-portrait-placeholder" role="img" aria-label="Fotografía de Camila Calvo pendiente de incorporar"><span>CC</span></figure><div><strong>Camila Calvo</strong><span>Panamá</span></div></article>
+          <article><img src={assetPath("/images/members/michelle-rogel.webp")} alt="Michelle Rogel" /><div><strong>Michelle Rogel</strong><span>México</span></div></article>
+          <article><img src={assetPath("/images/members/camila-calvo.webp")} alt="Camila Calvo" /><div><strong>Camila Calvo</strong><span>Panamá</span></div></article>
           <article><img src={assetPath("/images/members/santiago-narino-rivera.webp")} alt="Santiago Nariño Rivera" /><div><strong>Santiago Nariño Rivera</strong><span>Colombia</span></div></article>
           <div className="portrait-metric"><strong>+100</strong><span>líderes · 14 países</span></div>
         </div>

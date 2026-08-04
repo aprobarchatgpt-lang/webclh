@@ -47,7 +47,7 @@ export const members: Member[] = [
     "area": "Marketing",
     "role": "Líder de Marketing",
     "slug": "camila-calvo",
-    "image": null,
+    "image": "/images/members/camila-calvo.webp",
     "linkedIn": "https://www.linkedin.com/in/camila-calvo-de-la-guardia/",
     "featured": false
   },
@@ -765,18 +765,6 @@ export const members: Member[] = [
     "featured": false
   },
   {
-    "id": "CLH-077",
-    "name": "Krissia Alejandra Bueno",
-    "country": "",
-    "university": "",
-    "area": "",
-    "role": "Miembro",
-    "slug": "krissia-alejandra-bueno-clh-077",
-    "image": null,
-    "linkedIn": null,
-    "featured": false
-  },
-  {
     "id": "CLH-071",
     "name": "Laura Nayeli Mendez Martinez",
     "country": "México",
@@ -784,8 +772,7 @@ export const members: Member[] = [
     "area": "Negocios Internacionales",
     "role": "Miembro",
     "slug": "laura-nayeli-mendez-martinez",
-    "image": "/images/members/laura-nayeli-mendez-martinez.webp",
-    "video": "/videos/laura-nayeli-mendez-martinez.mp4",
+    "image": null,
     "linkedIn": "https://www.linkedin.com/in/laura-nayeli-mendez-martinez-979627381/",
     "featured": false
   },
@@ -910,7 +897,7 @@ export const members: Member[] = [
     "area": "Negocios Digitales",
     "role": "Miembro",
     "slug": "sophia-de-leone",
-    "image": null,
+    "image": "/images/members/sophia-de-leone.webp",
     "linkedIn": "https://www.linkedin.com/in/sophia-de-leone/",
     "featured": false
   },
