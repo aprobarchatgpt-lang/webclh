@@ -204,13 +204,28 @@ const memberPilotProfiles: Record<string, {
     ]
   },
   "emily-torres-pineda": {
-    "status": "Perfil pendiente de completar",
-    "headline": "Derecho",
-    "bio": "Estudiante de Jurisprudencia y Relaciones Internacionales en la Universidad del Rosario. Asistente de \ninvestigación en derechos humanos y derecho internacional. Coordinadora de semillero de investigación  y monitora académica en varias asignaturas jurídicas. Experiencia en Model United Nations (NHSMUN)  y en proyectos de investigación jurídica e inteligencia estratégica. Perfil orientado a política internacional, derecho internacional y liderazgo académico.",
-    "motivation": "",
-    "contribution": [],
-    "collaboration": "",
-    "evidence": [],
+    "status": "Perfil completo",
+    "headline": "Internacionalista y estudiante de octavo semestre de Derecho, con énfasis en política internacional y diplomacia.",
+    "bio": "Internacionalista y estudiante de octavo semestre de Jurisprudencia, con énfasis en política internacional y diplomacia. Interesada en el análisis de problemáticas globales desde el derecho internacional y el derecho privado, con enfoque en la comprensión de dinámicas internacionales y la construcción de soluciones jurídicas en contextos transnacionales.",
+    "motivation": "Quiero construir una red sólida de cooperación en Hispanoamérica mediante alianzas estratégicas, proyectos de impacto, espacios de formación e investigación y oportunidades que fortalezcan el liderazgo, la integración y el desarrollo profesional de nuestra comunidad.",
+    "contribution": [
+      "Aporto experiencia en liderazgo estudiantil, investigación, relaciones internacionales y gestión jurídica. Me interesa construir alianzas estratégicas, fortalecer la estructura institucional de CLH y desarrollar proyectos con impacto en la comunidad hispanoamericana."
+    ],
+    "collaboration": "2-4 horas semanales",
+    "evidence": [
+      {
+        "title": "Intereses",
+        "detail": "Derecho internacional, Diplomacia, Cooperación internacional, Liderazgo, Gobernanza, Relaciones institucionales, Investigación, Movilidad humana, Derechos humanos, Integración latinoamericana, LegalTech, Política internacional"
+      },
+      {
+        "title": "Habilidades",
+        "detail": "Liderazgo, Gestión de proyectos, Investigación jurídica, Análisis jurídico, Redacción jurídica, Negociación, Relaciones institucionales, Networking, Cooperación internacional, Gestión de alianzas, Oratoria, Comunicación estratégica, Trabajo en equipo, Organización, Resolución de problemas, Planeación estratégica, Gestión documental, Coordinación de equipos, Derecho internacional, Diplomacia"
+      },
+      {
+        "title": "Idiomas",
+        "detail": "Español, ingles"
+      }
+    ],
     "links": [
       {
         "label": "LinkedIn",
@@ -249,13 +264,14 @@ const memberPilotProfiles: Record<string, {
       },
       {
         "title": "Habilidades",
-        "detail": "* Project Management\n* Organización de eventos\n* Planeación estratégica\n* Liderazgo\n* Comunicación\n* Trabajo en equipo\n* Resolución de problemas\n* Manejo de IA (Claude, Codex)\n* Python\n* MATLAB\n* AutoCAD\n* Fusion 360\n* PLCs\n* Arduino\n* Análisis de datos\n* Microsoft Excel\n* Google Workspace"
+        "detail": "Project Management, organización de eventos, planeación estratégica, liderazgo, comunicación, trabajo en equipo, resolución de problemas, manejo de IA (Claude, Codex), Python, MATLAB, AutoCAD, Fusion 360, PLCs, Arduino, análisis de datos, Microsoft Excel y Google Workspace"
       },
       {
         "title": "Idiomas",
         "detail": "🇲🇽 Español — Nativo\n🇺🇸 Inglés — Avanzado (C1)"
       }
     ],
+    "video": "/videos/michelle-rogel.mp4",
     "links": [
       {
         "label": "LinkedIn",
@@ -373,12 +389,28 @@ const memberPilotProfiles: Record<string, {
   },
   "byron-zambrano": {
     "status": "Perfil pendiente de completar",
-    "headline": "Negocios Internacionales",
-    "bio": "Estudiante de International Business en la Universidad Espíritu Santo (UEES). Actualmente pasante en  Rivedasa S.A. y con experiencia previa en logística internacional en Paccari Chocolate, participando en gestión de exportaciones y coordinación de eventos promocionales. Coordinador de UEES Leaders, con perfil orientado a negocios internacionales, liderazgo estudiantil y gestión operativa.",
-    "motivation": "",
-    "contribution": [],
-    "collaboration": "",
-    "evidence": [],
+    "headline": "Memento Vivere",
+    "bio": "Byron Zambrano es un estudiante universitario de Negocios Internacionales, con experiencias en Liderazgo, Logística Internacional y de Eventos, Comunicación Intercultural, Manejo de equipos, entre más.",
+    "motivation": "Me gustaría continuar en el proceso de Alianzas y consolidación Internacional de la marca CLH. Impulsar el desarrollo de la educación en Ecuador a través de iniciativas como Competencias Líderes, que pertenezco como alumni y embajador del programa. \nA largo plazo, establecer relaciones y tratados comerciales que aumenten la presencia internacional del Ecuador en multiples mercados para importaciones, exportaciones, intercambios culturales, y más.",
+    "contribution": [
+      "Experiencia manejando la logística, planificación y dirección de eventos institucionales, academicos, culturales y profesionales de alto impacto, habilidades de comunicación intercultural, organización de proyectos, establecer alianzas sin fronteras."
+    ],
+    "collaboration": "6 horas por semana y fines de semana completo",
+    "evidence": [
+      {
+        "title": "Intereses",
+        "detail": "Diplomacia, Logística Portuaria, Música, Leyes, Inteligencia Artificial"
+      },
+      {
+        "title": "Habilidades",
+        "detail": "Liderazgo, Comunicación Intercultural, Organización de proyectos, Optimización con IA"
+      },
+      {
+        "title": "Idiomas",
+        "detail": "Español, Inglés, Chino, Alemán"
+      }
+    ],
+    "video": "/videos/byron-zambrano.mp4",
     "links": [
       {
         "label": "LinkedIn",
@@ -696,17 +728,33 @@ const memberPilotProfiles: Record<string, {
     ]
   },
   "jose-humberto-leon-ledesma": {
-    "status": "Perfil pendiente de completar",
-    "headline": "Comunicación",
-    "bio": "Estudiante de Entertainment Business Management en la Universidad Anáhuac Mayab. Presidente \nde la Sociedad de Alumnos de la Escuela de Comunicación y Dirección de Empresas de \nEntretenimiento. Experiencia en la industria del entretenimiento y hospitality con The Walt \nDisney Company y proyectos internacionales de entretenimiento, con perfil orientado a liderazgo \nde equipos, producción de experiencias y gestión de proyectos creativos.",
-    "motivation": "",
-    "contribution": [],
-    "collaboration": "",
-    "evidence": [],
+    "status": "Perfil completo",
+    "headline": "Estudiante de Entretenimiento | Diversidad e Inclusión | Desarrollo Organizacional",
+    "bio": "Humberto es estudiante de Dirección de Empresas de Entretenimiento con más de ocho años de experiencia en la industria del entretenimiento, los eventos y el liderazgo juvenil. A lo largo de su trayectoria ha participado en la producción, dirección y operación de proyectos de distintos formatos y escalas, complementando su formación con experiencias junto a referentes internacionales y la adopción de mejores prácticas para el diseño de experiencias memorables.\n\nHa desarrollado un perfil versátil gracias a su paso por Walt Disney World, Moon Palace Resorts, campamentos de verano en Estados Unidos, Club Teletón, liderazgo en organizaciones estudiantiles, artes escénicas y producciones audiovisuales. \n\nActualmente, enfoca su desarrollo profesional en la inclusión y la diversidad dentro del entretenimiento, así como en la construcción de cultura organizacional mediante el liderazgo de equipos y la creación de experiencias con impacto.",
+    "motivation": "Quiero crear alianzas entre empresas, universidades y organizaciones para impulsar experiencias de entretenimiento más accesibles, fortalecer el liderazgo con enfoque humano y promover culturas de trabajo donde las personas sean la prioridad.",
+    "contribution": [
+      "Visión de proyectos centrada en las personas, ayudando a construir equipos con una cultura sólida y de confianza, impulsar estrategias de diversidad e inclusión, y brindar retroalimentación para que proyectos y experiencias sean más accesibles, representativos e impactantes."
+    ],
+    "collaboration": "Disponible para proyectos puntuales.",
+    "evidence": [
+      {
+        "title": "Intereses",
+        "detail": "Diseño de experiencias, creatividad, storytelling, innovación social, comportamiento organizacional, human-machine interface, producción de eventos"
+      },
+      {
+        "title": "Habilidades",
+        "detail": "Liderazgo de equipos, construcción de cultura organizacional, gestión de voluntarios, comunicación estratégica, gestión de stakeholders, dirección de proyectos"
+      },
+      {
+        "title": "Idiomas",
+        "detail": "Español, Inglés, Francés."
+      }
+    ],
+    "video": "/videos/jose-humberto-leon-ledesma.mp4",
     "links": [
       {
         "label": "LinkedIn",
-        "href": "https://www.linkedin.com/in/jos%C3%A9-humberto-le%C3%B3n-ledesma-1bb4111b7/"
+        "href": "https://www.linkedin.com/in/humberto-le%C3%B3n-ledesma-1bb4111b7/"
       }
     ]
   },
@@ -774,12 +822,28 @@ const memberPilotProfiles: Record<string, {
   },
   "kevin-elias-luna-palacios": {
     "status": "Perfil pendiente de completar",
-    "headline": "Ingenieria Informática",
-    "bio": "Estudiante de Ingeniería de Software y Negocios Digitales en ESEN. Presidente de EduTECH ESEN, \nliderando iniciativas de educación tecnológica y alfabetización digital. Perfil orientado a ciberseguridad, tecnología y liderazgo en entornos formativos.",
-    "motivation": "",
-    "contribution": [],
-    "collaboration": "",
-    "evidence": [],
+    "headline": "Software Engineering Student | Cybersecurity & Backend Development | Blue Team | SOC | El Salvador",
+    "bio": "Kevin Elías Luna Palacios es estudiante de Ingeniería de Software y Negocios Digitales con un enfoque en desarrollo de software y ciberseguridad. Actualmente orienta su crecimiento profesional hacia roles de Blue Team y Security Operations Center (SOC), fortaleciendo sus conocimientos mediante proyectos prácticos, laboratorios y aprendizaje continuo.\n\nAdemás de su formación técnica, participa activamente en iniciativas de liderazgo y educación tecnológica. Es presidente de EduTECH ESEN, donde coordina proyectos de impacto educativo y promueve la alfabetización digital, y forma parte de la Comunidad de Líderes Hispanoamericanos (CLH), colaborando con profesionales y estudiantes en iniciativas de tecnología, aprendizaje e innovación. También contribuye como instructor de robótica en programas educativos.\n\nLe apasiona construir soluciones seguras, colaborar con equipos multidisciplinarios y generar un impacto positivo mediante la tecnología y el aprendizaje compartido.",
+    "motivation": "Desarrollar soluciones tecnológicas donde la ingeniería de software y la ciberseguridad sean pilares para construir sistemas confiables, escalables y seguros, mientras promuevo el aprendizaje y el desarrollo de talento para potenciar el impacto de la tecnología.",
+    "contribution": [
+      "Combino desarrollo de software, ciberseguridad y liderazgo para transformar ideas en soluciones. Puedo aportar en el diseño de aplicaciones backend, iniciativas de educación tecnológica, organización de equipos y proyectos colaborativos donde la innovación, el aprendizaje continuo y el impacto social sean prioridad."
+    ],
+    "collaboration": "5 horas por semana, disponible para proyectos colaborativos, mentorías e iniciativas tecnológicas remotas o híbridas.",
+    "evidence": [
+      {
+        "title": "Intereses",
+        "detail": "ciberseguridad, Blue Team, SOC, desarrollo backend, arquitectura de software, seguridad de aplicaciones, tecnología educativa, liderazgo, robótica, inteligencia artificial, innovación"
+      },
+      {
+        "title": "Habilidades",
+        "detail": "Python, Java, JavaScript, Laravel, desarrollo backend, APIs REST, Nmap, Kali Linux, resolución de problemas, liderazgo, trabajo en equipo, comunicación, aprendizaje continuo"
+      },
+      {
+        "title": "Idiomas",
+        "detail": "español, inglés"
+      }
+    ],
+    "video": "/videos/kevin-elias-luna-palacios.mp4",
     "links": [
       {
         "label": "LinkedIn",
@@ -788,13 +852,29 @@ const memberPilotProfiles: Record<string, {
     ]
   },
   "krissia-alejandra-bueno": {
-    "status": "Perfil pendiente de completar",
-    "headline": "Business",
-    "bio": "Estudiante de Economía y Negocios en ESEN. Experiencia en análisis económico y datos como asistente \nde cátedra en múltiples áreas y en entornos financieros. Perfil orientado a análisis, econometría y desarrollo académico.",
-    "motivation": "",
-    "contribution": [],
-    "collaboration": "",
-    "evidence": [],
+    "status": "Perfil completo",
+    "headline": "Economía y Negocios | Finanzas, datos, mercadeo y emprendimiento | El Salvador",
+    "bio": "Krissia Bueno es estudiante de quinto año de Licenciatura en Economía y Negocios en ESEN, El Salvador, con experiencia en análisis de datos, finanzas y gestión de emprendimientos. Ha trabajado en pasantías en el sector fintech  y seguros, donde desarrolló habilidades en SQL, Excel y validación de información para la toma de decisiones. Es fundadora y administradora financiera de Kashimbon, su propio emprendimiento, y actualmente se desempeña como ayudante de cátedra en materias como Cálculo, Econometría y Microeconomía. Además, es pasante del área de Operaciones en Grupo Roble. Es reconocida por su desempeño académico con Cuadro de Honor y la Beca ATA de Probecas ESEN, Krissia combina disciplina, iniciativa y pensamiento analítico en todo lo que emprende. Le apasiona la ciencia de datos, el mercadeo y las finanzas, y busca seguir creciendo profesionalmente en entornos que le permitan aportar valor a través del análisis y la toma de decisiones basada en datos.",
+    "motivation": "Quiero construir puentes y proyectos entre las empresas y los jóvenes, promoviendo una comunicación más cercana, transparente y con propósito. Busco impulsar espacios donde el liderazgo joven tenga voz real y donde la colaboración entre generaciones genere un impacto positivo en todo el mundo.",
+    "contribution": [
+      "Experiencia liderando equipos y proyectos. Aporto pensamiento analítico, capacidad de conectar datos con decisiones, y experiencia generando contenido y comunidad, uniendo la mirada técnica con la humana."
+    ],
+    "collaboration": "3 horas por semana para proyectos ",
+    "evidence": [
+      {
+        "title": "Intereses",
+        "detail": "liderazgo joven, comunicación organizacional, innovación social, desarrollo comunitario, emprendimiento con propósito, educación"
+      },
+      {
+        "title": "Habilidades",
+        "detail": "Análisis de datos, mercadeo, negocios/emprendimiento, trabajo en equipo, liderazgo"
+      },
+      {
+        "title": "Idiomas",
+        "detail": "Español, Inglés"
+      }
+    ],
+    "video": "/videos/krissia-alejandra-bueno.mp4",
     "links": [
       {
         "label": "LinkedIn",
@@ -866,12 +946,28 @@ const memberPilotProfiles: Record<string, {
   },
   "lucia-maria-vizcarrondo": {
     "status": "Perfil pendiente de completar",
-    "headline": "Marketing",
-    "bio": "Estudiante de Marketing en la Universidad de Navarra, especializada en Comunicación Corporativa y \nparticipante del Global Program in Innovation & Entrepreneurship (GPIE), un programa selectivo centrado en \ninnovación y emprendimiento. Ha desarrollado experiencia en marketing hotelero, creación de contenido, \ngestión de eventos y posicionamiento de marca durante sus prácticas en Hotel El Convento, complementada \ncon certificaciones en marketing digital y SEO. Perfil con visión internacional, creativo, orientado a la comunicación \nestratégica, la innovación y el desarrollo de marcas.",
-    "motivation": "",
-    "contribution": [],
-    "collaboration": "",
-    "evidence": [],
+    "headline": "Estudiante de Marketing | Estrategia, growth y hospitalidad de lujo | España",
+    "bio": "Lucía Maria Vizcarrondo nació en Suiza, se crió en Puerto Rico, vivió en Dakota del Sur y actualmente estudia Marketing y Comunicación Corporativa en la Universidad de Navarra, Pamplona. Esa trayectoria entre culturas le dio una perspectiva verdaderamente global sobre cómo se conectan personas, mercados y negocios. Dentro del sector de hospitalidad, lujo y experiencias, le interesan la consultoría, la estrategia, el growth y performance marketing, las ventas, la comunicación corporativa y el real estate. Cree firmemente que las relaciones reales y un buen CRM son lo que sostiene los resultados a largo plazo. Sigue formándose en ROI, rentabilidad y el funcionamiento del negocio dentro del sector lujo, además de cursar formación adicional en real estate y otras áreas afines.",
+    "motivation": "Una carrera y un proyecto propio en la intersección entre lujo y naturaleza. Busca alianzas en hospitalidad y real estate, y sobre todo una red de personas con visión de largo plazo, comprometidas a materializar ideas y aprender constantemente.",
+    "contribution": [
+      "Pensamiento estratégico, management y organización, capacidad para planificar y coordinar viajes y eventos, growth y performance marketing, estrategia de marca, análisis competitivo, y perspectiva de mercados europeos, latinoamericanos y norteamericanos en hospitalidad y lujo."
+    ],
+    "collaboration": "Disponible para proyectos y reuniones concretas",
+    "evidence": [
+      {
+        "title": "Intereses",
+        "detail": "Hospitalidad, experiencias de lujo y naturaleza, real estate, consultoría, ventas, viajes, performance marketing, ROI, hobbies aquaticos + ski"
+      },
+      {
+        "title": "Habilidades",
+        "detail": "Pensamiento estratégico, growth marketing, management, organización, comunicación corporativa, análisis competitivo, negociación, coordinación de viajes y eventos"
+      },
+      {
+        "title": "Idiomas",
+        "detail": "Español, Ingles, Francés"
+      }
+    ],
+    "video": "/videos/lucia-maria-vizcarrondo.mp4",
     "links": [
       {
         "label": "LinkedIn",
@@ -926,17 +1022,32 @@ const memberPilotProfiles: Record<string, {
     ]
   },
   "maria-pia-olivera": {
-    "status": "Perfil pendiente de completar",
-    "headline": "Relaciones Internacionales",
-    "bio": "Estudiante de Estudios Internacionales en Universidad ORT Uruguay. Formación en política internacional y análisis geopolítico, con certificaciones en política exterior y relaciones internacionales. Perfil orientado a análisis estratégico, relaciones internacionales y entorno político global.",
-    "motivation": "",
-    "contribution": [],
-    "collaboration": "",
-    "evidence": [],
+    "status": "Perfil completo",
+    "headline": "Estudiante de Relaciones Internacionales enfocada en cooperación, seguridad y organismos internacionales",
+    "bio": "María Pía Olivera Coccaro es estudiante de la Licenciatura en Estudios Internacionales en la Universidad ORT Uruguay y actualmente realiza una pasantía en la Dirección de la Oficina Regional de la UNESCO en Montevideo. Le interesa comprender los conflictos internacionales desde su dimensión histórica, política y social, con especial atención a la seguridad, las guerras, el crimen organizado y la cooperación entre países. Disfruta conocer personas de diferentes lugares, escuchar nuevas perspectivas y generar vínculos que amplíen su manera de entender el mundo. Busca desarrollarse en espacios internacionales que combinen análisis, diálogo y trabajo con personas de distintas culturas.",
+    "motivation": "Quiero crear vínculos internacionales e impulsar proyectos sobre seguridad, conflictos, historia y cooperación que conecten a jóvenes de distintos países, y colaborar o ayudar a quienes pueda.",
+    "contribution": [
+      "Puedo aportar investigación, análisis de conflictos, redacción y una gran disposición para conocer personas, escuchar perspectivas diferentes siempre desde el respeto y conectar ideas."
+    ],
+    "collaboration": "2-4 horas, disponible para proyectos o lo necesario. ",
+    "evidence": [
+      {
+        "title": "Intereses",
+        "detail": "Relaciones internacionales, historia, conflictos internacionales, guerras, seguridad, crimen organizado, geopolítica, diplomacia, cooperación internacional, culturas."
+      },
+      {
+        "title": "Habilidades",
+        "detail": "Investigación, análisis, redacción, comunicación, escucha activa, creación de vínculos, trabajo en equipo, organización"
+      },
+      {
+        "title": "Idiomas",
+        "detail": "Español nativo, inglés avanzado, portugués intermedio"
+      }
+    ],
     "links": [
       {
         "label": "LinkedIn",
-        "href": "https://www.linkedin.com/in/mar%C3%ADa-p%C3%ADa-olivera-coccaro-339928389/"
+        "href": "https://www.linkedin.com/in/mariapiaoliveracoccaro"
       }
     ]
   },
@@ -1057,13 +1168,29 @@ const memberPilotProfiles: Record<string, {
     ]
   },
   "oscar-jose-pleites": {
-    "status": "Perfil pendiente de completar",
-    "headline": "Tecnología",
-    "bio": "Estudiante de Software Engineering and Digital Business en ESEN, especializado en algoritmos, \nbackend y programación competitiva de alto nivel. Co-fundador de Competitive Coding Club (C3), donde lidera la creación de competiciones técnicas y el desarrollo de comunidades tecnológicas en El Salvador. Destaca por su pensamiento estructurado, capacidad de liderazgo bajo presión y enfoque extremo en resolución de problemas complejos, correctness y ejecución técnica.",
-    "motivation": "",
-    "contribution": [],
-    "collaboration": "",
-    "evidence": [],
+    "status": "Perfil completo",
+    "headline": "Ingeniero de Software | Backend | Finalista Mundial (Olimpiada Internacional de Informática) | Co-Fundador & Co-Líder de Contenido @ Competitive Coding Club",
+    "bio": "Empresario co-fundador del Competitive Coding Club (C3), que impulsa el talento en programación y negocios en El Salvador. Estudiante de Ingeniería de Software y Negocios Digitales en ESEN, impulsado por la resolución de problemas y el rigor técnico.",
+    "motivation": "* Desarrollar el pensamiento algorítmico, resolución de problemas y rigor técnico a través de competencias, entrenamientos e iniciativas de alto nivel. \n\n* Impulsar experiencias builder donde el talento técnico joven transforma conocimiento en prototipos, productos y soluciones para retos reales.\n\n* Crear puentes entre talento emergente, instituciones educativas, empresas y organizaciones para multiplicar oportunidades técnicas reales.",
+    "contribution": [
+      "• Descompongo problemas complejos -a nivel ICPC e IOI- en componentes más pequeños, identificando explícitamente casos límite, restricciones y posibles escenarios de fallo antes de la implementación.\n\n• Cofundé el C3, donde diseño y redacto desafíos algorítmicos para más de 130 participantes en competencias nacionales de programación.\n\n• Lidero y coordino equipos de pruebas para la Copa Salvadoreña de Programación, colaborando con programadores competitivos experimentados para someter los problemas a pruebas de estrés, validar restricciones y descubrir casos límite ocultos.\n\n• Entreno a miembros avanzados del Grupo Olímpico de Informática en estructuras de datos y algoritmos, con énfasis en la eficiencia y el razonamiento bajo presión y restricciones."
+    ],
+    "collaboration": "2-3 horas semanales",
+    "evidence": [
+      {
+        "title": "Intereses",
+        "detail": "Educación STEM, Desarrollo de soluciones informáticas, Eventos tecnológicos y científicos"
+      },
+      {
+        "title": "Habilidades",
+        "detail": "Resolución de problemas, Algoritmos, Estructuras de Datos"
+      },
+      {
+        "title": "Idiomas",
+        "detail": "Español (nativo), Inglés (bilingüe), Alemán (Básico)"
+      }
+    ],
+    "video": "/videos/oscar-jose-pleites.mp4",
     "links": [
       {
         "label": "LinkedIn",
@@ -1072,13 +1199,29 @@ const memberPilotProfiles: Record<string, {
     ]
   },
   "priscila-bryan-serrano": {
-    "status": "Perfil pendiente de completar",
-    "headline": "Operaciones",
-    "bio": "Estudiante de Florida State University con formación en finanzas, análisis de datos y gestión \nempresarial. Ha desarrollado experiencia en compañías internacionales como Philips y Ascendancy Fund, participando en análisis financiero, financiación inmobiliaria y gestión administrativa. Perfil analítico, adaptable y orientado a la resolución de problemas, con interés en innovación, tecnología aplicada a finanzas y desarrollo internacional.",
-    "motivation": "",
-    "contribution": [],
-    "collaboration": "",
-    "evidence": [],
+    "status": "Perfil completo",
+    "headline": "Estudiante en FSU | Finance Intern | Trend Hunter en Marketing | Finanzas",
+    "bio": "Priscilla Bryan es estudiante de Relaciones Internacionales en Florida State University y actualmente realiza una pasantía en el área de Finanzas, donde ha fortalecido sus habilidades analíticas y de resolución de problemas en un entorno corporativo.\n\nEn CLH forma parte del equipo de Marketing como Trend Hunter, investigando tendencias, identificando oportunidades y aportando ideas para fortalecer la estrategia y el crecimiento de la comunidad.\n\nLe apasiona comprender los cambios que impactan a las personas, los negocios y la sociedad, combinando su interés por las relaciones internacionales, el marketing, la innovación y las nuevas tecnologías. Cree en el aprendizaje continuo, la colaboración y el intercambio de conocimiento como motores para generar impacto.",
+    "motivation": "Quiero impulsar proyectos que conecten a jóvenes de distintos países para compartir conocimientos, generar oportunidades de colaboración y desarrollar iniciativas con impacto positivo.",
+    "contribution": [
+      "Me gusta investigar, conectar ideas y transformar tendencias en oportunidades. Disfruto trabajar en equipo, compartir conocimientos y aportar una perspectiva internacional, combinando creatividad con análisis para encontrar soluciones que generen valor."
+    ],
+    "collaboration": "2-4 horas a la semana ",
+    "evidence": [
+      {
+        "title": "Intereses",
+        "detail": "Relaciones internacionales, marketing, tendencias, innovación, inteligencia artificial, geopolítica, emprendimiento, liderazgo, estrategia, desarrollo profesional, Inteligencia Artificialt"
+      },
+      {
+        "title": "Habilidades",
+        "detail": "Investigación, análisis de tendencias, comunicación, pensamiento crítico, análisis estratégico, organización, trabajo en equipo, Excel, Power BI, SAP."
+      },
+      {
+        "title": "Idiomas",
+        "detail": "Español, Inglés"
+      }
+    ],
+    "video": "/videos/priscila-bryan-serrano.mp4",
     "links": [
       {
         "label": "LinkedIn",
@@ -1088,12 +1231,28 @@ const memberPilotProfiles: Record<string, {
   },
   "ricardo-corao": {
     "status": "Perfil pendiente de completar",
-    "headline": "Ingenieria Industrial",
-    "bio": "Estudiante de Ingeniería Industrial Administrativa en la USMA. Experiencia en operaciones y mejora de \nprocesos en EF y Haleon, participando en planificación, ejecución de proyectos internacionales y optimización industrial (Lean Six Sigma). Perfil orientado a operaciones, eficiencia y gestión de proyectos.",
-    "motivation": "",
-    "contribution": [],
-    "collaboration": "",
-    "evidence": [],
+    "headline": "Profesional orientado a resultados, con una visión estratégica, gran capacidad de adaptación y un firme compromiso con generar valor y construir relaciones de confianza.",
+    "bio": "Ricardo Corao es estudiante de Ingeniería Industrial Administrativa, con experiencia en distintas industrias, incluyendo la farmacéutica y el turismo. Ha trabajado en una planta de producción de medicamentos, dentro del área de mantenimiento productivo, y en una compañía de turismo, donde se desempeñó en el área operativa. Se caracteriza por su capacidad de adaptación, visión integral de los procesos y orientación a resultados.",
+    "motivation": "Me gustaría construir una trayectoria profesional enfocada en la innovación, la mejora continua y la generación de valor. Quiero impulsar proyectos e iniciativas que optimicen procesos, mejoren la eficiencia operativa y contribuyan al crecimiento sostenible de las organizaciones.",
+    "contribution": [
+      "Ricardo Corao puede aportar una perspectiva multidisciplinaria, combinando sus conocimientos de Ingeniería Industrial Administrativa con experiencia práctica en mantenimiento productivo y operaciones turísticas. Su capacidad de adaptación, organización y análisis le permite identificar oportunidades de mejora, optimizar procesos y contribuir al logro de los objetivos de la organización."
+    ],
+    "collaboration": "2 horas diarias ",
+    "evidence": [
+      {
+        "title": "Intereses",
+        "detail": "Inteligencia artificial, mejora continua, Análisis de datos para la toma de decisiones, Gestión de proyectos y mejora de procesos"
+      },
+      {
+        "title": "Habilidades",
+        "detail": "Resolución de problemas, Atención al detalle, Adaptabilidad, Gestión del tiempo y cumplimiento de plazos, Toma de decisiones, Iniciativa y proactividad, Capacidad para detectar errores y riesgos, Facilidad para aprender nuevos sistemas y herramientas, Uso de herramientas digitales y hojas de cálculo, Responsabilidad y compromiso, Capacidad para trabajar de manera independiente, Creatividad para proponer soluciones"
+      },
+      {
+        "title": "Idiomas",
+        "detail": "Español, inglés"
+      }
+    ],
+    "video": "/videos/ricardo-corao.mp4",
     "links": [
       {
         "label": "LinkedIn",
@@ -1319,13 +1478,29 @@ const memberPilotProfiles: Record<string, {
     ]
   },
   "yamel-fernandez": {
-    "status": "Perfil pendiente de completar",
-    "headline": "Marketing",
-    "bio": "Estudiante de Comunicación Audiovisual en la Universidad Iberoamericana. Experiencia en fotografía y \nstorytelling visual, cubriendo eventos, retrato y proyectos sociales, incluyendo trabajos institucionales de alto nivel. Perfil creativo orientado a contenido, narrativa visual y producción audiovisual.",
-    "motivation": "",
-    "contribution": [],
-    "collaboration": "",
-    "evidence": [],
+    "status": "Perfil completo",
+    "headline": "Fotógrafa | Narradora Visual | Creadora de Contenido",
+    "bio": "Fotógrafa con experiencia en la cobertura de eventos corporativos, conferencias, activaciones de marca e iniciativas comunitarias. Especializada en la creación de contenido visual atractivo, con capacidad para desenvolverse en entornos dinámicos y entregar imágenes que fortalecen la presencia de marca y la conexión con la audiencia.",
+    "motivation": "Quiero especializarme en fotografía deportiva y expandir mi trabajo audiovisual a mercados internacionales. Me interesa también explorar el área de mercadeo como parte de mi desarrollo profesional. Busco alianzas con productoras y agencias fuera del país para crecer en el extranjero.",
+    "contribution": [
+      "Experiencia en fotografía profesional (eventos, bodas, comercial y BTS de cine), producción audiovisual, dirección de cortometrajes y creación de contenido. También aporto conocimiento en narrativa deportiva y visual storytelling, y manejo bilingüe español-inglés para proyectos internacionales."
+    ],
+    "collaboration": "Disponible para proyectos",
+    "evidence": [
+      {
+        "title": "Intereses",
+        "detail": "Fotografía, mercadeo, cine, storytelling, fotografía deportiva, expansión profesional, eventos"
+      },
+      {
+        "title": "Habilidades",
+        "detail": "Fotografía deportiva, fotografía de eventos, producción audiovisual, edición y postproducción, storytelling visual, guión y desarrollo de historias, fotografía comercial, cobertura de bodas, gestión de proyectos creativos, trabajo en equipo"
+      },
+      {
+        "title": "Idiomas",
+        "detail": "Español, Inglés"
+      }
+    ],
+    "video": "/videos/yamel-fernandez.mp4",
     "links": [
       {
         "label": "LinkedIn",
@@ -1543,13 +1718,29 @@ const memberPilotProfiles: Record<string, {
     ]
   },
   "karen-jimena-fonseca": {
-    "status": "Perfil pendiente de completar",
-    "headline": "Finanzas",
-    "bio": "Estudiante de Finanzas y Relaciones Internacionales en la Universidad Externado de Colombia. \nLiderazgo en mercado de capitales como directora en Finvext Club y monitora académica, con experiencia en investigación y análisis financiero. Perfil orientado a inversión, asset management y mercados financieros.",
-    "motivation": "",
-    "contribution": [],
-    "collaboration": "",
-    "evidence": [],
+    "status": "Perfil completo",
+    "headline": "Estudiante de Finanzas y Relaciones Internacionales | Mercados de Capitales | Equity Research",
+    "bio": "Karen es estudiante de Finanzas y Relaciones Internacionales en la Universidad Externado de Colombia, con un marcado interés en los mercados de capitales, el análisis financiero y las finanzas corporativas. Ha desarrollado experiencia en valoración de empresas, análisis de inversiones e investigación financiera a través de proyectos académicos y competencias de alto nivel. Además, ha asumido roles de liderazgo estudiantil y apoyo académico, impulsando iniciativas de formación y divulgación en el ámbito financiero. Se caracteriza por su pensamiento analítico, capacidad para resolver problemas y compromiso con el aprendizaje continuo. Su propósito es generar valor mediante el análisis estratégico y financiero, contribuyendo a la toma de decisiones de inversión y al desarrollo de soluciones que impulsen el crecimiento sostenible de las organizaciones y los mercados.",
+    "motivation": "Impulsar espacios donde las finanzas sean una herramienta para generar impacto, conectando líderes hispanoamericanos en proyectos de educación financiera, emprendimiento e inversión con propósito.",
+    "contribution": [
+      "Aporto una perspectiva analítica y estratégica para abordar retos financieros, transformar datos en decisiones y generar soluciones con impacto. Disfruto compartir conocimientos, colaborar en equipos multidisciplinarios y aprender de nuevas perspectivas para contribuir a la creación de valor sostenible en las organizaciones."
+    ],
+    "collaboration": "5–10 horas semanales, con flexibilidad según las necesidades del proyecto.",
+    "evidence": [
+      {
+        "title": "Intereses",
+        "detail": "Mercados de capitales, fundraising, análisis financiero, análisis de inversiones, geopolítica, innovación financiera, educación financiera, liderazgo, cooperación internacional, aprendizaje de idiomas."
+      },
+      {
+        "title": "Habilidades",
+        "detail": "Análisis financiero, gestión de portafolios, análisis de inversiones y mercados, monitoreo de mercados, Microsoft Excel, Microsoft PowerPoint, Refinitiv Workspace, Python , pensamiento analítico, atención al detalle, capacidad para trabajar bajo presión, liderazgo, trabajo colaborativo en equipo."
+      },
+      {
+        "title": "Idiomas",
+        "detail": "Español (nativo), Inglés (avanzado), Alemán (intermedio)"
+      }
+    ],
+    "video": "/videos/karen-jimena-fonseca.mp4",
     "links": [
       {
         "label": "LinkedIn",
@@ -1568,13 +1759,29 @@ const memberPilotProfiles: Record<string, {
     "links": []
   },
   "laura-nayeli-mendez-martinez": {
-    "status": "Perfil pendiente de completar",
-    "headline": "Negocios Internacionales",
-    "bio": "Estudiante de Negocios Internacionales en el Tecnológico de Monterrey y participante de la quinta generación del \nEugenio Garza Sada Global Leadership Program. Vicepresidenta de SABGB Campus Monterrey, donde impulsa \niniciativas de formación profesional, vinculación empresarial, liderazgo estudiantil y experiencias relacionadas con \ncomercio internacional y nearshoring. Cofundadora de Música 0, proyecto social que combina cultura, \nparticipación universitaria y lucha contra el hambre. Perfil orientado a negocios globales, liderazgo con propósito, \norganización de eventos, creación de alianzas e impacto social.",
-    "motivation": "",
-    "contribution": [],
-    "collaboration": "",
-    "evidence": [],
+    "status": "Perfil completo",
+    "headline": "Estudiante de Negocios Internacionales | Liderazgo e innovación social | México",
+    "bio": "Laura Nayeli es estudiante de Negocios Internacionales en el Tecnológico de Monterrey y una joven líder comprometida con la creación de experiencias que conecten a estudiantes, empresas y causas sociales. Como vicepresidenta de SABGB Campus Monterrey, ha participado en el diseño y ejecución de iniciativas como Global Business Challenge y Business Brunch: The Age of Nearshoring, generando espacios de aprendizaje, colaboración y vinculación con líderes de la industria. También formó parte de la quinta generación del EGS Global Leadership Program y es cofundadora de Música 0, una iniciativa estudiantil enfocada en generar impacto social mediante la creatividad y la participación comunitaria. Se distingue por su capacidad de organización, liderazgo de equipos, comunicación y ejecución de proyectos con propósito.",
+    "motivation": "Quiere impulsar alianzas entre estudiantes, empresas y organizaciones sociales para crear proyectos con impacto medible. Busca construir iniciativas que fortalezcan el liderazgo juvenil, la colaboración y las oportunidades de desarrollo.",
+    "contribution": [
+      "Experiencia en liderazgo estudiantil, organización de eventos, vinculación con empresas y desarrollo de iniciativas de impacto social. Puede aportar estructura, seguimiento, comunicación y capacidad para convertir ideas en proyectos ejecutables."
+    ],
+    "collaboration": "2–4 horas por semana; disponible para proyectos puntuales y colaboraciones en eventos o iniciativas de impacto.",
+    "evidence": [
+      {
+        "title": "Intereses",
+        "detail": "Negocios internacionales, liderazgo, innovación social, emprendimiento, vinculación empresarial, desarrollo sostenible, impacto social, organización de eventos, nearshoring"
+      },
+      {
+        "title": "Habilidades",
+        "detail": "Liderazgo de equipos, gestión de proyectos, organización de eventos, comunicación, negociación, trabajo en equipo, vinculación empresarial, pensamiento estratégico, resolución de problemas, seguimiento y ejecución"
+      },
+      {
+        "title": "Idiomas",
+        "detail": "Español, inglés, francés, alemán"
+      }
+    ],
+    "video": "/videos/laura-nayeli-mendez-martinez.mp4",
     "links": [
       {
         "label": "LinkedIn",
@@ -1751,17 +1958,33 @@ const memberPilotProfiles: Record<string, {
     ]
   },
   "raphael-andersor-sanchez-pinto": {
-    "status": "Perfil pendiente de completar",
-    "headline": "Finanzas",
-    "bio": "Estudiante de Economía en la Universidad del Pacífico y del programa Economics & Finance de la \nUniversity of London (dirección académica LSE). Director de Trascendencia Académica en la representación estudiantil (REUP) y miembro del consejo de facultad de Economía y Finanzas. Integrante de la sociedad honorífica Alpha Sigma Nu y vocero institucional de la universidad. Perfil orientado a análisis económico, finanzas y liderazgo estudiantil.",
-    "motivation": "",
-    "contribution": [],
-    "collaboration": "",
-    "evidence": [],
+    "status": "Perfil completo",
+    "headline": "Estudiante de Economía y Finanzas | Mercados de Capitales y Análisis de Riesgo | Lima, Perú",
+    "bio": "Raphael Sánchez Pinto es estudiante de Economía en la Universidad del Pacífico, cursando en paralelo el grado en Economics and Finance de la University of London, dirigido académicamente por la LSE. Su formación combina renta fija, renta variable, derivados y análisis macroeconómico, respaldada por el manejo de Bloomberg, Python, R, Stata y Excel. Ha ejercido roles de liderazgo destacados: portavoz oficial de su universidad ante más de 50 instituciones, miembro electo del Consejo de Facultad de Economía y Finanzas, y director de una comisión dentro de la  representación estudiantil de su universidad (REUP). Interesado en temas de banca, seguros e inversiones, con interés particular en mercados de capitales, riesgo de inversión y análisis económico.",
+    "motivation": "Quiero resolver retos empresariales, aportar investigación rigurosa y dejar evidencia concreta de mi capacidad en finanzas y riesgo, conectando universidades hispanoamericanas y españolas con empresas que buscan talento.",
+    "contribution": [
+      "Experiencia en análisis financiero y económico aplicado: renta fija, renta variable, derivados y macroeconomía, con manejo de Python, Bloomberg Terminal y Excel para identificar riesgos y oportunidades de mejora en empresas. Sumo además liderazgo de equipos y representación institucional."
+    ],
+    "collaboration": "4 horas por semana",
+    "evidence": [
+      {
+        "title": "Intereses",
+        "detail": "Mercados de capitales, análisis de riesgo, macroeconomía, finanzas internacionales, estrategia corporativa"
+      },
+      {
+        "title": "Habilidades",
+        "detail": "Análisis financiero, Python, Bloomberg Terminal, liderazgo de equipos, negociación, Excel avanzado"
+      },
+      {
+        "title": "Idiomas",
+        "detail": "español, ingles"
+      }
+    ],
+    "video": "/videos/raphael-andersor-sanchez-pinto.mp4",
     "links": [
       {
         "label": "LinkedIn",
-        "href": "https://www.linkedin.com/in/raphael-sanchez-pinto/"
+        "href": "https://www.linkedin.com/in/raphael-sanchez-pinto"
       }
     ]
   },
@@ -1776,13 +1999,29 @@ const memberPilotProfiles: Record<string, {
     "links": []
   },
   "rodrigo-lopez-bolanos": {
-    "status": "Perfil pendiente de completar",
-    "headline": "Business",
-    "bio": "Estudiante de Economía y Negocios en ESEN. Perfil con fuerte liderazgo en iniciativas académicas, \ntecnológicas y de impacto social, destacando en formación en liderazgo, incidencia política y emprendimiento. Experiencia como capacitador y facilitador de equipos, con enfoque en innovación, comunicación y desarrollo de proyectos.",
-    "motivation": "",
-    "contribution": [],
-    "collaboration": "",
-    "evidence": [],
+    "status": "Perfil completo",
+    "headline": "Economía y Negocios | Estrategia, liderazgo y gestión de proyectos | Comunicación",
+    "bio": "Rodrigo López es estudiante de Economía y Negocios en ESEN, con experiencia en estrategia, innovación y desarrollo de iniciativas de impacto. Forma parte de C3, una plataforma dedicada a impulsar y conectar al talento técnico joven de El Salvador, donde contribuye en la gestión logística y financiera, planificación y ejecución de proyectos. Además, es capacitador en el Centro de Liderazgo y Desarrollo ESEN, experiencia que ha fortalecido sus habilidades de comunicación, facilitación y coordinación de equipos. También cuenta con experiencia en investigación académica y organización de actividades junto con universidades, empresas y comunidades. Se caracteriza por su pensamiento analítico, liderazgo y capacidad para transformar ideas en proyectos estructurados, sostenibles y orientados a resultados.",
+    "motivation": "Quiero construir iniciativas que conecten talento joven, organizaciones y oportunidades, impulsando proyectos de formación, innovación y liderazgo que generen impacto sostenible.",
+    "contribution": [
+      "Puedo aportar experiencia en estrategia, investigación, gestión de proyectos y coordinación de equipos. También puedo apoyar en la estructuración de iniciativas, creación de alianzas y análisis para la toma de decisiones."
+    ],
+    "collaboration": "2 - 3 horas por semana, con disponibilidad para colaboraciones y proyectos de mediano plazo.",
+    "evidence": [
+      {
+        "title": "Intereses",
+        "detail": "Emprendimiento, innovación, estrategia, tecnología, liderazgo, educación, talento humano, investigación, desarrollo juvenil e impacto social"
+      },
+      {
+        "title": "Habilidades",
+        "detail": "Liderazgo de equipos, comunicación, facilitación, planificación estratégica, gestión de proyectos, investigación, negociación y toma de decisiones."
+      },
+      {
+        "title": "Idiomas",
+        "detail": "Español nativo, inglés profesional"
+      }
+    ],
+    "video": "/videos/rodrigo-lopez-bolanos.mp4",
     "links": [
       {
         "label": "LinkedIn",
@@ -1792,16 +2031,31 @@ const memberPilotProfiles: Record<string, {
   },
   "sophia-de-leone": {
     "status": "Perfil pendiente de completar",
-    "headline": "Negocios Digitales",
-    "bio": "Estudiante de Negocios Digitales en University of Michigan (Ross) y Universidad de San Andrés. Experiencia en análisis financiero y operaciones en entorno tech, además de emprendimiento con una marca de producto sostenible. Perfil técnico con conocimientos en Python y SQL, orientado a product, business analytics y desarrollo de negocio en entornos internacionales.",
-    "motivation": "",
-    "contribution": [],
-    "collaboration": "",
-    "evidence": [],
+    "headline": "Negocios Digitales | Analista de Producto y Negocio | Estrategia de Marca | Data Analytics",
+    "bio": "Sophia es estudiante de Negocios Digitales en la Universidad de San Andrés y en University of Michigan, Ross School of Business. Combina experiencia práctica en finanzas y operaciones dentro de una empresa de tecnología con el liderazgo de su propio emprendimiento de accesorios sustentables y proyectos de brand marketing. Coordinó un programa de intercambio internacional para más de 80 estudiantes y se desempeñó como Scrum Master en proyectos de productos digitales. Representó a Argentina en dos Campeonatos Mundiales de vela, donde desarrolló capacidad de decisión ágil bajo presión. Es trilingüe, con inglés nativo, y tiene formación técnica en Python, SQL y desarrollo full stack. Fue premiada en marketing por la Federación Americana de Publicidad.",
+    "motivation": "Quiero conectar con proyectos que combinen negocio, tecnología e innovación, sumar mi experiencia operativa y analítica a iniciativas de impacto, y seguir desarrollando soluciones basadas en IA que generen valor real para las empresas.",
+    "contribution": [
+      "Experiencia en finanzas y operaciones en empresas de tecnología, gestión ágil de equipos (Scrum Master), y visión de negocio end-to-end por haber fundado y operado mi propio emprendimiento. Conocimientos técnicos avanzados en Python, SQL, y habilidades de liderazgo bajo presión."
+    ],
+    "collaboration": "Part time (20 hrs semanales)",
+    "evidence": [
+      {
+        "title": "Intereses",
+        "detail": "inteligencia artificial, negocios digitales, finanzas corporativas, emprendimiento, innovación tecnológica, deporte de alto rendimiento"
+      },
+      {
+        "title": "Habilidades",
+        "detail": "liderazgo de equipos ágiles, análisis financiero, gestión de operaciones, resolucion creativa de problemas, habilidades interpersonales de trabajo en equipo, Python, SQL, pensamiento estratégico bajo presión"
+      },
+      {
+        "title": "Idiomas",
+        "detail": "Ingles (nativo), Portugues (intermedio), Español (Nativo)"
+      }
+    ],
     "links": [
       {
         "label": "LinkedIn",
-        "href": "https://www.linkedin.com/in/sophia-de-leone/?locale=es"
+        "href": "https://www.linkedin.com/in/sophia-de-leone/"
       }
     ]
   },
@@ -1881,13 +2135,29 @@ const memberPilotProfiles: Record<string, {
     ]
   },
   "yarey-coronel": {
-    "status": "Perfil pendiente de completar",
-    "headline": "Negocios Internacionales",
-    "bio": "Estudiante de Negocios Internacionales en la Universidad Espíritu Santo (UEES), con destacado \nrendimiento académico y enfoque en comercio exterior, importación/exportación y análisis estratégico. Actualmente realiza prácticas en Generatrust Administradora de Fondos y Fideicomisos, complementando su formación con experiencia en gestión administrativa, facturación electrónica y análisis financiero. Perfil proactivo, orientado a liderazgo, entornos multiculturales y desarrollo de negocios internacionales.",
-    "motivation": "",
-    "contribution": [],
-    "collaboration": "",
-    "evidence": [],
+    "status": "Perfil completo",
+    "headline": "Estudiante de Negocios Internacionales | Gestión, liderazgo y visión global",
+    "bio": "Yarey Coronel es estudiante de tercer año de Negocios Internacionales en la Universidad de Especialidades Espíritu Santo, con interés en las finanzas, la logística, la gestión y el liderazgo. Ha participado en proyectos estudiantiles, actividades universitarias y eventos como Hult Prize OnCampus UEES, donde ha fortalecido sus habilidades de organización, trabajo en equipo y resolución de problemas. Se distingue por su responsabilidad, capacidad de adaptación y facilidad para desenvolverse en distintos entornos. Disfruta aprender nuevos idiomas, conocer otras culturas y participar en iniciativas que conecten personas y generen nuevas oportunidades. Su objetivo profesional es desarrollarse en áreas como finanzas y logística, aportando al crecimiento de organizaciones mediante una visión global, estratégica y colaborativa.",
+    "motivation": "Quiero contribuir a crear una comunidad donde las ideas puedan convertirse en proyectos reales y donde jóvenes de distintos países encuentren oportunidades para aprender, colaborar y crecer. Me interesa impulsar iniciativas que fortalezcan el liderazgo, la innovación y el intercambio de experiencias con impacto dentro y fuera de CLH.",
+    "contribution": [
+      "Organización, visión estratégica y capacidad para convertir ideas en acciones. Tengo experiencia en gestión administrativa, coordinación de actividades, apoyo logístico y manejo de grupos. Puedo aportar responsabilidad, adaptación, trabajo en equipo y disposición para resolver problemas y mejorar procesos."
+    ],
+    "collaboration": "2-4 horas por semana, con disponibilidad para apoyar en proyectos puntuales y actividades de la comunidad.",
+    "evidence": [
+      {
+        "title": "Intereses",
+        "detail": "Finanzas, logística, negocios internacionales, comercio internacional, inteligencia artificial aplicada, liderazgo, innovación, gestión de proyectos, idiomas e intercambio cultural."
+      },
+      {
+        "title": "Habilidades",
+        "detail": "Organización, trabajo en equipo, comunicación efectiva, resolución de problemas, adaptabilidad, liderazgo, planificación, atención al detalle, coordinación de actividades y pensamiento estratégico."
+      },
+      {
+        "title": "Idiomas",
+        "detail": "Español (nativo), inglés (avanzado), chino mandarín (básico), francés (básico)"
+      }
+    ],
+    "video": "/videos/yarey-coronel.mp4",
     "links": [
       {
         "label": "LinkedIn",
